@@ -1,0 +1,22 @@
+Änderungen an BR120_LZB80_I80_FullHD.ftd:
+
+Baugruppen:
+- Fahrschalter mit Richtungsschalter verriegelt
+- Fahrschalter Sperre von Stellung Auf zum Z-Bereich entfernt, da nicht vorbildgerecht und problematisch, dass man in Auf-Stellung stehen bleiben muss, um nach Z zu kommen
+- Bremssteller Dyn Brems Stufe neu aufgeteilt zwischen Bremsstufe 1 und 7 (Raste 8 und 2), wie im Vorbild
+- Kombischalter Signalbeleuchtung mit der Tastaturzuordnung Licht verknüpft.
+- Kombischalter AFB-Schalter gelöscht, da Funktion komplett im Schalter AFB vorhanden
+- Kombischalter Luftpresser durch Taste Luftpresser aus ersetzt. Drei Schalterstellungen sind zwar hübsch, vertragen sich aber leider nicht mit der Tastatur-/TCP-Bedienung.
+- Taste Lokbremsentlüften hinzugefügt. Keine grafische Anbindung, da in Grafik nicht vorgesehen.
+
+? - Kombischalter Lüfter auf zwei Schalterstellungen reduziert. Drei Schalterstellungen sind zwar hübsch, vertragen sich aber leider nicht mit der Tastatur-/TCP-Bedienung. Funktionsbelegung Lüfter ergänzt
+- Batteriehauptschalter mit Stellungen Aus und Ein hinzugefügt. Beim Vorbild gibt es noch die Stellung Schleppfahrt, das ist in Zusi aber nicht sinnvoll.
+- ZDinfo ergänzt
+
+Grafik:
+- Trägheit HBL-Druck auf 1 geändert
+- Trägheit Zugkraftanzeiger und LZB_Vsoll auf 3 geändert
+- Zuordnung Bremszylinder korrigiert: Roter Zeiger Bremszylinder DG 1, Gelber Zeiger Bremszylinder DG 2
+- BremszylinderDG2-Druck Funktion auf Druck Bremszylinder II geändert.
+- Kennlinie Zeitbehaelter angepasst, da beim Vorbild 0 bar im Zeitbehälter eine HL-Druck-Anhebung von 0,5 bar entsprechen
+- Grafik Luftpresser an zwei Stellungen angepasst. Gelöschte Textur: UOL 1235,97 UUR 1324,03 VOL 1951,95 VUR 2042,06

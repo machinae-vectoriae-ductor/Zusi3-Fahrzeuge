@@ -1,0 +1,20 @@
+Änderungsbedarf an 151_LZB80_PZB90_FullHD.ftd:
+
+Baugruppen:
+- Hilfsfahrschalter (Flipper) in Fahrsteuerung einbinden ähnlich BR103
+- Grafisches Schaltelement für Schnellaus einbinden
+- Kopplung Bremsteller an Führerbremsventil mit der Realität vergleichen und ggf. anpassen
+- Nullstellungzwang bei Eingriff E-Bremse
+
+Grafik:
+- Grafisches Schaltelement für Schnellaus einfügen
+- Kipptaster Makrofon animieren
+- ZugkraftanzeigerDG2 Schleuderschutz im positiven Bereich anzeigen
+ gelöschte Werte von ZugkraftanzeigerDG2:
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0263" ZeigerBreite="0.0063" ZeigerWinkel="3.7176" ZeigerWert="5"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0276" ZeigerBreite="0.0063" ZeigerWinkel="3.8921" ZeigerWert="10"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0297" ZeigerBreite="0.0063" ZeigerWinkel="4.119" ZeigerWert="20"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0305" ZeigerBreite="0.0063" ZeigerWinkel="4.4855" ZeigerWert="40"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0302" ZeigerBreite="0.0063" ZeigerWinkel="4.7822" ZeigerWert="60"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0302" ZeigerBreite="0.0063" ZeigerWinkel="5.0615" ZeigerWert="80"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0292" ZeigerBreite="0.0063" ZeigerWinkel="5.1662" ZeigerWert="90"/>

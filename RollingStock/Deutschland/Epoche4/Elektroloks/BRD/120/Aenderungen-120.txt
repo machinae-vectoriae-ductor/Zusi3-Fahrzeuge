@@ -1,0 +1,4 @@
+Änderungen an 120.rv.fzg:
+
+- Direkte Druckluftbremse: Max. Zylinderdruck 3,6 bar
+- Luftpresser Betrieb nur, wenn Hauptschalter ein, Sound Luftpresse aus BR110 übernommen, stimmt zwar nicht ganz, da anderer Typ, aber besser als nichts

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrzeug" Version="A.7" MinVersion="A.1">
+<AutorEintrag AutorID="24" AutorName="Steven Graham"/>
+<AutorEintrag AutorID="30" AutorName="Jens Haupert" AutorEmail="haupert@babylon2k.de" AutorLizenz="1"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorBeschreibung="Diverse Brems- und Antriebsdaten"/>
+<AutorEintrag AutorID="54" AutorName="Stefan" AutorEmail="dariaze1974@gmail.com" AutorBeschreibung="Umbau auf FullHD Führerstand und neuen Sound"/>
+<AutorEintrag AutorID="134" AutorName="Wolfgang Evers" AutorEmail="Wolfgang.Evers@TH-Koeln.de"/>
+</Info>
+<Fahrzeug MaxIDHaupt="13">
+<FahrzeugVariante BR="120" HistNummer="120 002-1" Beschreibung="120 002-1, Epoche 4" Farbgebung="Purpurrot/Beige (TEE)" EinsatzAb="1980-01-01" EinsatzBis="2005-05-17" IDHaupt="1" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\TEE\DB_120_002_rb4\DB_120_002_rb4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_I80_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_101-136.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB5.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" HistNummer="120 102-9" Beschreibung="120 102-9, Epoche 5" Farbgebung="Verkehrsrot" EinsatzAb="1996-01-01" IDHaupt="2" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\Verkehrsrot\DB_120_102_vr5\DB_120_102_vr5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_PZB90_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_101-136.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" HistNummer="120 501-2" Beschreibung="120 501-2, Epoche 5, DB Systemtechnik" Farbgebung="Verkehrsrot" EinsatzAb="2005-01-01" IDHaupt="3" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\Verkehrsrot\DB_120_501_vr5\DB_120_501_vr5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_PZB90_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_137-160.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" HistNummer="120 131-8" Beschreibung="120 131-8, Epoche 4, Kleine Frontlätzchen" Farbgebung="Orientrot" IDHaupt="4" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\Orientrot\DB_120_131_or4\DB_120_131_or4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_I80_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_101-136.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB5.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" HistNummer="120 103-7" Beschreibung="120 103-7, Epoche 4, Große Frontlätzchen" Farbgebung="Orientrot" IDHaupt="4" IDNeben="2">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\Orientrot\DB_120_103_or4\DB_120_103_or4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_PZB90_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_101-136.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB5.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" HistNummer="120 124-3" Beschreibung="120 124-3, Epoche 5, Große Frontlätzchen" Farbgebung="Orientrot" IDHaupt="5" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\Orientrot\DB_120_124_or5\DB_120_124_or5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_PZB90_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_101-136.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" HistNummer="120 142-5" Beschreibung="120 142-5, Epoche 5, Kleine Frontlätzchen" Farbgebung="Orientrot" IDHaupt="5" IDNeben="2">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\Orientrot\DB_120_142_or5\DB_120_142_or5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_PZB90_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_137-160.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" NVRNummer="91 80 6120 139-1" Beschreibung="91 80 6120 139-1 D-DB, Epoche 6, Kleine Frontlätzchen" Farbgebung="Orientrot" IDHaupt="6" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\Orientrot\DB_120_139_or6\DB_120_139_or6.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_PZB90_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_137-160.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" NVRNummer="91 80 6120 160-7" Beschreibung="91 80 6120 160-7 D-DB, Epoche 6, DB Systemtechnik" Farbgebung="Verkehrsgelb" IDHaupt="7" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\Verkehrsgelb\DB_120_160_vg6\DB_120_160_vg6.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_PZB90_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_137-160.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" NVRNummer="91 80 6120 146-6" Beschreibung="91 80 6120 146-6 D-DB, Epoche 6" Farbgebung="Verkehrsrot" IDHaupt="8" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\Verkehrsrot\DB_120_146_vr6\DB_120_146_vr6.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_PZB90_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_137-160.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" HistNummer="120 005-4" Beschreibung="120 005-4, Epoche 5, Kleine Frontlätzchen" Farbgebung="Orientrot" IDHaupt="9" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\Orientrot\DB_120_005_or5\DB_120_005_or5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_PZB90_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_101-136.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" HistNummer="120 005-4" Beschreibung="120 005-4, Epoche 4" Farbgebung="Purpurrot/Beige (TEE)" IDHaupt="10" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\TEE\DB_120_005_rb4\DB_120_005_rb4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_I80_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_101-136.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB5.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="120" HistNummer="752 005-9" Beschreibung="752 005-9, Epoche 4" Farbgebung="Purpurrot/Beige (TEE)" IDHaupt="11" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\3D_Daten\TEE\DB_752_005_rb4\DB_752_005_rb4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BR120_LZB80_I80_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\DB_120_Antrieb_EBremse_101-136.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB5.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugGrunddaten Masse="84000" Achsstandsumme="5" RotationsZuschlag="8400" cwA="4.12" Rollwiderstand="1648.08" Laenge="19.202" spMax="55.5556" HBLVorhanden="1" LokModus="1" FesselAnfg="4.5" FesselEnde="4.5" AnzahlAchsen="4" StromabnHoehe="4.41" StromabnehmerA="2" StromabnehmerB="2"/>
+<BremseLuftDirekt Haltebremse="1" HaltebremseAFB="1" HaltebremseDruck="1.8" MaxDruck="3.6" VolumenZylinder="25.684" FBremsuebersetzung="14300">
+<BremsenKennungV xText="km/h" yText="1">
+<Pkt PktY="3.209"/>
+<Pkt PktX="2.7856" PktY="2.572"/>
+<Pkt PktX="5.5711" PktY="2.017"/>
+<Pkt PktX="8.3567" PktY="1.744"/>
+<Pkt PktX="11.1419" PktY="1.563"/>
+<Pkt PktX="20.1175" PktY="1.209"/>
+<Pkt PktX="36.0569" PktY="1.01"/>
+<Pkt PktX="55.5556" PktY="1.009"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+</BremseLuftDirekt>
+<Luftpresser LeistungPresser="2500" VolumenHB="800" DruckHBMin="8.5" DruckHBMax="9.7" DruckAngleicher="5.5" NurWennHSEinDieselLaeuft="1">
+<SoundLuftpresser PosAnlauf="1458760" PosAuslauf="1844056" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Sound\120_LP.wav"/>
+</SoundLuftpresser>
+</Luftpresser>
+<Bremse_KE_Tm VolumenR="600" VolumenA="10" AnzahlAchsen="4" Bremsbauart="2" VolumenZylinder="25.684" FBremsuebersetzung="14300" HBLAnschluss="1">
+<BremsenKennungV>
+<Pkt PktY="3.209"/>
+<Pkt PktX="2.7856" PktY="2.572"/>
+<Pkt PktX="5.5711" PktY="2.017"/>
+<Pkt PktX="8.3567" PktY="1.744"/>
+<Pkt PktX="11.1419" PktY="1.563"/>
+<Pkt PktX="20.1175" PktY="1.209"/>
+<Pkt PktX="36.0569" PktY="1.01"/>
+<Pkt PktX="55.5556" PktY="1.009"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+<BremseP BremsGewicht="80000"/>
+<BremseG BremsGewicht="58000"/>
+<BremseR BremsGewicht="115000"/>
+</Bremse_KE_Tm>
+<FederspeicherBremse BremsGewicht="23000" FederspeicherZwangsbremsung="1">
+<BremsenKennungV>
+<Pkt PktY="3.209"/>
+<Pkt PktX="2.7856" PktY="2.572"/>
+<Pkt PktX="5.5711" PktY="2.017"/>
+<Pkt PktX="8.3567" PktY="1.744"/>
+<Pkt PktX="11.1419" PktY="1.563"/>
+<Pkt PktX="19.9628" PktY="1.212"/>
+<Pkt PktX="20.1175" PktY="1.209"/>
+<Pkt PktX="36.0569" PktY="1.01"/>
+<Pkt PktX="55.5556" PktY="1.009"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+</FederspeicherBremse>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\BR120_FahrzeugSound.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Rollgeraeusch_Lok.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Bremsgeraeusch_Graugussbremse.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fahrzeugdaten\BR120_FstSound.fzg"/>
+</ExterneDatei>
+<FktIndividuell PhysikGroesse="149"/>
+<FktIndividuell PhysikGroesse="150"/>
+<FktIndividuell PhysikGroesse="151"/>
+<FktIndividuell PhysikGroesse="152"/>
+<FktIndividuell PhysikGroesse="153"/>
+<FktIndividuell PhysikGroesse="154"/>
+<FktIndividuell PhysikGroesse="155"/>
+<FktIndividuell PhysikGroesse="156"/>
+<FktIndividuell PhysikGroesse="157"/>
+<FktIndividuell PhysikGroesse="158"/>
+<FktIndividuell PhysikGroesse="159"/>
+</Fahrzeug>
+</Zusi>

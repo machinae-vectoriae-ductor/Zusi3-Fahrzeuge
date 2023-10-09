@@ -1,0 +1,8 @@
+Änderungsbedarf an BR120_LZB80_I80_FullHD.ftd:
+
+Baugruppen:
+- Schalter Lüfter prüfen
+
+Grafik:
+- Im Instrument Zugkraft äußeren Zeiger für Sollzugkraft ergänzen.
+- Kipptaster Bremse lösen animieren
