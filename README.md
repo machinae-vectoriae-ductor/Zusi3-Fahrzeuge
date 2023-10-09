@@ -11,31 +11,3 @@ Aktuell liegen in diesem Repository Dateien für folgende Fahrzeuge:
     BR 151
 
 Die gemachten Änderungen sind in beiliegenden Textdateien beschrieben. Die von mir indentifizierten notwendigen Änderungen, welche ich nicht durchgeführt habe, sind in jeweils einer ToDo-Datei beschrieben.
-
-About
-
-Zusi-3-Streckenmodule
-Resources
-Readme
-License
-View license
-Activity
-Stars
-20 stars
-Watchers
-5 watching
-Forks
-3 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Contributors 2
-
-    @ameschede
-    ameschede
-    @zusitools
-    zusitools
-
-
