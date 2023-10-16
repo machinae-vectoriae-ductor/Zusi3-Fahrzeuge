@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrzeug" Version="A.7" MinVersion="A.1">
+<AutorEintrag AutorID="30" AutorName="Jens Haupert" AutorEmail="haupert@babylon2k.de" AutorLizenz="1"/>
+<AutorEintrag AutorID="24" AutorName="Steven Graham"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorBeschreibung="Bremsbemessung"/>
+<AutorEintrag AutorID="134" AutorName="Wolfgang Evers" AutorEmail="Wolfgang.Evers@TH-Koeln.de" AutorAufwandStunden="1"/>
+</Info>
+<Fahrzeug MaxIDHaupt="11">
+<FahrzeugVariante BR="E50" HistNummer="E50 024" Beschreibung="E50 024, Kombileuchten" Farbgebung="Chromoxidgrün" EinsatzAb="1957-01-01" EinsatzBis="1968-12-31" IDHaupt="1" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E50\DB_E50-gn3.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E50_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="150" HistNummer="150 138-5" Beschreibung="150 138-5, Einzelleuchten, ohne Frontkeks" Farbgebung="Chromoxidgrün" EinsatzAb="1968-01-01" EinsatzBis="1993-12-31" IDHaupt="2" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E50\DB_E50-gn4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E50_I60.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="150" HistNummer="150 071-9" Beschreibung="150 071-9, Einzelleuchten" Farbgebung="Ozeanblau/Beige" EinsatzAb="1975-01-01" EinsatzBis="1993-12-31" IDHaupt="3" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E50\DB_E50-ob4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E50_I60.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="150" HistNummer="150 038-8" Beschreibung="150 038-8, Kombileuchten" Farbgebung="Ozeanblau/Beige" EinsatzAb="1975-01-01" EinsatzBis="1993-12-31" IDHaupt="4" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E50\DB_E50-ob4a.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E50_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="150" HistNummer="150 052-9" Beschreibung="150 052-9, Einzelleuchten" Farbgebung="Orientrot" EinsatzAb="1988-01-01" EinsatzBis="1993-12-31" IDHaupt="5" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E50\DB_E50-or4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E50_I60.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="150" HistNummer="150 021-4" Beschreibung="150 021-4, Einzelleuchten" Farbgebung="Verkehrsrot" EinsatzAb="1998-01-01" EinsatzBis="2003-12-31" IDHaupt="6" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E50\DB_E50-vr5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\150_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="150" HistNummer="150 041-2" Beschreibung="150 041-2, Kombileuchten, mit Frontkeks" Farbgebung="Chromoxidgrün" EinsatzAb="1968-01-01" EinsatzBis="1993-12-31" IDHaupt="7" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E50\DB_E50-gn4a.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E50_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="150" HistNummer="150 001-9" Beschreibung="150 001-9, Kombileuchten" Farbgebung="Orientrot" EinsatzAb="1980-12-30" EinsatzBis="1992-12-30" IDHaupt="8" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E50\DB_E50-or4a.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E50_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="150" HistNummer="150 040-4" Beschreibung="150 040-4, Kombileuchten, ohne Frontkeks" Farbgebung="Chromoxidgrün" EinsatzAb="1968-12-30" EinsatzBis="1984-12-30" IDHaupt="9" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E50\DB_E50-gn4b.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E50_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="150" HistNummer="150 074-3" Beschreibung="150 074-3, Einzelleuchten, graues Dach" Farbgebung="Chromoxidgrün" EinsatzAb="1968-12-30" EinsatzBis="1993-12-30" IDHaupt="10" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E50\DB_E50-gn4c.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E50_I60.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="150" HistNummer="150 166-7" Beschreibung="150 166-7, Einzelleuchten" Farbgebung="Chromoxidgrün" EinsatzAb="1993-12-30" IDHaupt="11" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E50\DB_E50-gn5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\150_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugGrunddaten Masse="128000" Achsstandsumme="8.9" RotationsZuschlag="12800" cwA="6" Rollwiderstand="2511.3601" Laenge="19.5" spMax="27.7778" HBLVorhanden="1" LokModus="1" FesselAnfg="4.9" FesselEnde="4.9" AnzahlAchsen="6" StromabnHoehe="4.25" StromabnehmerA="2" StromabnehmerB="2"/>
+<BremseLuftDirekt MaxDruck="3.6" VolumenZylinder="64" FBremsuebersetzung="26850">
+<BremsenKennungV xText="km/h" yText="1">
+<Pkt PktY="2.523"/>
+<Pkt PktX="2.7856" PktY="2.022"/>
+<Pkt PktX="5.4936" PktY="1.597"/>
+<Pkt PktX="8.2792" PktY="1.376"/>
+<Pkt PktX="11.1419" PktY="1.229"/>
+<Pkt PktX="19.9628" PktY="0.953"/>
+<Pkt PktX="27.7778" PktY="0.875"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+</BremseLuftDirekt>
+<Luftpresser LeistungPresser="1800" VolumenHB="600" DruckHBMin="8.5" DruckHBMax="9.7" DruckAngleicher="5.5" NurWennHSEinDieselLaeuft="1">
+<SoundLuftpresser PosAnlauf="240024" PosAuslauf="349404" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_Luftpresser.wav"/>
+</SoundLuftpresser>
+</Luftpresser>
+<BremseLuftEinlK1 VolumenB="400" AnzahlAchsen="6" Bremsbauart="2" VolumenZylinder="126.3" FBremsuebersetzung="26850">
+<BremsenKennungV>
+<Pkt PktY="2.523"/>
+<Pkt PktX="2.7856" PktY="2.022"/>
+<Pkt PktX="5.4936" PktY="1.597"/>
+<Pkt PktX="5.5711" PktY="1.586"/>
+<Pkt PktX="8.2792" PktY="1.376"/>
+<Pkt PktX="11.1419" PktY="1.229"/>
+<Pkt PktX="19.9628" PktY="0.953"/>
+<Pkt PktX="20.0403" PktY="0.952"/>
+<Pkt PktX="27.7778" PktY="0.875"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+<BremseP BremsGewicht="121000"/>
+<BremseG BremsGewicht="82000"/>
+</BremseLuftEinlK1>
+<AntriebsmodellElektrischReihenschluss Volt="2" etaTrafo="0.97" MaxOberstrom="550" Leistung="6473419" Antriebsachsen="6" Reibmasse="128000" GueteKraftverteilung="0.9" GrenzdruckHL="3">
+<Kennfeld>
+<Pkt PktY="4500000"/>
+<Pkt PktX="0.6944" PktY="4400000"/>
+<Pkt PktX="2.7778" PktY="3499999.75"/>
+<Pkt PktX="4.1667" PktY="2899999.75"/>
+<Pkt PktX="5.5556" PktY="2350000"/>
+<Pkt PktX="6.1111" PktY="2120000"/>
+<Pkt PktX="6.9444" PktY="1799999.875"/>
+<Pkt PktX="8.3333" PktY="1399999.875"/>
+<Pkt PktX="9.7222" PktY="1080000"/>
+<Pkt PktX="11.1111" PktY="899999.9375"/>
+<Pkt PktX="12.5" PktY="729999.9375"/>
+<Pkt PktX="13.8889" PktY="620000"/>
+<Pkt PktX="15.2778" PktY="519999.9688"/>
+<Pkt PktX="16.6667" PktY="419999.9688"/>
+<Pkt PktX="18.0556" PktY="349999.9688"/>
+<Pkt PktX="19.4444" PktY="290000"/>
+<Pkt PktX="20.8333" PktY="249999.9844"/>
+<Pkt PktX="22.2222" PktY="219999.9844"/>
+<Pkt PktX="23.6111" PktY="191999.9844"/>
+<Pkt PktX="25" PktY="169999.9844"/>
+<Pkt PktX="26.3889" PktY="150000"/>
+<Pkt PktX="27.7778" PktY="135000"/>
+<Stufe StufenWert="0.002"/>
+<Stufe StufenWert="0.01"/>
+<Stufe StufenWert="0.023"/>
+<Stufe StufenWert="0.043"/>
+<Stufe StufenWert="0.063"/>
+<Stufe StufenWert="0.079"/>
+<Stufe StufenWert="0.087"/>
+<Stufe StufenWert="0.098"/>
+<Stufe StufenWert="0.112"/>
+<Stufe StufenWert="0.13"/>
+<Stufe StufenWert="0.15"/>
+<Stufe StufenWert="0.17"/>
+<Stufe StufenWert="0.19"/>
+<Stufe StufenWert="0.21"/>
+<Stufe StufenWert="0.23"/>
+<Stufe StufenWert="0.25"/>
+<Stufe StufenWert="0.27"/>
+<Stufe StufenWert="0.29"/>
+<Stufe StufenWert="0.32"/>
+<Stufe StufenWert="0.36"/>
+<Stufe StufenWert="0.41"/>
+<Stufe StufenWert="0.46"/>
+<Stufe StufenWert="0.51"/>
+<Stufe StufenWert="0.57"/>
+<Stufe StufenWert="0.65"/>
+<Stufe StufenWert="0.73"/>
+<Stufe StufenWert="0.83"/>
+<Stufe StufenWert="1"/>
+</Kennfeld>
+<Nachlaufsteuerung AnzahlSchaltstufen="28" GeschwAuf="2" GeschwAb="2">
+<SoundAufschalten Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_schaltwerk.wav"/>
+</SoundAufschalten>
+<SoundAbschalten Lautstaerke="0.8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_schaltwerk.wav"/>
+</SoundAbschalten>
+</Nachlaufsteuerung>
+<SoundLuefter Loop="1" PosAnlauf="409448" PosAuslauf="465964" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_Luefter.wav"/>
+</SoundLuefter>
+<Reihenschlussmotor MotorX="0.0361" MotorRaRf="0.0064" MotorMaxSpannung="540" MotorkHysterese="0.0003" MotorkWirbelstrom="0.005" Motorkonstante="0.016"/>
+</AntriebsmodellElektrischReihenschluss>
+<DynbremseElektrReihenschluss Bremswiderstand="0.0408" Fremderregt="1" Volt="2" Leistung="663889.3125" Antriebsachsen="6" Reibmasse="128000" GueteKraftverteilung="0.9" GrenzdruckHL="3">
+<Kennfeld>
+<Pkt/>
+<Pkt PktX="2.4683"/>
+<Pkt PktX="2.8508" PktY="17134"/>
+<Pkt PktX="3.5114" PktY="36749"/>
+<Pkt PktX="4.0328" PktY="46121.9961"/>
+<Pkt PktX="4.7628" PktY="54491.9961"/>
+<Pkt PktX="5.3192" PktY="58588.9961"/>
+<Pkt PktX="6.3622" PktY="63114.9961"/>
+<Pkt PktX="7.4747" PktY="65259.9961"/>
+<Pkt PktX="8.5872" PktY="65876"/>
+<Pkt PktX="8.8653" PktY="65878"/>
+<Pkt PktX="10.2211" PktY="65335.9961"/>
+<Pkt PktX="11.3336" PktY="64460.9961"/>
+<Pkt PktX="13.2458" PktY="62541.9961"/>
+<Pkt PktX="15.8878" PktY="59646.9961"/>
+<Pkt PktX="18.2172" PktY="57167.9961"/>
+<Pkt PktX="21.2069" PktY="54241.9961"/>
+<Pkt PktX="23.8839" PktY="51888.9961"/>
+<Pkt PktX="25.5528" PktY="50544.9961"/>
+<Pkt PktX="27.7778" PktY="48885.9961"/>
+<Stufe StufenWert="0.1667"/>
+<Stufe StufenWert="0.3333"/>
+<Stufe StufenWert="0.5"/>
+<Stufe StufenWert="0.6667"/>
+<Stufe StufenWert="0.8333"/>
+<Stufe StufenWert="1"/>
+</Kennfeld>
+<Nachlaufsteuerung AnzahlSchaltstufen="6" GeschwAuf="2" GeschwAb="2"/>
+<ErgBremse ErgBremseIndexRSB="1" ErgBremseIndexPSB="1" ErgBremseIndexGSB="1" ErgBremseFaktorRBB="1" ErgBremseFaktorPBB="1" ErgBremseFaktorGBB="1" ErgBremseFaktorRSB="1" ErgBremseFaktorPSB="1">
+<Kennfeld Beschreibung="Bet.Br. (G,P,R)">
+<Pkt PktY="3.8"/>
+<Pkt PktX="4.7222" PktY="3.8"/>
+<Pkt PktX="5"/>
+<Pkt PktX="41.6667"/>
+<Stufe StufenWert="1"/>
+</Kennfeld>
+<Kennfeld Beschreibung="SB (G,P,R)">
+<Pkt PktY="3.8"/>
+<Pkt PktX="41.6667" PktY="3.8"/>
+<Stufe StufenWert="1"/>
+</Kennfeld>
+</ErgBremse>
+</DynbremseElektrReihenschluss>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\Einheitslok_gemeinsamer_Sound.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\Einheitslok_gemeinsamer_Fst_Sound.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Rollgeraeusch_Lok.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Bremsgeraeusch_Graugussbremse.fzg"/>
+</ExterneDatei>
+</Fahrzeug>
+</Zusi>

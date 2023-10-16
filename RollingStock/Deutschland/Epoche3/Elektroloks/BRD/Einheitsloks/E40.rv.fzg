@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrzeug" Version="A.7" MinVersion="A.1">
+<AutorEintrag AutorID="30" AutorName="Jens Haupert" AutorEmail="haupert@babylon2k.de" AutorLizenz="1"/>
+<AutorEintrag AutorID="24" AutorName="Steven Graham"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorBeschreibung="Bremsbemessung"/>
+<AutorEintrag AutorID="134" AutorName="Wolfgang Evers" AutorEmail="Wolfgang.Evers@TH-Koeln.de"/>
+</Info>
+<Fahrzeug MaxIDHaupt="23">
+<FahrzeugVariante BR="E40" HistNummer="E40 128" Beschreibung="E40 128, Kombileuchten" Farbgebung="Chromoxidgrün" EinsatzAb="1957-01-01" EinsatzBis="1968-12-31" IDHaupt="1" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-gn3.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E40_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" HistNummer="140 029-0" Beschreibung="140 029-0, Kombileuchten" Farbgebung="Chromoxidgrün" EinsatzAb="1968-12-31" EinsatzBis="1993-12-31" IDHaupt="2" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-gn4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E40_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" HistNummer="140 423-5" Beschreibung="140 423-5, Einzelleuchten" Farbgebung="Ozeanblau/Beige" EinsatzAb="1975-01-01" EinsatzBis="1993-12-31" IDHaupt="3" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-ob4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E40_I60.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" HistNummer="140 359-1" Beschreibung="140 359-1, Einzelleuchten" Farbgebung="Orientrot" EinsatzAb="1988-01-01" EinsatzBis="1993-12-31" IDHaupt="4" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-or4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E40_I60.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" HistNummer="140 549-9" Beschreibung="140 549-9, Einzelleuchten" Farbgebung="Verkehrsrot" EinsatzAb="1998-01-01" IDHaupt="5" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-vr5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\140_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" HistNummer="140 864-0" Beschreibung="140 864-0, Einholmstromabnehmer, Einzelleuchten" Farbgebung="Verkehrsrot" EinsatzAb="1994-01-01" IDHaupt="6" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-vr5_SBS.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\140_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_SBS65.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="E40.11" HistNummer="E40 1131" Beschreibung="E40 1131, Einzelleuchten" Farbgebung="Chromoxidgrün" EinsatzAb="1959-01-01" EinsatzBis="1993-12-31" IDHaupt="7" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40.11-gn3.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E40.11_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_139_Tachomaschinenregelung_90kN.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="139" HistNummer="139 165-5" Beschreibung="139 165-5, Einzelleuchten" Farbgebung="Chromoxidgrün" EinsatzAb="1961-06-14" EinsatzBis="1993-12-31" IDHaupt="8" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40.11-gn4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E40.11_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_139_Tachomaschinenregelung_90kN.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="139" HistNummer="139 312-5" Beschreibung="139 312-5, Einzelleuchten" Farbgebung="Ozeanblau/Beige" EinsatzAb="1975-01-01" EinsatzBis="1993-12-31" IDHaupt="9" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40.11-ob4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E40.11_I60.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_139_Hallwandlerregelung_Thyristorsteuerung_135kN.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="139" HistNummer="139 136-6" Beschreibung="139 136-6, Einzelleuchten" Farbgebung="Orientrot" EinsatzAb="1988-01-01" EinsatzBis="1993-12-31" IDHaupt="10" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40.11-or4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E40.11_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_139_Tachomaschinenregelung_90kN.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="139" HistNummer="139 132-5" Beschreibung="139 132-5, Einzelleuchten" Farbgebung="Verkehrsrot" EinsatzAb="1998-01-01" IDHaupt="11" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40.11-vr5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\139_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_139_Tachomaschinenregelung_90kN.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="139" HistNummer="139 310-7" Beschreibung="139 310-7, Einholmstromabnehmer, Einzelleuchten" Farbgebung="Verkehrsrot" EinsatzAb="1998-01-01" IDHaupt="12" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40.11-vr5_SBS.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\139_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Grunddaten_SBS65.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_139_Hallwandlerregelung_Thyristorsteuerung_135kN.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" HistNummer="140 107-4" Beschreibung="140 107-4, Kombileuchten" Farbgebung="Chromoxidgrün, graues Dach" EinsatzAb="1957-01-01" EinsatzBis="1993-12-31" IDHaupt="13" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-gn4a.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E40_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" HistNummer="140 411-0" Beschreibung="140 411-0, Einzelleuchten" Farbgebung="Chromoxidgrün" EinsatzAb="1961-06-14" EinsatzBis="1993-12-31" IDHaupt="14" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-gn4b.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E40_I60.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" HistNummer="140 154-6" Beschreibung="140 154-6, Kombileuchten" Farbgebung="Ozeanblau/Beige" EinsatzAb="1975-01-01" EinsatzBis="1993-12-31" IDHaupt="15" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-ob4a.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E40_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="139" HistNummer="139 213-3" Beschreibung="139 213-3, Lokomotion, Scherenstromabnehmer" Farbgebung="Lokomotion" EinsatzAb="2007-11-16" IDHaupt="16" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\Lokomotion_139_213.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\139_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_139_Tachomaschinenregelung_90kN.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="139" HistNummer="139 310-7" Beschreibung="139 310-7, Lokomotion, Einholmstromabnehmer" Farbgebung="Lokomotion" EinsatzAb="2008-01-03" IDHaupt="17" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\Lokomotion_139_310.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\139_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Grunddaten_SBS65.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_139_Hallwandlerregelung_Thyristorsteuerung_135kN.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" NVRNummer="91 80 6139 310-7" Beschreibung="140 761-8, Kombileuchten" Farbgebung="evb" EinsatzAb="2012-01-01" IDHaupt="18" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\MWB_140_761.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\140_LZB80_PZB90_FullHD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DSA200.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\BR_140_Fst_Sound.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\Klotzbremse_Lok.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" NVRNummer="80 91 6140 870-7" Beschreibung="140 870-7, Kombileuchten" Farbgebung="evb" EinsatzAb="2012-01-01" IDHaupt="18" IDNeben="2">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\MWB_140_870.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\140_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DSA200.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" NVRNummer="80 91 6140 002-7" Beschreibung="140 002-7, Sunrail" Farbgebung="Sunrail" EinsatzAb="2012-01-01" IDHaupt="18" IDNeben="3">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\Sunrail140.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\140_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\Sunrail_140_Grunddaten.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" HistNummer="140 411-0" Beschreibung="140 411-0, Einzelleuchten" Farbgebung="Chromoxidgrün" EinsatzAb="1995-12-30" IDHaupt="19" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-gn5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\140_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" HistNummer="140 423-5" Beschreibung="140 423-5, Einzelleuchten" Farbgebung="Ozeanblau/Beige" EinsatzAb="1995-12-30" IDHaupt="20" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-ob5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\140_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" HistNummer="140 154-6" Beschreibung="140 154-6 , Kombileuchten" Farbgebung="Ozeanblau/Beige" EinsatzAb="1995-12-30" IDHaupt="21" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\DB_E40-ob5a.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\140_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="139" NVRNummer="91 80 6139 588-1" Beschreibung="139 588-1, Railadventure" Farbgebung="Railadventure" EinsatzAb="2012-03-01" IDHaupt="22" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\Railadventure_139-588.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\139_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_139_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_139_Hallwandlerregelung_Thyristorsteuerung_135kN.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="140" NVRNummer="91 80 6140 003-5" Beschreibung="140 003-5, EBM" Farbgebung="EBM" EinsatzAb="2013-12-30" IDHaupt="23" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E40\EBM_140_003.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\140_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_E40_Grunddaten_DBS54.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_140_Reihenschlussantrieb.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<BremseLuftDirekt MaxDruck="3.6" VolumenZylinder="37.942" FBremsuebersetzung="14500">
+<BremsenKennungV xText="km/h" yText="1">
+<Pkt PktY="2.8246"/>
+<Pkt PktX="3.2051" PktY="2.1903"/>
+<Pkt PktX="6.4103" PktY="1.7028"/>
+<Pkt PktX="9.6154" PktY="1.4627"/>
+<Pkt PktX="12.8205" PktY="1.3169"/>
+<Pkt PktX="16.0256" PktY="1.2049"/>
+<Pkt PktX="19.2308" PktY="1.0928"/>
+<Pkt PktX="22.4359" PktY="1.039"/>
+<Pkt PktX="25.641" PktY="1.0037"/>
+<Pkt PktX="28.8462" PktY="0.9683"/>
+<Pkt PktX="32.0513" PktY="0.933"/>
+<Pkt PktX="35.2564" PktY="0.8976"/>
+<Pkt PktX="38.4615" PktY="0.8882"/>
+<Pkt PktX="41.6667" PktY="0.8882"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+</BremseLuftDirekt>
+<Luftpresser LeistungPresser="1800" VolumenHB="600" DruckHBMin="8.5" DruckHBMax="9.7" DruckAngleicher="5.5" NurWennHSEinDieselLaeuft="1">
+<SoundLuftpresser PosAnlauf="240024" PosAuslauf="349404" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_Luftpresser.wav"/>
+</SoundLuftpresser>
+</Luftpresser>
+<BremseLuftEinlK1 VolumenB="200" AnzahlAchsen="4" Bremsbauart="2" VolumenZylinder="63.15" FBremsuebersetzung="14500">
+<BremsenKennungV>
+<Pkt PktY="2.578"/>
+<Pkt PktX="2.7236" PktY="2.077"/>
+<Pkt PktX="2.8086" PktY="2.062"/>
+<Pkt PktX="5.5322" PktY="1.626"/>
+<Pkt PktX="5.6175" PktY="1.617"/>
+<Pkt PktX="8.3411" PktY="1.402"/>
+<Pkt PktX="11.1497" PktY="1.255"/>
+<Pkt PktX="20.0017" PktY="0.973"/>
+<Pkt PktX="30.5556" PktY="0.867"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+<BremseP BremsGewicht="67000"/>
+<BremseG BremsGewicht="54000"/>
+</BremseLuftEinlK1>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\Einheitslok_gemeinsamer_Sound.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\Einheitslok_gemeinsamer_Fst_Sound.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Rollgeraeusch_Lok.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Bremsgeraeusch_Graugussbremse.fzg"/>
+</ExterneDatei>
+<FktIndividuell PhysikGroesse="149"/>
+<FktIndividuell PhysikGroesse="151"/>
+</Fahrzeug>
+</Zusi>

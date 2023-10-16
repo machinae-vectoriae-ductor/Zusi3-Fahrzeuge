@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrzeug" Version="A.7" MinVersion="A.1">
+<AutorEintrag AutorID="30" AutorName="Jens Haupert" AutorEmail="haupert@babylon2k.de" AutorLizenz="1"/>
+<AutorEintrag AutorID="24" AutorName="Steven Graham"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorBeschreibung="Bremsbemessung"/>
+<AutorEintrag AutorID="134" AutorName="Wolfgang Evers" AutorEmail="Wolfgang.Evers@TH-Koeln.de"/>
+</Info>
+<Fahrzeug>
+<FahrzeugVariante BR="E10.12" HistNummer="E10 1309" Beschreibung="E10 1309, Bügelfalte" Farbgebung="Purpurrot/Beige (TEE)" EinsatzAb="1962-01-01" EinsatzBis="1968-12-31" IDHaupt="1" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E10B\DB-E10.12-TEE3.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E10-3_I60_HD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_113_Grunddaten.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_112_Tachomaschinenregelung_65kN.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="E10.12" HistNummer="E10 1266" Beschreibung="E10 1266, Bügelfalte" Farbgebung="Purpurrot/Beige (TEE)" IDHaupt="1" IDNeben="2">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E10B\DB-E10.12-TEE3a.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E10-3_I60_HD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_113_Grunddaten.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_112_Tachomaschinenregelung_65kN.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="112" HistNummer="112 494-0" Beschreibung="112 494-0, Bügelfalte" Farbgebung="Purpurrot/Beige (TEE)" EinsatzAb="1968-01-01" EinsatzBis="1987-12-31" IDHaupt="2" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E10B\DB-E10.12-TEE4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E10-3_I60_HD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_113_Grunddaten.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_112_Hallwandlerregelung_65kN.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="112" HistNummer="112 268-4" Beschreibung="112 268-4, Bügelfalte" Farbgebung="Purpurrot/Beige (TEE)" IDHaupt="2" IDNeben="2">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E10B\DB-E10.12-rb4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E10-3_I60_HD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_113_Grunddaten.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_112_Tachomaschinenregelung_65kN.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="E10.12" HistNummer="E10 1270" Beschreibung="E10 1270, Bügelfalte" Farbgebung="Kobaltblau/Beige (Rheingold)" EinsatzAb="1962-01-01" EinsatzBis="1968-12-31" IDHaupt="3" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E10B\DB-E10.12-RHG3.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E10-3_I60_HD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_113_Grunddaten.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_112_Hallwandlerregelung_65kN.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="E10.12" HistNummer="E10 1310" Beschreibung="E10 1310, Bügelfalte" Farbgebung="Kobaltblau/Beige (Rheingold)" EinsatzAb="1962-01-01" EinsatzBis="1968-12-31" IDHaupt="3" IDNeben="2">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E10B\DB-E10.13-RHG3.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E10-3_I60_HD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_113_Grunddaten.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_112_Tachomaschinenregelung_65kN.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="113" HistNummer="113 309-9" Beschreibung="113 309-9, Bügelfalte" Farbgebung="Verkehrsrot" EinsatzAb="1998-01-01" IDHaupt="5" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E10B\DB-E10.12-vr5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\110_Buegelfalte_PZB90_HD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_113_Grunddaten.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_112_Tachomaschinenregelung_65kN.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="114" HistNummer="114 498-9" Beschreibung="114 498-9, Bügelfalte, Lange Klattegitter" Farbgebung="Purpurrot/Beige (TEE)" EinsatzAb="1970-01-01" EinsatzBis="1993-12-30" IDHaupt="6" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E10B\DB-114-rb4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E10-3_I60_HD.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\DB_114_Grunddaten.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\E-Bremse_112_Hallwandlerregelung_65kN.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<BremseLuftDirekt MaxDruck="3.6" VolumenZylinder="39.725" FBremsuebersetzung="16800">
+<BremsenKennungV xText="km/h" yText="1">
+<Pkt PktY="2.8246"/>
+<Pkt PktX="3.2051" PktY="2.1903"/>
+<Pkt PktX="6.4103" PktY="1.7028"/>
+<Pkt PktX="9.6154" PktY="1.4627"/>
+<Pkt PktX="12.8205" PktY="1.3169"/>
+<Pkt PktX="16.0256" PktY="1.2049"/>
+<Pkt PktX="19.2308" PktY="1.0928"/>
+<Pkt PktX="22.4359" PktY="1.039"/>
+<Pkt PktX="25.641" PktY="1.0037"/>
+<Pkt PktX="28.8462" PktY="0.9683"/>
+<Pkt PktX="32.0513" PktY="0.933"/>
+<Pkt PktX="35.2564" PktY="0.8976"/>
+<Pkt PktX="38.4615" PktY="0.8882"/>
+<Pkt PktX="41.6667" PktY="0.8882"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+</BremseLuftDirekt>
+<Luftpresser LeistungPresser="1800" VolumenHB="800" DruckHBMin="8.5" DruckHBMax="9.7" DruckAngleicher="5.5" NurWennHSEinDieselLaeuft="1">
+<SoundLuftpresser PosAnlauf="240024" PosAuslauf="349404" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_Luftpresser.wav"/>
+</SoundLuftpresser>
+</Luftpresser>
+<Bremse_KE_Tm VolumenR="300" VolumenA="10" AnzahlAchsen="4" Bremsbauart="2" VolumenZylinder="39.725" FBremsuebersetzung="16800" HBLAnschluss="1">
+<BremsenKennungV>
+<Pkt PktY="2.8246"/>
+<Pkt PktX="3.2051" PktY="2.1903"/>
+<Pkt PktX="6.4103" PktY="1.7028"/>
+<Pkt PktX="9.6154" PktY="1.4627"/>
+<Pkt PktX="12.8205" PktY="1.3169"/>
+<Pkt PktX="16.0256" PktY="1.2049"/>
+<Pkt PktX="19.2308" PktY="1.0928"/>
+<Pkt PktX="22.4359" PktY="1.039"/>
+<Pkt PktX="25.641" PktY="1.0037"/>
+<Pkt PktX="28.8462" PktY="0.9683"/>
+<Pkt PktX="32.0513" PktY="0.933"/>
+<Pkt PktX="35.2564" PktY="0.8976"/>
+<Pkt PktX="38.4615" PktY="0.8882"/>
+<Pkt PktX="41.6667" PktY="0.8882"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+<BremseP BremsGewicht="84000"/>
+<BremseG BremsGewicht="56000"/>
+<BremseR BremsGewicht="120000"/>
+</Bremse_KE_Tm>
+<AntriebsmodellElektrischReihenschluss Volt="2" etaTrafo="0.97" MaxOberstrom="480" Leistung="4902587.5" Antriebsachsen="4" Reibmasse="86000" GueteKraftverteilung="0.9" GrenzdruckHL="3">
+<Kennfeld>
+<Pkt PktY="2500000"/>
+<Pkt PktX="1.3889" PktY="2100000"/>
+<Pkt PktX="2.7778" PktY="1699999.875"/>
+<Pkt PktX="5.5556" PktY="1250000"/>
+<Pkt PktX="8.3333" PktY="949999.9375"/>
+<Pkt PktX="11.1111" PktY="749999.9375"/>
+<Pkt PktX="13.8889" PktY="570000"/>
+<Pkt PktX="16.6667" PktY="449999.9688"/>
+<Pkt PktX="19.4444" PktY="339999.9688"/>
+<Pkt PktX="22.2222" PktY="265000"/>
+<Pkt PktX="25" PktY="219999.9844"/>
+<Pkt PktX="27.7778" PktY="179999.9844"/>
+<Pkt PktX="30.5556" PktY="150000"/>
+<Pkt PktX="33.3333" PktY="126999.9922"/>
+<Pkt PktX="36.1111" PktY="109999.9922"/>
+<Pkt PktX="38.8889" PktY="95999.9922"/>
+<Pkt PktX="41.6667" PktY="82999.9922"/>
+<Pkt PktX="44.4444" PktY="74000"/>
+<Stufe StufenWert="0.002"/>
+<Stufe StufenWert="0.007"/>
+<Stufe StufenWert="0.017"/>
+<Stufe StufenWert="0.029"/>
+<Stufe StufenWert="0.039"/>
+<Stufe StufenWert="0.052"/>
+<Stufe StufenWert="0.061"/>
+<Stufe StufenWert="0.07"/>
+<Stufe StufenWert="0.08"/>
+<Stufe StufenWert="0.093"/>
+<Stufe StufenWert="0.104"/>
+<Stufe StufenWert="0.12"/>
+<Stufe StufenWert="0.14"/>
+<Stufe StufenWert="0.16"/>
+<Stufe StufenWert="0.18"/>
+<Stufe StufenWert="0.21"/>
+<Stufe StufenWert="0.24"/>
+<Stufe StufenWert="0.28"/>
+<Stufe StufenWert="0.31"/>
+<Stufe StufenWert="0.35"/>
+<Stufe StufenWert="0.395"/>
+<Stufe StufenWert="0.46"/>
+<Stufe StufenWert="0.52"/>
+<Stufe StufenWert="0.59"/>
+<Stufe StufenWert="0.66"/>
+<Stufe StufenWert="0.77"/>
+<Stufe StufenWert="0.88"/>
+<Stufe StufenWert="1"/>
+</Kennfeld>
+<Nachlaufsteuerung AnzahlSchaltstufen="28" GeschwAuf="2" GeschwAb="2">
+<SoundAufschalten Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_schaltwerk.wav"/>
+</SoundAufschalten>
+<SoundAbschalten Lautstaerke="0.8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_schaltwerk.wav"/>
+</SoundAbschalten>
+</Nachlaufsteuerung>
+<SoundLuefter Loop="1" PosAnlauf="409448" PosAuslauf="465964" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_Luefter.wav"/>
+</SoundLuefter>
+<Reihenschlussmotor MotorX="0.0336" MotorRaRf="0.0059" MotorMaxSpannung="520" MotorkHysterese="0.0003" MotorkWirbelstrom="0.005" Motorkonstante="0.0115"/>
+</AntriebsmodellElektrischReihenschluss>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\Einheitslok_gemeinsamer_Sound.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\Einheitslok_gemeinsamer_Fst_Sound.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Rollgeraeusch_Lok.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Bremsgeraeusch_Graugussbremse.fzg"/>
+</ExterneDatei>
+</Fahrzeug>
+</Zusi>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrzeug" Version="A.7" MinVersion="A.1" Beschreibung="BR103;Allgemein, Serienbaureihe (103 101-245);">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede"/>
+<AutorEintrag AutorID="134" AutorName="Wolfgang Evers" AutorEmail="Wolfgang.Evers@TH-Koeln.de"/>
+</Info>
+<Fahrzeug>
+<BremseLuftDirekt MaxDruck="3.6" VolumenZylinder="44.103" FBremsuebersetzung="18258.9004">
+<BremsenKennungV xText="km/h" yText="1">
+<Pkt PktY="3.209"/>
+<Pkt PktX="2.7856" PktY="2.572"/>
+<Pkt PktX="5.5711" PktY="2.017"/>
+<Pkt PktX="8.3567" PktY="1.744"/>
+<Pkt PktX="11.1419" PktY="1.563"/>
+<Pkt PktX="20.1175" PktY="1.209"/>
+<Pkt PktX="36.0569" PktY="1.01"/>
+<Pkt PktX="55.5556" PktY="1.009"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+</BremseLuftDirekt>
+<Luftpresser LeistungPresser="2400" VolumenHB="800" DruckHBMin="8.5" DruckHBMax="9.7" DruckAngleicher="5.5" NurWennHSEinDieselLaeuft="1">
+<SoundLuftpresser PosAnlauf="2647776" PosAuslauf="2877600" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Sounds\120_Luftpresser.wav"/>
+</SoundLuftpresser>
+</Luftpresser>
+<Bremse_KE_Tm VolumenR="525" VolumenA="10" AnzahlAchsen="6" Bremsbauart="2" VolumenZylinder="44.103" FBremsuebersetzung="18258.9004" HBLAnschluss="1">
+<BremsenKennungV>
+<Pkt PktY="3.209"/>
+<Pkt PktX="2.7856" PktY="2.572"/>
+<Pkt PktX="5.5711" PktY="2.017"/>
+<Pkt PktX="8.3567" PktY="1.744"/>
+<Pkt PktX="11.1419" PktY="1.563"/>
+<Pkt PktX="20.1175" PktY="1.209"/>
+<Pkt PktX="36.0569" PktY="1.01"/>
+<Pkt PktX="55.5556" PktY="1.009"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+<BremseP BremsGewicht="100000"/>
+<BremseG BremsGewicht="85000"/>
+<BremseR BremsGewicht="150000"/>
+</Bremse_KE_Tm>
+</Fahrzeug>
+</Zusi>

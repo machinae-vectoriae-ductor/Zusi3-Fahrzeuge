@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrzeug" Version="A.7" MinVersion="A.1">
+<AutorEintrag AutorID="30" AutorName="Jens Haupert" AutorEmail="haupert@babylon2k.de" AutorLizenz="1"/>
+<AutorEintrag AutorID="24" AutorName="Steven Graham"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorBeschreibung="Bremsbemessung"/>
+<AutorEintrag AutorID="134" AutorName="Wolfgang Evers" AutorEmail="Wolfgang.Evers@TH-Koeln.de"/>
+</Info>
+<Fahrzeug MaxIDHaupt="12">
+<FahrzeugVariante BR="E41" HistNummer="E41 001" Beschreibung="E41 001, Kombileuchten" Farbgebung="Kobaltblau" EinsatzAb="1956-01-01" EinsatzBis="1968-12-31" IDHaupt="1" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\DB_E41-ab3.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E41_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="E41" HistNummer="E41 005" Beschreibung="E41 005, Kombileuchten" Farbgebung="Chromoxidgrün" EinsatzAb="1957-01-01" EinsatzBis="1968-12-31" IDHaupt="2" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\DB_E41-gn3.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E41_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="141" HistNummer="141 171-9" Beschreibung="141 171-9, Einzelleuchten" Farbgebung="Chromoxidgrün" EinsatzAb="1968-01-01" EinsatzBis="1993-12-31" IDHaupt="3" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\DB_E41-gn4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E41_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="141" HistNummer="141 295-6" Beschreibung="141 295-6, Einzelleuchten" Farbgebung="Ozeanblau/Beige" EinsatzAb="1975-01-01" EinsatzBis="1993-12-31" IDHaupt="4" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\DB_E41-ob4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E41_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="141" HistNummer="141 007-4" Beschreibung="141 007-4, Kombileuchten" Farbgebung="Ozeanblau/Beige" EinsatzAb="1975-01-01" EinsatzBis="1993-12-31" IDHaupt="5" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\DB_E41-ob4a.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E41_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="141" HistNummer="141 186-7" Beschreibung="141 186-7, Einzelleuchten" Farbgebung="Orientrot" EinsatzAb="1987-01-01" EinsatzBis="1993-12-31" IDHaupt="6" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\DB_E41-or4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E41_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="141" HistNummer="141 439-0" Beschreibung="141 439-0, Einzelleuchten" Farbgebung="Lichtgrau/Reinorange/Pastellgelb (S-Bahn)" EinsatzAb="1987-01-01" EinsatzBis="1993-12-31" IDHaupt="7" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\DB_E41-SB4.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E41_I60.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="141" HistNummer="141 246-9" Beschreibung="141 246-9, Einzelleuchten" Farbgebung="Verkehrsrot" EinsatzAb="1997-10-01" EinsatzBis="2006-12-31" IDHaupt="8" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\DB_E41-vr5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\141_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Wagentueren_TB0.fzg"/>
+</ExterneDatei>
+</FahrzeugVariante>
+<FahrzeugVariante BR="141" HistNummer="141 065-3" Beschreibung="141 065-3, Kombileuchten" Farbgebung="Chromoxidgrün, graues Dach" EinsatzAb="1957-01-01" EinsatzBis="1993-12-31" IDHaupt="9" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\DB_E41-gn4a.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E41_I54.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="141" HistNummer="141 248-5" Beschreibung="141 248-5, Karlsruher Design" Farbgebung="Beige-Blau" EinsatzAb="1977-12-20" EinsatzBis="1993-12-31" IDHaupt="10" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\DB_E41-Karlsruhe.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\E41_I60.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="141" HistNummer="141 228-7" Beschreibung="141 228-7, Einzelleuchten" Farbgebung="Chromoxidgrün" EinsatzAb="1992-12-30" IDHaupt="11" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\E41-gn5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\141_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugVariante BR="141" HistNummer="141 280-8" Beschreibung="141 280-8, Einzelleuchten" Farbgebung="Ozeanblau/Beige" EinsatzAb="1993-12-30" IDHaupt="12" IDNeben="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\3D_Daten\E41\E41-ob5.lod.ls3"/>
+<DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\141_PZB90.ftd"/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugGrunddaten Masse="67000" Achsstandsumme="6.4" RotationsZuschlag="6600" cwA="6" Rollwiderstand="1294.92" Laenge="15.66" spMax="33.3333" HBLVorhanden="1" LokModus="1" FesselAnfg="4.18" FesselEnde="4.18" AnzahlAchsen="4" StromabnHoehe="4.27" StromabnehmerA="2" StromabnehmerB="2"/>
+<BremseLuftDirekt MaxDruck="3.6" VolumenZylinder="31.57" FBremsuebersetzung="14600">
+<BremsenKennungV xText="km/h" yText="1">
+<Pkt PktY="2.635"/>
+<Pkt PktX="2.7856" PktY="2.112"/>
+<Pkt PktX="5.4781" PktY="1.671"/>
+<Pkt PktX="8.3567" PktY="1.432"/>
+<Pkt PktX="11.1419" PktY="1.283"/>
+<Pkt PktX="19.9628" PktY="0.996"/>
+<Pkt PktX="33.3333" PktY="0.857"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+</BremseLuftDirekt>
+<Luftpresser LeistungPresser="1800" VolumenHB="600" DruckHBMin="8.5" DruckHBMax="9.7" DruckAngleicher="5.5" NurWennHSEinDieselLaeuft="1">
+<SoundLuftpresser PosAnlauf="330762" PosAuslauf="422268" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_141\Br141_kompressor.wav"/>
+</SoundLuftpresser>
+</Luftpresser>
+<BremseLuftEinlK1 VolumenB="100" AnzahlAchsen="4" Bremsbauart="2" VolumenZylinder="31.57" FBremsuebersetzung="14600">
+<BremsenKennungV>
+<Pkt PktY="2.635"/>
+<Pkt PktX="2.7856" PktY="2.112"/>
+<Pkt PktX="5.4781" PktY="1.671"/>
+<Pkt PktX="5.5711" PktY="1.657"/>
+<Pkt PktX="8.3567" PktY="1.432"/>
+<Pkt PktX="11.1419" PktY="1.283"/>
+<Pkt PktX="19.9628" PktY="0.996"/>
+<Pkt PktX="20.0558" PktY="0.994"/>
+<Pkt PktX="33.3333" PktY="0.857"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+<BremseP BremsGewicht="70000"/>
+<BremseG BremsGewicht="58000"/>
+</BremseLuftEinlK1>
+<AntriebsmodellElektrischReihenschluss Volt="2" etaTrafo="0.97" MaxOberstrom="340" Leistung="3726686.25" Antriebsachsen="4" Reibmasse="67000" GueteKraftverteilung="0.9" GrenzdruckHL="3">
+<Kennfeld xText="Geschwindigkeit" yText="Zugkraft">
+<Pkt PktY="2999999.75"/>
+<Pkt PktX="1.3889" PktY="2500000"/>
+<Pkt PktX="2.7778" PktY="1899999.875"/>
+<Pkt PktX="5.5556" PktY="1150000"/>
+<Pkt PktX="8.3333" PktY="749999.9375"/>
+<Pkt PktX="11.1111" PktY="499999.9688"/>
+<Pkt PktX="13.8889" PktY="359999.9688"/>
+<Pkt PktX="16.6667" PktY="270000"/>
+<Pkt PktX="19.4444" PktY="200999.9844"/>
+<Pkt PktX="22.2222" PktY="155000"/>
+<Pkt PktX="25" PktY="120999.9922"/>
+<Pkt PktX="27.7778" PktY="94999.9922"/>
+<Pkt PktX="30.5556" PktY="78000"/>
+<Pkt PktX="33.3333" PktY="67000"/>
+<Stufe StufenWert="0.001"/>
+<Stufe StufenWert="0.0035"/>
+<Stufe StufenWert="0.013"/>
+<Stufe StufenWert="0.026"/>
+<Stufe StufenWert="0.039"/>
+<Stufe StufenWert="0.05"/>
+<Stufe StufenWert="0.061"/>
+<Stufe StufenWert="0.07"/>
+<Stufe StufenWert="0.08"/>
+<Stufe StufenWert="0.093"/>
+<Stufe StufenWert="0.104"/>
+<Stufe StufenWert="0.12"/>
+<Stufe StufenWert="0.14"/>
+<Stufe StufenWert="0.16"/>
+<Stufe StufenWert="0.18"/>
+<Stufe StufenWert="0.2"/>
+<Stufe StufenWert="0.24"/>
+<Stufe StufenWert="0.28"/>
+<Stufe StufenWert="0.32"/>
+<Stufe StufenWert="0.37"/>
+<Stufe StufenWert="0.405"/>
+<Stufe StufenWert="0.45"/>
+<Stufe StufenWert="0.52"/>
+<Stufe StufenWert="0.6"/>
+<Stufe StufenWert="0.67"/>
+<Stufe StufenWert="0.77"/>
+<Stufe StufenWert="0.88"/>
+<Stufe StufenWert="1"/>
+</Kennfeld>
+<Nachlaufsteuerung AnzahlSchaltstufen="28" GeschwAuf="4" GeschwAb="4">
+<SoundAufschalten Lautstaerke="0.65">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_141\Br141_schaltwerk.wav"/>
+</SoundAufschalten>
+<SoundAbschalten Lautstaerke="0.65">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_141\Br141_schaltwerk.wav"/>
+</SoundAbschalten>
+</Nachlaufsteuerung>
+<SoundLuefter Loop="1" PosAnlauf="398428" PosAuslauf="469886" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_141\141_Luefter.wav"/>
+</SoundLuefter>
+<Reihenschlussmotor MotorX="0.0846" MotorRaRf="0.0149" MotorMaxSpannung="535" MotorkHysterese="0.0012" MotorkWirbelstrom="0.005" Motorkonstante="0.034"/>
+</AntriebsmodellElektrischReihenschluss>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\Einheitslok_gemeinsamer_Fst_Sound.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Rollgeraeusch_Lok.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fahrzeugdaten\Einheitslok_gemeinsamer_Sound.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Bremsgeraeusch_Graugussbremse.fzg"/>
+</ExterneDatei>
+<FahrzeugSound>
+<Sound Loop="1" Lautstaerke="1" GeschwAendern="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_141\Br141_fahren.wav"/>
+</Sound>
+<Abhaengigkeit PhysikGroesse="95" SoundGeschwAbh="1">
+<Kennfeld>
+<Pkt/>
+<Pkt PktX="33.3333" PktY="1"/>
+<Stufe StufenWert="1"/>
+</Kennfeld>
+</Abhaengigkeit>
+</FahrzeugSound>
+<FahrzeugSound>
+<Sound Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_141\141_Hauptschalter.wav"/>
+</Sound>
+<Abhaengigkeit PhysikGroesse="19" Trigger="5" TriggerGrenze="0.5">
+<Kennfeld>
+<Stufe/>
+</Kennfeld>
+</Abhaengigkeit>
+</FahrzeugSound>
+</Fahrzeug>
+</Zusi>

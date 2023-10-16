@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fuehrerstand" Version="A.7" MinVersion="A.1">
+<AutorEintrag AutorID="41" AutorName="Marc Gottwald" AutorBeschreibung="Zusi2-Führerstand"/>
+<AutorEintrag AutorID="7" AutorName="Rolf Reichardt" AutorBeschreibung="Zusi2-Führerstand"/>
+<AutorEintrag AutorID="35" AutorName="Daniel Reinecke"/>
+<AutorEintrag AutorID="30" AutorName="Jens Haupert" AutorEmail="haupert@babylon2k.de" AutorLizenz="1"/>
+<AutorEintrag AutorID="24" AutorName="Steven Graham"/>
+<AutorEintrag AutorID="88" AutorName="Meik Nowotny" AutorBeschreibung="I60-Variante"/>
+<AutorEintrag AutorID="134" AutorName="Wolfgang Evers" AutorEmail="Wolfgang.Evers@TH-Koeln.de" AutorBeschreibung="Lokbremse entlüften, Batteriehauptschalter und ZDinfo ergänzt"/>
+</Info>
+<Fuehrerstand>
+<Funktionalitaeten>
+<IndusiI60 LMZugartO="LM PZB Zugart O_14" LMZugartM="LM PZB Zugart M_15" LM1000Hz="LM PZB 1000Hz_10" Zugarten="4" SchalterWachsam="Schalter PZB Wachsam_4" SchalterFrei="Schalter PZB Frei_5" SchalterBefehl="Schalter PZB Befehl_6" IndusiGrenzdruckHL="2.2" FktName="Indusi I60" Tastaturzuordnung="15">
+<SoundIndusiHupe Loop="1" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Zugbeeinflussung\PZB_LZB\Indusi_Hupe.wav"/>
+</SoundIndusiHupe>
+</IndusiI60>
+<Angleicher Taster="1" FktName="Angleicher" Tastaturzuordnung="4"/>
+<Kombischalter FedertUnten="1" Grundstellung="8" NameSchalter="Schalter Führerbremsventil_12" FktName="D2-Regler" Tastaturzuordnung="4">
+<RastSound Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Fuehrerbremsventile\Fbv_D2_Raste.wav"/>
+</RastSound>
+<Raste>
+<Belegung FunktionStr="HllBremsen"/>
+</Raste>
+<Raste SperreRunter="1" SperrZeit="0.5">
+<Belegung FunktionStr="HllDruck" Parameter="3.5"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="HllDruck" Parameter="3.8"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="HllDruck" Parameter="4"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="HllDruck" Parameter="4.2"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="HllDruck" Parameter="4.4"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="HllDruck" Parameter="4.7"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="HllMittel"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="HllDruck" Parameter="5"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="HllFuellen"/>
+</Raste>
+</Kombischalter>
+<Kombischalter FedertOben="1" Grundstellung="2" Mittelposition="2" NameSchalter="Schalter Zusatzbremse_14" FktName="Zusatzbremsventil" Tastaturzuordnung="5">
+<Raste>
+<Belegung FunktionStr="ZbvBremsen"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="ZbvMittel"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="ZbvLoesen"/>
+</Raste>
+</Kombischalter>
+<Kombischalter FedertUnten="1" NameSchalter="Schalter Fahrstufen_15" FktName="Fahrschalter" Tastaturzuordnung="1">
+<RastSound Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_141\141_Fahrschalter.wav"/>
+</RastSound>
+<Raste>
+<Belegung FunktionStr="FahrstufeSchnellAus"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="FahrstufeAb" Parameter="1"/>
+<Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="FahrstufeFahren"/>
+<Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="FahrstufeAuf" Parameter="1"/>
+<Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+</Raste>
+</Kombischalter>
+<Kombischalter Grundstellung="3" Mittelposition="1" NameSchalter="Schalter Fahrtrichtung_13" FktName="Richtungsschalter" Tastaturzuordnung="7">
+<RastSound Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Richtungsschalter\Rischa_alt_nach_V_R.wav"/>
+</RastSound>
+<Raste>
+<Belegung FunktionStr="RischaR"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="Rischa0"/>
+<Koppelung NameGekoppelterSchalter="Fahrschalter" Koppelart="Koppelart_Verriegeln"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="RischaM"/>
+<Koppelung NameGekoppelterSchalter="Fahrschalter" Koppelart="Koppelart_Verriegeln"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="RischaV"/>
+</Raste>
+</Kombischalter>
+<Kombischalter FedertUnten="1" FedertOben="1" Grundstellung="1" Mittelposition="1" NameSchalter="Schalter Stromabnehmer_38" FktName="Stromabnehmer" Tastaturzuordnung="43">
+<Raste>
+<Belegung FunktionStr="StromabnehmerAb"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="StromabnehmerNull"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="StromabnehmerAuf"/>
+</Raste>
+</Kombischalter>
+<Kombischalter FedertUnten="1" FedertOben="1" Grundstellung="1" Mittelposition="1" NameSchalter="Schalter Hauptschalter_37" FktName="Hauptschalter" Tastaturzuordnung="17">
+<Raste>
+<Belegung FunktionStr="HauptschalterAus"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="HauptschalterNull"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="HauptschalterEin"/>
+</Raste>
+</Kombischalter>
+<Schleuderschutzbremse NameSchalter="Schalter Schleuderschutzbremse_8" FktName="Schleuderschutzbremse" Tastaturzuordnung="19"/>
+<Sander NameSchalter="Schalter Sanden_3" FktName="Sander" Tastaturzuordnung="9"/>
+<Pfeife Taster="1" NameSchalter="Schalter Pfeife_17" FktName="Pfeife/Glocke" Tastaturzuordnung="12">
+<SoundTief Loop="1" PosAnlauf="9968" PosAuslauf="33446" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Sounds\103_Pfeife.wav"/>
+</SoundTief>
+</Pfeife>
+<Luefter NameSchalter="Schalter Lüfter_18" FktName="Lüfter" Tastaturzuordnung="14"/>
+<FuehrerstandSound>
+<Sound Loop="1" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_141\Br141_stand.wav"/>
+</Sound>
+</FuehrerstandSound>
+<Sifa_ZeitWeg NameLM="LM Sifa_11" Taster="1" NameSchalter="Schalter Sifa_7" FktName="Zeit-Weg-Sifa" Tastaturzuordnung="16">
+<SoundSifa Loop="1" Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_Sifa.wav"/>
+</SoundSifa>
+</Sifa_ZeitWeg>
+<LuftpresserAus FktName="Luftpresser aus" Tastaturzuordnung="45"/>
+<Kombischalter FedertUnten="1" NameSchalter="Schalter Schnellaus_39" FktName="Schnellaustaster">
+<RastSound Lautstaerke="1">
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Fuehrerbremsventile\Fbv_EE4_Klick.wav"/>
+</RastSound>
+<Raste>
+<Belegung FunktionStr="Nichts"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="FahrstufeSchnellAus"/>
+</Raste>
+</Kombischalter>
+<LokbremseEntlueften Taster="1" NameSchalter="Bremse_loesen" FktName="Lokbremse entlüften" Tastaturzuordnung="21"/>
+<Kombischalter Grundstellung="1" Mittelposition="1" FktName="Batteriehauptschalter" Tastaturzuordnung="70">
+<Raste>
+<Belegung FunktionStr="BatterieHSAus"/>
+</Raste>
+<Raste>
+<Belegung FunktionStr="BatterieHSEin"/>
+</Raste>
+</Kombischalter>
+<ZDInfo BatterieHSTyp="2" SAWahlTyp="1" AbsperrungDirekteBremse="2" AbsperrungIndirekteBremse="2" PultAktivierung="2" Batteriespannung="110" Batterieanzeige="1" FktName="Informationen für TCP-Client"/>
+</Funktionalitaeten>
+<Grafik>
+<RenderFlags TexVoreinstellung="2"/>
+<Grunddaten GrafikName="Standardansicht">
+<p X="-0.8" Y="-0.6" Z="3.15"/>
+<lookat X="9.189" Y="-0.2512" Z="2.8359"/>
+<up X="-0.4861" Y="-0.589" Z="13.1451"/>
+</Grunddaten>
+<Melder MaxBildNr="-1" Vorkomma="8" Infotext="1" Farbe="00FFFFFF" InstrName="Infotext_Digitaluhr" PhysikGroesse="35" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 X="0.0752" Y="0.0065"/>
+<InstrPkt2 X="0.0752" Y="0.0326"/>
+<InstrPkt3 X="0.1533" Y="0.0326"/>
+<InstrPkt4 X="0.1533" Y="0.0065"/>
+<Font Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Schriften\Arial_20.font.xml"/>
+</Melder>
+<Melder Vorkomma="2" Farbe="00FFFFFF" InstrName="Hintergrundbild_0" PhysikGroesse="40" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uur="1" Vur="0.75" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_141_I60.dds"/>
+</EinzelTextur>
+<EinzelTextur Uur="1" Vur="0.75">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_Nacht_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 Y="1"/>
+<InstrPkt3 X="1" Y="1"/>
+<InstrPkt4 X="1"/>
+<Font/>
+</Melder>
+<Melder Vorkomma="2" Farbe="00FFFFFF" InstrName="3D-Fenster_1" PhysikGroesse="22" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 Y="0.0677"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uur="1" Vur="1" TransparentModus="1">
+<Datei/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="Melder_23"/>
+<InstrPkt2 Y="0.5443"/>
+<InstrPkt3 X="0.7109" Y="0.5443"/>
+<InstrPkt4 X="0.7109" Y="0.0677"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter Hauptschalter_2" PhysikGroesse="19" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 X="0.21" Y="0.6992"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0039" Vol="0.0049" Uur="0.0332" Vur="0.0342" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0498" Vol="0.0039" Uur="0.0791" Vur="0.0332" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="Schalter Fahrtrichtung_13"/>
+<InstrPkt2 X="0.21" Y="0.7383"/>
+<InstrPkt3 X="0.2393" Y="0.7383"/>
+<InstrPkt4 X="0.2393" Y="0.6992"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter Sanden_3" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.0488" Y="0.8333"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0859" Vol="0.0049" Uur="0.125" Vur="0.0664" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.1289" Vol="0.0049" Uur="0.168" Vur="0.0664" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.0488" Y="0.9154"/>
+<InstrPkt3 X="0.0879" Y="0.9154"/>
+<InstrPkt4 X="0.0879" Y="0.8333"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter PZB Wachsam_4" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.1445" Y="0.776"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.1699" Vol="0.0049" Uur="0.2178" Vur="0.0635" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.2207" Vol="0.0049" Uur="0.2686" Vur="0.0635" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.1445" Y="0.8542"/>
+<InstrPkt3 X="0.1924" Y="0.8542"/>
+<InstrPkt4 X="0.1924" Y="0.776"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter PZB Frei_5" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.126" Y="0.7839"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.2715" Vol="0.0068" Uur="0.2939" Vur="0.0674" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.2998" Vol="0.0068" Uur="0.3223" Vur="0.0674" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="Schalter Schleuderschutzbremse_8"/>
+<InstrPkt2 X="0.126" Y="0.8633"/>
+<InstrPkt3 X="0.1484" Y="0.8633"/>
+<InstrPkt4 X="0.1484" Y="0.7839"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter PZB Befehl_6" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.1035" Y="0.7852"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3262" Vol="0.0098" Uur="0.3584" Vur="0.0654" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3594" Vol="0.0107" Uur="0.3916" Vur="0.0664" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.1035" Y="0.8594"/>
+<InstrPkt3 X="0.1357" Y="0.8594"/>
+<InstrPkt4 X="0.1357" Y="0.7852"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter Sifa_7" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.2158" Y="0.8581"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3955" Vol="0.0068" Uur="0.4473" Vur="0.0674" TransparentFarbe="0042424A">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.4512" Vol="0.0068" Uur="0.5029" Vur="0.0674" TransparentFarbe="0042424A">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.2158" Y="0.9388"/>
+<InstrPkt3 X="0.2676" Y="0.9388"/>
+<InstrPkt4 X="0.2676" Y="0.8581"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter Schleuderschutzbremse_8" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.0811" Y="0.8424"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0049" Vol="0.0049" Uur="0.04" Vur="0.0645" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.5107" Vol="0.0078" Uur="0.5459" Vur="0.0674" TransparentFarbe="00626266">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.0811" Y="0.9232"/>
+<InstrPkt3 X="0.1162" Y="0.9232"/>
+<InstrPkt4 X="0.1162" Y="0.8424"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="LM PZB 1000Hz_10" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 X="0.2925" Y="0.5951"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0342" Vol="0.2207" Uur="0.0518" Vur="0.2363" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_113_I60.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0439" Vol="0.7578" Uur="0.0615" Vur="0.7734" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_113_I60.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.2925" Y="0.6159"/>
+<InstrPkt3 X="0.3101" Y="0.6159"/>
+<InstrPkt4 X="0.3101" Y="0.5951"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="LM PZB Zugart O_14" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 X="0.2266" Y="0.5938"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0283" Vol="0.2266" Uur="0.0469" Vur="0.2422" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_113_I60.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0654" Vol="0.7598" Uur="0.084" Vur="0.7754" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_113_I60.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.2266" Y="0.6133"/>
+<InstrPkt3 X="0.2451" Y="0.6133"/>
+<InstrPkt4 X="0.2451" Y="0.5938"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="LM PZB Zugart M_15" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 X="0.2578" Y="0.5938"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0312" Vol="0.2324" Uur="0.0498" Vur="0.248" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_113_I60.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0654" Vol="0.7598" Uur="0.084" Vur="0.7754" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_113_I60.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.2578" Y="0.6133"/>
+<InstrPkt3 X="0.2773" Y="0.6133"/>
+<InstrPkt4 X="0.2773" Y="0.5938"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="LM Sifa_11" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 X="0.2847" Y="0.6432"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3311" Vol="0.1543" Uur="0.3555" Vur="0.1797" TransparentFarbe="000000F8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_113_PZB90.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.1816" Vol="0.7559" Uur="0.2061" Vur="0.7813">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_113_PZB90.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.2847" Y="0.6758"/>
+<InstrPkt3 X="0.3081" Y="0.6758"/>
+<InstrPkt4 X="0.3081" Y="0.6432"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="9" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter Führerbremsventil_12" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.6992" Y="0.6211"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.4805" Vol="0.373" Uur="0.6602" Vur="0.4785" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.2998" Vol="0.4238" Uur="0.4795" Vur="0.5293" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0059" Vol="0.4863" Uur="0.1855" Vur="0.5918" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0078" Vol="0.5947" Uur="0.1875" Vur="0.7002" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0117" Vol="0.7021" Uur="0.1914" Vur="0.8076" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0127" Vol="0.8125" Uur="0.1924" Vur="0.918" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.1982" Vol="0.5361" Uur="0.3779" Vur="0.6416" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.1973" Vol="0.6465" Uur="0.377" Vur="0.752" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.1963" Vol="0.7559" Uur="0.376" Vur="0.8613" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.1982" Vol="0.8682" Uur="0.3779" Vur="0.9736" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="Schalter Fahrstufen_15"/>
+<InstrPkt2 X="0.6992" Y="0.7617"/>
+<InstrPkt3 X="0.8779" Y="0.7617"/>
+<InstrPkt4 X="0.8779" Y="0.6211"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="2" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter Zusatzbremse_14" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.7715" Y="0.3841"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.7051" Vol="0.0068" Uur="0.8408" Vur="0.0537" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.8525" Vol="0.0068" Uur="0.9883" Vur="0.0537" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3496" Vol="0.375" Uur="0.4854" Vur="0.4219" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.7715" Y="0.4466"/>
+<InstrPkt3 X="0.9072" Y="0.4466"/>
+<InstrPkt4 X="0.9072" Y="0.3841"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="3" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter Fahrstufen_15" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.2813" Y="0.6979"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.666" Vol="0.2988" Uur="0.9863" Vur="0.5244" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.6699" Vol="0.0674" Uur="0.9902" Vur="0.293" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3457" Vol="0.1426" Uur="0.666" Vur="0.3682" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0098" Vol="0.2559" Uur="0.3301" Vur="0.4814" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.2813" Y="0.9974"/>
+<InstrPkt3 X="0.6006" Y="0.9974"/>
+<InstrPkt4 X="0.6006" Y="0.6979"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="3" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter Fahrtrichtung_13" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.2158" Y="0.7227"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3896" Vol="0.5371" Uur="0.5078" Vur="0.6445" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.5146" Vol="0.5342" Uur="0.6328" Vur="0.6416" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3867" Vol="0.6484" Uur="0.5049" Vur="0.7559" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.5137" Vol="0.6484" Uur="0.6318" Vur="0.7559" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="Schalter Fahrstufen_15"/>
+<InstrPkt2 X="0.2158" Y="0.8294"/>
+<InstrPkt3 X="0.3086" Y="0.8294"/>
+<InstrPkt4 X="0.3086" Y="0.7227"/>
+<Font/>
+</Melder>
+<Melder Vorkomma="2" Farbe="00FFFFFF" InstrName="keine Funktion_16" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 X="0.583" Y="0.6289"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.5557" Vol="0.0381" Uur="0.5713" Vur="0.0537" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.583" Y="0.6497"/>
+<InstrPkt3 X="0.5986" Y="0.6497"/>
+<InstrPkt4 X="0.5986" Y="0.6289"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter Pfeife_17" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.7969" Y="0.1602"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.0068" Vol="0.0801" Uur="0.1689" Vur="0.25" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.1729" Vol="0.0811" Uur="0.335" Vur="0.251" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.7969" Y="0.3867"/>
+<InstrPkt3 X="0.959" Y="0.3867"/>
+<InstrPkt4 X="0.959" Y="0.1602"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="00FFFFFF" InstrName="Schalter Lüfter_18" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.0225" Y="0.7799"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.585" Vol="0.0039" Uur="0.6104" Vur="0.0361" TransparentFarbe="00080808">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.6152" Vol="0.0039" Uur="0.6406" Vur="0.0361" TransparentFarbe="00080808">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.0225" Y="0.8216"/>
+<InstrPkt3 X="0.0479" Y="0.8216"/>
+<InstrPkt4 X="0.0479" Y="0.7799"/>
+<Font/>
+</Melder>
+<Melder Vorkomma="2" Farbe="00FFFFFF" InstrName="keine Funktion_20" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 X="0.6416" Y="0.5951"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.6455" Vol="0.0049" Uur="0.7021" Vur="0.0537" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.6416" Y="0.6667"/>
+<InstrPkt3 X="0.6982" Y="0.6667"/>
+<InstrPkt4 X="0.6982" Y="0.5951"/>
+<Font/>
+</Melder>
+<Melder Vorkomma="2" Farbe="00FFFFFF" InstrName="keine Funktion_21" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 X="0.749" Y="0.6133"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.043" Vol="0.0596" Uur="0.0566" Vur="0.0732" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.749" Y="0.6328"/>
+<InstrPkt3 X="0.7646" Y="0.6328"/>
+<InstrPkt4 X="0.7646" Y="0.6133"/>
+<Font/>
+</Melder>
+<Zeigerinstrument Traegheit="3" InstrName="Geschwindigkeit_22" PhysikGroesse="139" Faktor="3.6" DunkelFarbe="FFAA812B">
+<InstrPkt1 X="0.5898" Y="0.6406"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3428" Vol="0.0713" Uur="0.3535" Vur="0.1299">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="keine Funktion_16"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0264" ZeigerBreite="0.0107" ZeigerWinkel="0.9599"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0264" ZeigerBreite="0.0107" ZeigerWinkel="1.3317" ZeigerWert="20"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0264" ZeigerBreite="0.0107" ZeigerWinkel="1.8535" ZeigerWert="40"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0264" ZeigerBreite="0.0107" ZeigerWinkel="2.4574" ZeigerWert="60"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0254" ZeigerBreite="0.0107" ZeigerWinkel="3.0805" ZeigerWert="80"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0254" ZeigerBreite="0.0107" ZeigerWinkel="4.0492" ZeigerWert="110"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0254" ZeigerBreite="0.0107" ZeigerWinkel="4.3982" ZeigerWert="120"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0244" ZeigerBreite="0.0107" ZeigerWinkel="5.236" ZeigerWert="150"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="3" InstrName="Druck Bremszylinder DG1" PhysikGroesse="3" Faktor="1" DunkelFarbe="FFC83535">
+<InstrPkt1 X="0.7451" Y="0.2813"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3594" Vol="0.0713" Uur="0.374" Vur="0.1309">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="0.7679"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0068" ZeigerWinkel="1.1606" ZeigerWert="1"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="1.6057" ZeigerWert="2"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="3.1067" ZeigerWert="6"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="3.8746" ZeigerWert="8"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="5.236" ZeigerWert="12"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="3" InstrName="Druck Bremszylinder DG2" PhysikGroesse="179" Faktor="1" DunkelFarbe="FFC83535">
+<InstrPkt1 X="0.7451" Y="0.2813"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3594" Vol="0.0713" Uur="0.374" Vur="0.1309">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="Druck Bremszylinder DG1"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="0.7679"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0068" ZeigerWinkel="1.1606" ZeigerWert="1"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="1.6057" ZeigerWert="2"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="3.1067" ZeigerWert="6"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="3.8746" ZeigerWert="8"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="5.236" ZeigerWert="12"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="3" InstrName="Druck Hauptluftleitung_24" PhysikGroesse="2" Faktor="1" DunkelFarbe="FFAA812B">
+<InstrPkt1 X="0.7969" Y="0.1953"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3789" Vol="0.0713" Uur="0.3936" Vur="0.1309">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="Schalter Pfeife_17"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0264" ZeigerBreite="0.0107" ZeigerWinkel="0.7854"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0273" ZeigerBreite="0.0107" ZeigerWinkel="1.7453" ZeigerWert="2"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0283" ZeigerBreite="0.0107" ZeigerWinkel="2.234" ZeigerWert="3"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0293" ZeigerBreite="0.0107" ZeigerWinkel="2.7402" ZeigerWert="4"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0303" ZeigerBreite="0.0107" ZeigerWinkel="3.2289" ZeigerWert="5"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0313" ZeigerBreite="0.0107" ZeigerWinkel="3.6303" ZeigerWert="6"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0332" ZeigerBreite="0.0117" ZeigerWinkel="5.4105" ZeigerWert="10"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="3" InstrName="Spannung_25" PhysikGroesse="99" Faktor="1" DunkelFarbe="00785A1E">
+<InstrPkt1 X="0.1387" Y="0.6003"/>
+<ZeigerStuetzpunkt ZeigerX="0.0117" ZeigerY="0.0104" ZeigerFarbe="00EBB105" ZeigerLaenge="-0.0049" ZeigerBreite="0.002" ZeigerWinkel="-1.5533"/>
+<ZeigerStuetzpunkt ZeigerX="0.0078" ZeigerY="0.0482" ZeigerFarbe="00EBB105" ZeigerLaenge="-0.0049" ZeigerBreite="0.002" ZeigerWinkel="-1.5533" ZeigerWert="5"/>
+<ZeigerStuetzpunkt ZeigerX="0.0059" ZeigerY="0.0286" ZeigerFarbe="00EBB105" ZeigerLaenge="-0.0049" ZeigerBreite="0.002" ZeigerWinkel="-1.5533" ZeigerWert="300"/>
+<ZeigerStuetzpunkt ZeigerX="0.0117" ZeigerY="0.0104" ZeigerFarbe="00EBB105" ZeigerLaenge="-0.0049" ZeigerBreite="0.002" ZeigerWinkel="-1.5533" ZeigerWert="450"/>
+<ZeigerStuetzpunkt ZeigerX="0.0176" ZeigerFarbe="00EBB105" ZeigerLaenge="-0.0049" ZeigerBreite="0.002" ZeigerWinkel="-1.5533" ZeigerWert="540"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="3" InstrName="Druck Hauptluftbehälter_26" PhysikGroesse="4" Faktor="1" DunkelFarbe="FFAA812B">
+<InstrPkt1 X="0.8428" Y="0.2917"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3789" Vol="0.0713" Uur="0.3936" Vur="0.1309">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="Schalter Pfeife_17"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="0.7854"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0205" ZeigerBreite="0.0088" ZeigerWinkel="1.309" ZeigerWert="2"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0088" ZeigerWinkel="3.1765" ZeigerWert="8"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0205" ZeigerBreite="0.0088" ZeigerWinkel="3.7699" ZeigerWert="10"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0088" ZeigerWinkel="5.4105" ZeigerWert="16"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="3" InstrName="Strom_27" PhysikGroesse="13" Faktor="1" DunkelFarbe="00785A1E">
+<InstrPkt1 X="0.1748" Y="0.5977"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0521" ZeigerFarbe="00EBB105" ZeigerLaenge="-0.0059" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="-10"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0482" ZeigerFarbe="00EBB105" ZeigerLaenge="-0.0059" ZeigerBreite="0.002" ZeigerWinkel="-1.5708"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0443" ZeigerFarbe="00EBB105" ZeigerLaenge="-0.0059" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="100"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0234" ZeigerFarbe="00EBB105" ZeigerLaenge="-0.0059" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="320"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="0.023" InstrName="Motorstrom_28" PhysikGroesse="98" Faktor="1" DunkelFarbe="00785A1E">
+<InstrPkt1 X="0.4922" Y="0.6029"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0482" ZeigerFarbe="00DAC614" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0417" ZeigerFarbe="00DAC614" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="4000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0313" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="6000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0247" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="8000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.013" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="10000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0039" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="11999.999"/>
+<ZeigerStuetzpunkt ZeigerX="0.0088" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="14000.001"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="0.033" InstrName="Motorstrom_29" PhysikGroesse="98" Faktor="1" DunkelFarbe="00785A1E">
+<InstrPkt1 X="0.4463" Y="0.6016"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0482" ZeigerFarbe="00DAC614" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0417" ZeigerFarbe="00DAC614" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="4000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0313" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="6000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0247" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="8000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.013" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="10000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0039" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="11999.999"/>
+<ZeigerStuetzpunkt ZeigerX="0.0088" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="14000.001"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="0.025" InstrName="Motorstrom_30" PhysikGroesse="98" Faktor="1" DunkelFarbe="00785A1E">
+<InstrPkt1 X="0.3994" Y="0.6055"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0482" ZeigerFarbe="00DAC614" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0417" ZeigerFarbe="00DAC614" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="4000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0313" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="6000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0247" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="8000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.013" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="10000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0039" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="11999.999"/>
+<ZeigerStuetzpunkt ZeigerX="0.0088" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="14000.001"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="0.037" InstrName="Motorstrom_31" PhysikGroesse="98" Faktor="1" DunkelFarbe="00785A1E">
+<InstrPkt1 X="0.3525" Y="0.6042"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0482" ZeigerFarbe="00DAC614" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0417" ZeigerFarbe="00DAC614" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="4000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0313" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="6000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0247" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="8000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.013" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="10000"/>
+<ZeigerStuetzpunkt ZeigerX="0.0098" ZeigerY="0.0039" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="11999.999"/>
+<ZeigerStuetzpunkt ZeigerX="0.0088" ZeigerFarbe="00D9C513" ZeigerLaenge="-0.0068" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="14000.001"/>
+</Zeigerinstrument>
+<Zeigerinstrument InstrName="Uhrzeit Stunde_33" PhysikGroesse="16" Faktor="1" DunkelFarbe="FFAA812B">
+<InstrPkt1 X="0.7568" Y="0.6211"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.4131" Vol="0.0713" Uur="0.4219" Vur="0.124">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="keine Funktion_21"/>
+<Ueberdeckend InstrName="Schalter Führerbremsventil_12"/>
+<Ueberdeckend InstrName="Uhrzeit Minute_34"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="-3.351"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0186" ZeigerBreite="0.0098" ZeigerWinkel="-2.3038" ZeigerWert="2"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0186" ZeigerBreite="0.0098" ZeigerWinkel="-1.5142" ZeigerWert="3"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0186" ZeigerBreite="0.0098" ZeigerWinkel="-1.0123" ZeigerWert="4"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="-0.0611" ZeigerWert="6"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="1.3614" ZeigerWert="9"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="2.9322" ZeigerWert="12"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="-3.351" ZeigerWert="12.001"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0186" ZeigerBreite="0.0098" ZeigerWinkel="-2.3038" ZeigerWert="14"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0186" ZeigerBreite="0.0098" ZeigerWinkel="-1.5142" ZeigerWert="15"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0186" ZeigerBreite="0.0098" ZeigerWinkel="-1.0123" ZeigerWert="16"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="-0.0611" ZeigerWert="18"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="1.3614" ZeigerWert="21"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0098" ZeigerWinkel="2.9322" ZeigerWert="23.999"/>
+</Zeigerinstrument>
+<Zeigerinstrument InstrName="Uhrzeit Minute_34" PhysikGroesse="17" Faktor="1" DunkelFarbe="FFAA812B">
+<InstrPkt1 X="0.7568" Y="0.6211"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.4268" Vol="0.0713" Uur="0.4355" Vur="0.124">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="keine Funktion_21"/>
+<Ueberdeckend InstrName="Schalter Führerbremsventil_12"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0234" ZeigerBreite="0.0107" ZeigerWinkel="-3.351"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0225" ZeigerBreite="0.0107" ZeigerWinkel="-2.3038" ZeigerWert="10"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0215" ZeigerBreite="0.0107" ZeigerWinkel="-1.5142" ZeigerWert="15"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0225" ZeigerBreite="0.0107" ZeigerWinkel="-1.0123" ZeigerWert="20"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0234" ZeigerBreite="0.0107" ZeigerWinkel="-0.0611" ZeigerWert="30"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0234" ZeigerBreite="0.0107" ZeigerWinkel="1.3614" ZeigerWert="45"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0234" ZeigerBreite="0.0107" ZeigerWinkel="2.9322" ZeigerWert="60"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="3" InstrName="Druck Zeitbehälter" PhysikGroesse="94" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.7891" Y="0.3555"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.3789" Vol="0.0713" Uur="0.3936" Vur="0.1309">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="Schalter Pfeife_17"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0195" ZeigerBreite="0.0088" ZeigerWinkel="0.6109"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0186" ZeigerBreite="0.0088" ZeigerWinkel="5.7596" ZeigerWert="1.6"/>
+</Zeigerinstrument>
+<Zeigerinstrument Traegheit="30" InstrName="Heizspannung_36" PhysikGroesse="14" Faktor="0.001" DunkelFarbe="00785A1E">
+<InstrPkt1 X="0.1035" Y="0.5964"/>
+<ZeigerStuetzpunkt ZeigerX="0.0107" ZeigerY="0.0521" ZeigerFarbe="00C29712" ZeigerLaenge="-0.0049" ZeigerBreite="0.002" ZeigerWinkel="-1.5708"/>
+<ZeigerStuetzpunkt ZeigerX="0.0078" ZeigerY="0.0299" ZeigerFarbe="00C29712" ZeigerLaenge="-0.0049" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="10"/>
+<ZeigerStuetzpunkt ZeigerX="0.0156" ZeigerY="0.0091" ZeigerFarbe="00C29712" ZeigerLaenge="-0.0049" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="15"/>
+<ZeigerStuetzpunkt ZeigerX="0.0176" ZeigerY="0.0052" ZeigerFarbe="00C29712" ZeigerLaenge="-0.0049" ZeigerBreite="0.002" ZeigerWinkel="-1.5708" ZeigerWert="18"/>
+</Zeigerinstrument>
+<Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Schalter Hauptschalter_37" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 X="0.0078" Y="0.8411"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.4404" Vol="0.0713" Uur="0.4746" Vur="0.1064" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.4766" Vol="0.0723" Uur="0.5107" Vur="0.1074" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.5146" Vol="0.0732" Uur="0.5488" Vur="0.1084" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.0078" Y="0.8867"/>
+<InstrPkt3 X="0.041" Y="0.8867"/>
+<InstrPkt4 X="0.041" Y="0.8411"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Schalter Stromabnehmer_38" Faktor="1" DunkelFarbe="00333333">
+<InstrPkt1 Y="0.8307"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.5527" Vol="0.0645" Uur="0.5771" Vur="0.1055" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.5791" Vol="0.0645" Uur="0.6035" Vur="0.1055" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.6064" Vol="0.0635" Uur="0.6309" Vur="0.1045" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\Schalter_141_I54.dds"/>
+</EinzelTextur>
+</FstTextur>
+<Ueberdeckend InstrName="Schalter Hauptschalter_37"/>
+<InstrPkt2 Y="0.8854"/>
+<InstrPkt3 X="0.0244" Y="0.8854"/>
+<InstrPkt4 X="0.0244" Y="0.8307"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Schalter Schnellaus_39" Faktor="1" DunkelFarbe="FFFFFFFF">
+<InstrPkt1 X="0.4248" Y="0.8034"/>
+<InstrPkt2 X="0.4248" Y="0.8424"/>
+<InstrPkt3 X="0.4639" Y="0.8424"/>
+<InstrPkt4 X="0.4639" Y="0.8034"/>
+<Font/>
+</Melder>
+</Grafik>
+<Grafik>
+<RenderFlags TexVoreinstellung="2"/>
+<Grunddaten GrafikName="Blick nach links" FtdHauptrichtung="2" FtdLfdNr="1">
+<p X="-0.5" Y="-0.6" Z="2.85"/>
+<lookat X="3.25" Y="8.5" Z="3.006"/>
+<up X="-0.9156" Y="-0.6" Z="12.8414"/>
+</Grunddaten>
+<Melder Vorkomma="2" Farbe="00FFFFFF" InstrName="Hintergrundbild" PhysikGroesse="40" Faktor="1" DunkelFarbe="00191919">
+<InstrPkt1/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uur="1" Vur="0.75" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_Blink_links.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 Y="1"/>
+<InstrPkt3 X="1" Y="1"/>
+<InstrPkt4 X="1"/>
+<Font/>
+</Melder>
+<Melder Vorkomma="2" Farbe="00FFFFFF" InstrName="3D-Fenster_1" PhysikGroesse="22" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 X="0.0225" Y="0.0677"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uur="1" Vur="1" TransparentModus="1">
+<Datei/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.0225" Y="0.8698"/>
+<InstrPkt3 X="0.4814" Y="0.8698"/>
+<InstrPkt4 X="0.4814" Y="0.0677"/>
+<Font/>
+</Melder>
+</Grafik>
+<Grafik>
+<RenderFlags TexVoreinstellung="2"/>
+<Grunddaten GrafikName="Blick nach rechts" FtdHauptrichtung="3" FtdLfdNr="1">
+<p X="-0.8" Y="-0.6" Z="2.85"/>
+<lookat X="-0.8" Y="-10.6" Z="2.85"/>
+<up X="-0.55" Y="-0.6" Z="12.85"/>
+</Grunddaten>
+<Melder Vorkomma="2" Farbe="00FFFFFF" InstrName="Hintergrundbild" PhysikGroesse="40" Faktor="1" DunkelFarbe="00191919">
+<InstrPkt1/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uur="1" Vur="0.75" TransparentFarbe="000000FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Fuehrerstand\Bitmaps\HG_Blink_rechts.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 Y="1"/>
+<InstrPkt3 X="1" Y="1"/>
+<InstrPkt4 X="1"/>
+<Font/>
+</Melder>
+<Melder Vorkomma="2" Farbe="00FFFFFF" InstrName="3D-Fenster_1" PhysikGroesse="22" Faktor="1" DunkelFarbe="00FFFFFF">
+<InstrPkt1 X="0.5273" Y="0.0651"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uur="1" Vur="1" TransparentModus="1">
+<Datei/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.5273" Y="0.8464"/>
+<InstrPkt3 X="0.9873" Y="0.8464"/>
+<InstrPkt4 X="0.9873" Y="0.0651"/>
+<Font/>
+</Melder>
+</Grafik>
+<Grafik>
+<RenderFlags TexVoreinstellung="1"/>
+<Grunddaten GrafikName="Fensterblick links" FtdHauptrichtung="2" FtdLfdNr="2">
+<p X="-1.45" Y="2" Z="3.1"/>
+<lookat X="-11.45" Y="2" Z="3.1"/>
+<up X="-1.45" Y="2" Z="6.9"/>
+</Grunddaten>
+<Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Fenster" PhysikGroesse="22" Faktor="1" DunkelFarbe="FFFFFFFF">
+<InstrPkt1/>
+<InstrPkt2 Y="1"/>
+<InstrPkt3 X="1" Y="1"/>
+<InstrPkt4 X="1"/>
+<Font/>
+</Melder>
+</Grafik>
+<Grafik>
+<RenderFlags TexVoreinstellung="1"/>
+<Grunddaten GrafikName="Fensterblick rechts" FtdHauptrichtung="3" FtdLfdNr="2">
+<p X="-1.45" Y="-2" Z="3.1"/>
+<lookat X="-11.45" Y="-2" Z="3.1"/>
+<up X="-1.45" Y="-2" Z="6.9"/>
+</Grunddaten>
+<Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Fenster" PhysikGroesse="22" Faktor="1" DunkelFarbe="FFFFFFFF">
+<InstrPkt1/>
+<InstrPkt2 Y="1"/>
+<InstrPkt3 X="1" Y="1"/>
+<InstrPkt4 X="1"/>
+<Font/>
+</Melder>
+</Grafik>
+<Grafik>
+<RenderFlags TexVoreinstellung="1"/>
+<Grunddaten GrafikName="Blick zum Hauptsignal" FtdHauptrichtung="1" FtdLfdNr="2">
+<p X="-0.5" Y="-0.4" Z="2.8"/>
+<lookat X="9.3036" Y="-0.4" Z="5.7621"/>
+<up X="-2.4625" Y="-0.4" Z="12.6055"/>
+</Grunddaten>
+<Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Fenster" PhysikGroesse="22" Faktor="1" DunkelFarbe="FFFFFFFF">
+<InstrPkt1/>
+<InstrPkt2 Y="1"/>
+<InstrPkt3 X="1" Y="1"/>
+<InstrPkt4 X="1"/>
+<Font/>
+</Melder>
+</Grafik>
+<Grafik>
+<RenderFlags TexVoreinstellung="1"/>
+<Grunddaten GrafikName="Streckenblick" FtdHauptrichtung="1" FtdLfdNr="1">
+<p X="-0.8" Y="-0.6" Z="3.15"/>
+<lookat X="9.2" Y="-0.6" Z="3.15"/>
+<up X="-0.8" Y="-0.6" Z="13.15"/>
+</Grunddaten>
+<Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Fenster" PhysikGroesse="22" Faktor="1" DunkelFarbe="FFFFFFFF">
+<InstrPkt1/>
+<InstrPkt2 Y="1"/>
+<InstrPkt3 X="1" Y="1"/>
+<InstrPkt4 X="1"/>
+<Font/>
+</Melder>
+</Grafik>
+</Fuehrerstand>
+</Zusi>

@@ -1,0 +1,12 @@
+Änderungen an 103_LZB80-*.ftd:
+
+Baugruppen:
+- Schalter Luefter durch Kombischalter Lüfter ersetzt.
+- Taste Lokbremsentlüften hinzugefügt. Wegen fehlender Grafik keine Mausbedienung.
+- Kombischalter Batteriehauptschalter hinzugefügt.
+- ZDinfo ergänzt
+
+Grafik:
+- Schalter Lüfter an die Stellungen Aus - Null - An angepasst.
+- Druck HLL Zeigerfarbe korrigiert
+- Druck Bremszylinder DG2 Funktion auf Druck Bremszylinder II geändert.
