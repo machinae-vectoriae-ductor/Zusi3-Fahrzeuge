@@ -1,4 +1,0 @@
-Änderungen an DB_103_*_Allgemein.rv.fzg:
-
-- Direkte Druckluftbremse: Max. Zylinderdruck 3,6 bar
-- Luftpresser Betrieb nur, wenn Hauptschalter ein
