@@ -1,24 +1,25 @@
 Änderungen an 151_LZB80_PZB90_FullHD.ftd:
 
 Baugruppen:
-- Kombischalter Fahrstufe in Fahrschalter umbenannt
-- Neuer Kombischalter Schnellaustaster
+- Kombischalter Fahrstufe in Fahrschalter umbenannt, untere Raste SchnellAus entfernt
+- Neuer Kombischalter Schnellaustaster, per Maus bedienbar, aber nicht animiert
 - Richtungsschalter mit Fahrschalter verriegelt
-- el-Bremse in Bremssteller ELH 154 F5b umbenannt, in Stellung 8 (Stufe 0 am echten Bremssteller) Fahrstufe Schnellaus ergänzt, da in der echten Lok dann die Fahrschaltung aufgelöst wird
+- el-Bremse in Bremssteller ELH 154 F5b umbenannt, Dyn Brems Stufe neu aufgeteilt zwischen Bremsstufe 1 und 7 (Raste 7 und 1), näher am Vorbild
 - pn-Bremse in Führerbremsventil Knorr D5P umbenannt
 - Zusatzbremse in Zusatzbremsventil Knorr Zb3 umbenannt, Anlegestellung nicht mehr zurückfedernd wie bei Vorbild
 - Kombischalter BremseLoesen durch Taste Lokbremsentlüften ersetzt. Drei Schalterstellungen sind zwar hübsch, vertragen sich aber leider nicht mit der Tastatur-/TCP-Bedienung.
-- Kombischalter Lüfter auf zwei Schalterstellungen reduziert. Drei Schalterstellungen sind zwar hübsch, vertragen sich aber leider nicht mit der Tastatur-/TCP-Bedienung. Funktionsbelegung Lüfter ergänzt
+- Kombischalter Luftpresser durch Schalter Luftpresser aus ersetzt.
 - Kombischalter Batterie-HS in Batteriehauptschalter umbenannt, In Schalter mit Stellungen Aus und Ein geändert wie beim Vorbild
 - ZDinfo ergänzt
 
 Grafik:
+- Schaltrad an Fahrschaqlter angepasst
 - Trägheit HBL-Druck auf 1 geändert
 - Trägheit ZugkraftanzeigerDG1/2 und LZB_Vsoll auf 3 geändert
+- Das zweite Instrument von rechts zeigt im Vorbild nicht Fahrleitungsspannung und Motorstrom an, sondern links die Bremskraft und rechts die Zugkraft pro Motor der geführten Lokomotive. Das Instrument für die Fahrdrahtspannung befindet sich in der Lok links vom Instrument für den Obestrom und ist nicht im Bild. Angepasst.
 - Zuordnung Bremszylinder korrigiert: Roter Zeiger Bremszylinder DG 1, Gelber Zeiger Bremszylinder DG 2
 - BremszylinderDG2-Druck Funktion auf Druck Bremszylinder II geändert.
 - UeberladungHL-Druck in Zeitbehaelter umgenannt und auf Funktion Druck Zeitbehälter geändert, wie beim Vorbild
 - ZugkraftanzeigerDG1/2: Werte für Bremskraft durch 3 statt durch 2 geteilt, da sechsachsige Lok
 - ZugkraftanzeigerDG2 auf negativen Wert beschränkt, da der positive Bereich das Ansprechen des Schleuderschutz anzeigt.
 - Grafik Bremse_loesen an zwei Stellungen angepasst.
-- Grafik Luefter an zwei Stellungen angepasst. Gelöschte Textur: UOL 1940,07 UUR 2004,99 VOL 1627,96 VUR 1685,91

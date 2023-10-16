@@ -6,13 +6,10 @@
 </Info>
 <Fuehrerstand>
 <Funktionalitaeten>
-<Kombischalter FedertOben="1" Grundstellung="1" NameSchalter="Schaltrad" FktName="Fahrschalter" Tastaturzuordnung="1">
+<Kombischalter NameSchalter="Schaltrad" FktName="Fahrschalter" Tastaturzuordnung="1">
 <RastSound Lautstaerke="1">
 <Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_Handrad_1.wav"/>
 </RastSound>
-<Raste>
-<Belegung FunktionStr="FahrstufeSchnellAus"/>
-</Raste>
 <Raste SperreRunter="1" SperrZeit="0.5">
 <Belegung FunktionStr="Fahrstufe"/>
 </Raste>
@@ -129,7 +126,7 @@
 <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
 </Raste>
 </Kombischalter>
-<Kombischalter FedertUnten="1" Taster="1" FktName="Schnellaustaster" Tastaturzuordnung="73">
+<Kombischalter FedertUnten="1" Taster="1" NameSchalter="Schalter Schnellaus" FktName="Schnellaustaster" Tastaturzuordnung="73">
 <RastSound Lautstaerke="1">
 <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Fuehrerbremsventile\Fbv_EE4_Klick.wav"/>
 </RastSound>
@@ -166,25 +163,25 @@
 <Belegung FunktionStr="DynBremseX" Parameter="1"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="DynBremseX" Parameter="0.875"/>
+<Belegung FunktionStr="DynBremseX" Parameter="1"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="DynBremseX" Parameter="0.75"/>
+<Belegung FunktionStr="DynBremseX" Parameter="0.857"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="DynBremseX" Parameter="0.625"/>
+<Belegung FunktionStr="DynBremseX" Parameter="0.714"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="DynBremseX" Parameter="0.5"/>
+<Belegung FunktionStr="DynBremseX" Parameter="0.571"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="DynBremseX" Parameter="0.375"/>
+<Belegung FunktionStr="DynBremseX" Parameter="0.428"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="DynBremseX" Parameter="0.25"/>
+<Belegung FunktionStr="DynBremseX" Parameter="0.285"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="DynBremseX" Parameter="0.125"/>
+<Belegung FunktionStr="DynBremseX" Parameter="0.142"/>
 </Raste>
 <Raste>
 <Belegung FunktionStr="DynBremseX"/>
@@ -276,7 +273,10 @@
 </FuehrerstandSound>
 <Angleicher Taster="1" FktName="Angleicher" Tastaturzuordnung="4"/>
 <LokbremseEntlueften Taster="1" NameSchalter="Bremse_loesen" FktName="Lokbremse entlüften" Tastaturzuordnung="21"/>
-<Kombischalter NameSchalter="Luefter" FktName="Luefter" Tastaturzuordnung="14">
+<Kombischalter Grundstellung="1" NameSchalter="Luefter" FktName="Luefter" Tastaturzuordnung="14">
+<Raste>
+<Belegung FunktionStr="Luefter" Parameter="1"/>
+</Raste>
 <Raste>
 <Belegung FunktionStr="Luefter"/>
 </Raste>
@@ -284,17 +284,7 @@
 <Belegung FunktionStr="Luefter" Parameter="1"/>
 </Raste>
 </Kombischalter>
-<Kombischalter Grundstellung="2" NameSchalter="Luftpresser" FktName="Luftpresser" Tastaturzuordnung="45">
-<Raste>
-<Belegung FunktionStr="LuftpresserAus"/>
-</Raste>
-<Raste>
-<Belegung FunktionStr="LuftpresserAus" Parameter="1"/>
-</Raste>
-<Raste>
-<Belegung FunktionStr="LuftpresserAus"/>
-</Raste>
-</Kombischalter>
+<LuftpresserAus NameSchalter="Luftpresser" FktName="Luftpresser aus" Tastaturzuordnung="45"/>
 <Kombischalter FedertUnten="1" FedertOben="1" Grundstellung="1" Taster="1" FktName="Hauptschalter" Tastaturzuordnung="17">
 <Raste>
 <Belegung FunktionStr="HauptschalterAus"/>
@@ -582,13 +572,8 @@
 <InstrPkt4 X="0.3021" Y="0.7611"/>
 <Font/>
 </Melder>
-<Melder MaxBildNr="29" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Schaltrad" Faktor="1" DunkelFarbe="FF1A1A1A">
+<Melder MaxBildNr="28" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Schaltrad" Faktor="1" DunkelFarbe="FF1A1A1A">
 <InstrPkt1 X="0.2615" Y="0.738"/>
-<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
-<EinzelTextur Uol="0.0039" Vol="0.002" Uur="0.2734" Vur="0.1401" TransparentFarbe="00FF00FF">
-<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Bitmaps_FullHD\151_02.dds"/>
-</EinzelTextur>
-</FstTextur>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.2764" Vol="0.0029" Uur="0.5459" Vur="0.1411" TransparentFarbe="00FF00FF">
 <Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Bitmaps_FullHD\151_02.dds"/>
@@ -737,6 +722,23 @@
 <InstrPkt2 X="0.2615" Y="1"/>
 <InstrPkt3 X="0.549" Y="1"/>
 <InstrPkt4 X="0.549" Y="0.738"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Schalter Schnellaus" Faktor="1" DunkelFarbe="FF282828">
+<InstrPkt1 X="0.3844" Y="0.8444"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Vol="0.555" Uur="0.0308" Vur="0.5789" TransparentFarbe="FFFF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Bitmaps_FullHD\151_01.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Vol="0.58" Uur="0.0308" Vur="0.6039" TransparentFarbe="FFFF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Bitmaps_FullHD\151_01.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.3844" Y="0.8898"/>
+<InstrPkt3 X="0.4281" Y="0.8898"/>
+<InstrPkt4 X="0.4281" Y="0.8444"/>
 <Font/>
 </Melder>
 <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Zusatzbremse" Faktor="1" DunkelFarbe="FF1A1A1A">
@@ -1710,15 +1712,20 @@
 <InstrPkt4 X="0.0854" Y="0.913"/>
 <Font/>
 </Melder>
-<Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Luefter" Faktor="1" DunkelFarbe="FF1A1A1A">
+<Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Luefter" Faktor="1" DunkelFarbe="FF1A1A1A">
 <InstrPkt1 X="0.038" Y="0.8315"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.8799" Vol="0.7959" Uur="0.9116" Vur="0.8242" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Bitmaps_FullHD\151_01.dds"/>
+</EinzelTextur>
+</FstTextur>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.9141" Vol="0.7959" Uur="0.9458" Vur="0.8242" TransparentFarbe="00FF00FF">
 <Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Bitmaps_FullHD\151_01.dds"/>
 </EinzelTextur>
 </FstTextur>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
-<EinzelTextur Uol="0.8799" Vol="0.7959" Uur="0.9116" Vur="0.8242" TransparentFarbe="00FF00FF">
+<EinzelTextur Uol="0.9473" Vol="0.7949" Uur="0.979" Vur="0.8232" TransparentFarbe="00FF00FF">
 <Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Bitmaps_FullHD\151_01.dds"/>
 </EinzelTextur>
 </FstTextur>
@@ -1917,7 +1924,7 @@
 <ZeigerStuetzpunkt ZeigerX="-0.0026" ZeigerY="-0.0296" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0078" ZeigerWinkel="-0.0349" ZeigerWert="500"/>
 <ZeigerStuetzpunkt ZeigerX="-0.0042" ZeigerY="-0.0361" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0078" ZeigerWinkel="-0.0524" ZeigerWert="600"/>
 </Zeigerinstrument>
-<Zeigerinstrument Traegheit="1" InstrName="Motorstrom" PhysikGroesse="98" Faktor="1" DunkelFarbe="FF757575">
+<Zeigerinstrument Traegheit="1" InstrName="Zugkraft Lok 2" PhysikGroesse="125" Faktor="0.001" DunkelFarbe="FF757575">
 <InstrPkt1 X="0.6167" Y="0.675"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.7041" Vol="0.8994" Uur="0.7773" Vur="0.9194" TransparentFarbe="00FF00FF">
@@ -1925,12 +1932,12 @@
 </EinzelTextur>
 </FstTextur>
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0073" ZeigerWinkel="3.1241"/>
-<ZeigerStuetzpunkt ZeigerY="-0.0083" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0073" ZeigerWinkel="3.1067" ZeigerWert="4000"/>
-<ZeigerStuetzpunkt ZeigerX="-0.0005" ZeigerY="-0.0176" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0073" ZeigerWinkel="3.1067" ZeigerWert="8000"/>
-<ZeigerStuetzpunkt ZeigerX="-0.0021" ZeigerY="-0.0278" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0073" ZeigerWinkel="3.0892" ZeigerWert="11999.999"/>
-<ZeigerStuetzpunkt ZeigerX="-0.0047" ZeigerY="-0.037" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0073" ZeigerWinkel="3.0892" ZeigerWert="16000"/>
+<ZeigerStuetzpunkt ZeigerY="-0.0083" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0073" ZeigerWinkel="3.1067" ZeigerWert="20"/>
+<ZeigerStuetzpunkt ZeigerX="-0.0005" ZeigerY="-0.0176" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0073" ZeigerWinkel="3.1067" ZeigerWert="40"/>
+<ZeigerStuetzpunkt ZeigerX="-0.0021" ZeigerY="-0.0278" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0073" ZeigerWinkel="3.0892" ZeigerWert="60"/>
+<ZeigerStuetzpunkt ZeigerX="-0.0047" ZeigerY="-0.037" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0073" ZeigerWinkel="3.0892" ZeigerWert="80"/>
 </Zeigerinstrument>
-<Zeigerinstrument Traegheit="0.8" InstrName="Fahrdrahtspannung" PhysikGroesse="14" Faktor="1" DunkelFarbe="FF757575">
+<Zeigerinstrument Traegheit="0.8" InstrName="Bremskraft Lok 2" PhysikGroesse="124" Faktor="-0.001" DunkelFarbe="FF757575">
 <InstrPkt1 X="0.6052" Y="0.6769"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.7793" Vol="0.8994" Uur="0.8525" Vur="0.9194" TransparentFarbe="00FF00FF">
@@ -1938,10 +1945,10 @@
 </EinzelTextur>
 </FstTextur>
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0078" ZeigerWinkel="-0.0349"/>
-<ZeigerStuetzpunkt ZeigerY="-0.0037" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0078" ZeigerWinkel="-0.0349" ZeigerWert="5000"/>
-<ZeigerStuetzpunkt ZeigerX="-0.0005" ZeigerY="-0.013" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0078" ZeigerWinkel="-0.0262" ZeigerWert="10000"/>
-<ZeigerStuetzpunkt ZeigerX="-0.0026" ZeigerY="-0.0278" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0076" ZeigerWinkel="-0.0349" ZeigerWert="15000"/>
-<ZeigerStuetzpunkt ZeigerX="-0.0047" ZeigerY="-0.0398" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0078" ZeigerWinkel="-0.0349" ZeigerWert="20000"/>
+<ZeigerStuetzpunkt ZeigerY="-0.0037" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0078" ZeigerWinkel="-0.0349" ZeigerWert="50"/>
+<ZeigerStuetzpunkt ZeigerX="-0.0005" ZeigerY="-0.013" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0078" ZeigerWinkel="-0.0262" ZeigerWert="100"/>
+<ZeigerStuetzpunkt ZeigerX="-0.0026" ZeigerY="-0.0278" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0076" ZeigerWinkel="-0.0349" ZeigerWert="150"/>
+<ZeigerStuetzpunkt ZeigerX="-0.0047" ZeigerY="-0.0398" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.001" ZeigerBreite="0.0078" ZeigerWinkel="-0.0349" ZeigerWert="200"/>
 </Zeigerinstrument>
 <Zeigerinstrument Traegheit="1" InstrName="Oberstrom" PhysikGroesse="13" Faktor="1" DunkelFarbe="FF757575">
 <InstrPkt1 X="0.0167" Y="0.6667"/>
@@ -1977,8 +1984,8 @@
 <Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Bitmaps_FullHD\151_01.dds"/>
 </EinzelTextur>
 </FstTextur>
-<Ueberdeckend InstrName="Fahrdrahtspannung"/>
-<Ueberdeckend InstrName="Motorstrom"/>
+<Ueberdeckend InstrName="Bremskraft Lok 2"/>
+<Ueberdeckend InstrName="Zugkraft Lok 2"/>
 <InstrPkt2 X="0.5953" Y="0.6907"/>
 <InstrPkt3 X="0.6224" Y="0.6907"/>
 <InstrPkt4 X="0.6224" Y="0.5926"/>

@@ -4,10 +4,10 @@ Baugruppen:
 - Hilfsfahrschalter (Flipper) in Fahrsteuerung einbinden ähnlich BR103
 - Grafisches Schaltelement für Schnellaus einbinden
 - Kopplung Bremsteller an Führerbremsventil mit der Realität vergleichen und ggf. anpassen
-- Nullstellungzwang bei Eingriff E-Bremse
+- Nullstellungzwang bei Eingriff E-Bremse (Stellung 8 (Stufe 0 am echten Bremssteller)), da in der echten Lok dann die Fahrschaltung aufgelöst wird
 
 Grafik:
-- Grafisches Schaltelement für Schnellaus einfügen
+- Schnellaus animieren
 - Kipptaster Makrofon animieren
 - ZugkraftanzeigerDG2 Schleuderschutz im positiven Bereich anzeigen
  gelöschte Werte von ZugkraftanzeigerDG2:
