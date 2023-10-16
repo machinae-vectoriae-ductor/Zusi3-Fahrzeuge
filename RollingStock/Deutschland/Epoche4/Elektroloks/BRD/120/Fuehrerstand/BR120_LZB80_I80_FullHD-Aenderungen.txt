@@ -1,15 +1,14 @@
-Änderungen an BR120_LZB80_I80_FullHD.ftd:
+Änderungen an BR120_LZB80_I80/PZB90_FullHD.ftd:
 
 Baugruppen:
 - Fahrschalter mit Richtungsschalter verriegelt
 - Fahrschalter Sperre von Stellung Auf zum Z-Bereich entfernt, da nicht vorbildgerecht und problematisch, dass man in Auf-Stellung stehen bleiben muss, um nach Z zu kommen
 - Bremssteller Dyn Brems Stufe neu aufgeteilt zwischen Bremsstufe 1 und 7 (Raste 8 und 2), wie im Vorbild
 - Kombischalter Signalbeleuchtung mit der Tastaturzuordnung Licht verknüpft.
-- Kombischalter AFB-Schalter gelöscht, da Funktion komplett im Schalter AFB vorhanden
+- Kombischalter AFB-Schalter gelöscht, da Funktion komplett im Schalter AFB vorhanden.
+- Kombischalter Angleicher in der Reihenfolge nun vor Schalter Angleicher, damit auch die Tastatur-/TCP-Steuerung funktioniert.
 - Kombischalter Luftpresser durch Taste Luftpresser aus ersetzt. Drei Schalterstellungen sind zwar hübsch, vertragen sich aber leider nicht mit der Tastatur-/TCP-Bedienung.
 - Taste Lokbremsentlüften hinzugefügt. Keine grafische Anbindung, da in Grafik nicht vorgesehen.
-
-? - Kombischalter Lüfter auf zwei Schalterstellungen reduziert. Drei Schalterstellungen sind zwar hübsch, vertragen sich aber leider nicht mit der Tastatur-/TCP-Bedienung. Funktionsbelegung Lüfter ergänzt
 - Batteriehauptschalter mit Stellungen Aus und Ein hinzugefügt. Beim Vorbild gibt es noch die Stellung Schleppfahrt, das ist in Zusi aber nicht sinnvoll.
 - ZDinfo ergänzt
 

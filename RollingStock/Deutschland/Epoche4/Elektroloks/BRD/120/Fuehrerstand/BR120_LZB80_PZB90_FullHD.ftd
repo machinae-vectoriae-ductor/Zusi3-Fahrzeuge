@@ -311,7 +311,7 @@
 <Belegung FunktionStr="Nichts"/>
 </Raste>
 </Kombischalter>
-<LZB80_I80 LM500Hz="LZB_500Hz" LMBefehl="LZB_Bef40" LMLZBEnde="LZB_Ende" LM1000Hz="LZB_1000Hz" LMZugartU="LZB_55" LMZugartM="LZB_70" LMZugartO="LZB_85" LMLZBH="LZB_H" LMLZBG="LZB_G" LMLZBE40="LZB_E40" LMLZBB="LZB_B" LMLZBEL="LZB_EL" LMLZBV40="LZB_V40" LMLZBS="LZB_S" LMLZBUe="LZB_Ue" LMLZBPruefen="LZB_PruefStoer" InstrLZBZielGeschw="LZB_Vziel" InstrLZBAFBSollGeschw="LZB_Vsoll" InstrLZBZielweg="LZB_ZE" BalkenLZBZielweg="LZB_Tannenbaum" SchalterWachsam="PZBWachsam" SchalterFrei="PZBFrei" SchalterBefehl="PZBBefehl" IndusiGrenzdruckHL="2.2" FktName="LZB80/I80" Tastaturzuordnung="15">
+<LZB80_CE_PZB90_20 LM500Hz="LZB_500Hz" LMBefehl="LZB_Bef40" LMLZBEnde="LZB_Ende" LM1000Hz="LZB_1000Hz" LMZugartU="LZB_55" LMZugartM="LZB_70" LMZugartO="LZB_85" LMLZBH="LZB_H" LMLZBG="LZB_G" LMLZBE40="LZB_E40" LMLZBB="LZB_B" LMLZBEL="LZB_EL" LMLZBV40="LZB_V40" LMLZBS="LZB_S" LMLZBUe="LZB_Ue" LMLZBPruefen="LZB_PruefStoer" InstrLZBZielGeschw="LZB_Vziel" InstrLZBAFBSollGeschw="LZB_Vsoll" InstrLZBZielweg="LZB_ZE" BalkenLZBZielweg="LZB_Tannenbaum" SchalterWachsam="PZBWachsam" SchalterFrei="PZBFrei" SchalterBefehl="PZBBefehl" IndusiGrenzdruckHL="2.2" FktName="LZB80 CIR-ELKE PZB90 V2.0" Tastaturzuordnung="15">
 <SoundIndusiHupe Loop="1" Lautstaerke="1">
 <Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Sound\120_Indusi.wav"/>
 </SoundIndusiHupe>
@@ -322,7 +322,7 @@
 <IndusiErsatzzugdaten VMZ="200" ZL="400" BRH="140" TfNummer="-" BRA="9" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
 <PZB>
 </PZB>
-</LZB80_I80>
+</LZB80_CE_PZB90_20>
 <TuerenTB0 Taster="1" NameSchalter="TB0" FktName="Türsystem TB0" Tastaturzuordnung="10">
 <RastSound Lautstaerke="1">
 <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Drucktaster_tastend.wav"/>

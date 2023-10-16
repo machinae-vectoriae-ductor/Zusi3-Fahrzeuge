@@ -1,7 +1,8 @@
 Änderungsbedarf an BR120_LZB80_I80_FullHD.ftd:
 
 Baugruppen:
-- Schalter Lüfter prüfen
+- Führerbremsventil Zuordnung HL-Druck prüfen, da unterschiedlich zu 111
+- Maximale Druckerhöhung Angleichen und automatisches Angleichen in der Literatur prüfen
 
 Grafik:
 - Im Instrument Zugkraft äußeren Zeiger für Sollzugkraft ergänzen.
