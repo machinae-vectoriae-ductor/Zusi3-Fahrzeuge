@@ -1,5 +1,5 @@
 Änderungen an 151.rv.fzg:
 
 - Elektrische Reihenschlussbremse: Anzahl Stufen auf 100, Auf-/Abschaltgeschwindigkeit auf 30 Stufen pro Sekunde. Im Vorbild stufenlose Bremskraft, lediglich im Bremssteller gerastet.
-- Direkte Druckluftbremse: Max. Zylinderdruck 3,6 bar
+- Direkte Druckluftbremse: Max. Zylinderdruck 3,78 bar
 - Luftpresser Betrieb nur, wenn Hauptschalter ein, Sound Luftpresse aus BR110 übernommen, stimmt zwar nicht ganz, da anderer Typ, aber besser als nichts

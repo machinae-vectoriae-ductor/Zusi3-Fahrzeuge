@@ -46,7 +46,7 @@
 <Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fahrzeugdaten\151_Grunddaten_SBS65.fzg"/>
 </ExterneDatei>
 </FahrzeugVariante>
-<BremseLuftDirekt MaxDruck="3.6" VolumenZylinder="51.88" FBremsuebersetzung="24000" HBLAnschluss="1">
+<BremseLuftDirekt MaxDruck="3.78" VolumenZylinder="51.88" FBremsuebersetzung="24000" HBLAnschluss="1">
 <BremsenKennungV xText="km/h" yText="1">
 <Pkt PktY="2.635"/>
 <Pkt PktX="2.7856" PktY="2.112"/>
