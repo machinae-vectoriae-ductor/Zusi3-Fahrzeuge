@@ -5,7 +5,7 @@
 <AutorEintrag AutorID="134" AutorName="Wolfgang Evers" AutorEmail="Wolfgang.Evers@TH-Koeln.de"/>
 </Info>
 <Fahrzeug>
-<BremseLuftDirekt MaxDruck="3.6" VolumenZylinder="44.103" FBremsuebersetzung="18258.9004">
+<BremseLuftDirekt MaxDruck="3.78" VolumenZylinder="44.103" FBremsuebersetzung="18258.9004">
 <BremsenKennungV xText="km/h" yText="1">
 <Pkt PktY="3.209"/>
 <Pkt PktX="2.7856" PktY="2.572"/>
@@ -19,7 +19,7 @@
 </BremsenKennungV>
 </BremseLuftDirekt>
 <Luftpresser LeistungPresser="2400" VolumenHB="800" DruckHBMin="8.5" DruckHBMax="9.7" DruckAngleicher="5.5" NurWennHSEinDieselLaeuft="1">
-<SoundLuftpresser PosAnlauf="2647776" PosAuslauf="2877600" Lautstaerke="1">
+<SoundLuftpresser Loop="1" PosAnlauf="2647776" PosAuslauf="2877600" Lautstaerke="1">
 <Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Sounds\120_Luftpresser.wav"/>
 </SoundLuftpresser>
 </Luftpresser>
