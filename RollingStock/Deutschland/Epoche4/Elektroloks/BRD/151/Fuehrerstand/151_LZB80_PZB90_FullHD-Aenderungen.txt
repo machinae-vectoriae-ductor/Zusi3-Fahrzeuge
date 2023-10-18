@@ -7,13 +7,13 @@ Baugruppen:
 - el-Bremse in Bremssteller ELH 154 F5b umbenannt, Dyn Brems Stufe neu aufgeteilt zwischen Bremsstufe 1 und 7 (Raste 7 und 1), näher am Vorbild
 - pn-Bremse in Führerbremsventil Knorr D5P umbenannt
 - Zusatzbremse in Zusatzbremsventil Knorr Zb3 umbenannt, Anlegestellung nicht mehr zurückfedernd wie bei Vorbild
-- Kombischalter BremseLoesen durch Taste Lokbremsentlüften ersetzt. Drei Schalterstellungen sind zwar hübsch, vertragen sich aber leider nicht mit der Tastatur-/TCP-Bedienung.
+- Kombischalter BremseLoesen durch Taste Lokbremseentlüften ersetzt. Drei Schalterstellungen sind zwar hübsch, vertragen sich aber leider nicht mit der Tastatur-/TCP-Bedienung.
 - Kombischalter Luftpresser durch Schalter Luftpresser aus ersetzt.
 - Kombischalter Batterie-HS in Batteriehauptschalter umbenannt, In Schalter mit Stellungen Aus und Ein geändert wie beim Vorbild
 - ZDinfo ergänzt
 
 Grafik:
-- Schaltrad an Fahrschaqlter angepasst
+- Schaltrad an Fahrschalter angepasst
 - Trägheit HBL-Druck auf 1 geändert
 - Trägheit ZugkraftanzeigerDG1/2 und LZB_Vsoll auf 3 geändert
 - Das zweite Instrument von rechts zeigt im Vorbild nicht Fahrleitungsspannung und Motorstrom an, sondern links die Bremskraft und rechts die Zugkraft pro Motor der geführten Lokomotive. Das Instrument für die Fahrdrahtspannung befindet sich in der Lok links vom Instrument für den Obestrom und ist nicht im Bild. Angepasst.
@@ -22,4 +22,4 @@ Grafik:
 - UeberladungHL-Druck in Zeitbehaelter umgenannt und auf Funktion Druck Zeitbehälter geändert, wie beim Vorbild
 - ZugkraftanzeigerDG1/2: Werte für Bremskraft durch 3 statt durch 2 geteilt, da sechsachsige Lok
 - ZugkraftanzeigerDG2 auf negativen Wert beschränkt, da der positive Bereich das Ansprechen des Schleuderschutz anzeigt.
-- Grafik Bremse_loesen an zwei Stellungen angepasst.
+- Grafiken Bremse_loesen und Luftpresser durch Umsortieren an zwei Stellungen angepasst.

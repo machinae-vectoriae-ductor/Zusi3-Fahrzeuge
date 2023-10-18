@@ -1678,7 +1678,7 @@
 <InstrPkt4 X="0.8448" Y="0.9157"/>
 <Font/>
 </Melder>
-<Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Bremse_loesen" Faktor="1" DunkelFarbe="FF1A1A1A">
+<Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Bremse_loesen" Faktor="1" DunkelFarbe="FF1A1A1A">
 <InstrPkt1 X="0.0755" Y="0.9139"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.6895" Vol="0.8359" Uur="0.7236" Vur="0.8687" TransparentFarbe="00FF00FF">
@@ -1687,6 +1687,11 @@
 </FstTextur>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.6523" Vol="0.8369" Uur="0.6865" Vur="0.8696" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Bitmaps_FullHD\151_01.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.8809" Vol="0.7598" Uur="0.915" Vur="0.7925" TransparentFarbe="00FF00FF">
 <Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Bitmaps_FullHD\151_01.dds"/>
 </EinzelTextur>
 </FstTextur>
