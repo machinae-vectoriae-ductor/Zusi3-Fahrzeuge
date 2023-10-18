@@ -18,4 +18,4 @@ Grafik:
 - Zuordnung Bremszylinder korrigiert: Roter Zeiger Bremszylinder DG 1, Gelber Zeiger Bremszylinder DG 2
 - BremszylinderDG2-Druck Funktion auf Druck Bremszylinder II geändert.
 - Kennlinie Zeitbehaelter angepasst, da beim Vorbild 0 bar im Zeitbehälter eine HL-Druck-Anhebung von 0,5 bar entsprechen
-- Grafik Luftpresser an zwei Stellungen angepasst. Gelöschte Textur: UOL 1235,97 UUR 1324,03 VOL 1951,95 VUR 2042,06
+- Grafik Luftpresser durch Umsortieren an zwei Stellungen angepasst.
