@@ -152,7 +152,7 @@
 </ExterneDatei>
 </FahrzeugVariante>
 <FahrzeugGrunddaten Masse="84000" Achsstandsumme="5" RotationsZuschlag="8400" cwA="4.12" Rollwiderstand="1648.08" Laenge="19.202" spMax="55.5556" HBLVorhanden="1" LokModus="1" FesselAnfg="4.5" FesselEnde="4.5" AnzahlAchsen="4" StromabnHoehe="4.41" StromabnehmerA="2" StromabnehmerB="2"/>
-<BremseLuftDirekt Haltebremse="1" HaltebremseAFB="1" HaltebremseDruck="1.8" MaxDruck="3.6" VolumenZylinder="25.684" FBremsuebersetzung="14300">
+<BremseLuftDirekt Haltebremse="1" HaltebremseAFB="1" HaltebremseDruck="1.8" MaxDruck="4.4" VolumenZylinder="25.684" FBremsuebersetzung="14300">
 <BremsenKennungV xText="km/h" yText="1">
 <Pkt PktY="3.209"/>
 <Pkt PktX="2.7856" PktY="2.572"/>
@@ -166,7 +166,7 @@
 </BremsenKennungV>
 </BremseLuftDirekt>
 <Luftpresser LeistungPresser="2500" VolumenHB="800" DruckHBMin="8.5" DruckHBMax="9.7" DruckAngleicher="5.5" NurWennHSEinDieselLaeuft="1">
-<SoundLuftpresser PosAnlauf="1458760" PosAuslauf="1844056" Lautstaerke="1">
+<SoundLuftpresser Loop="1" PosAnlauf="1458760" PosAuslauf="1844056" Lautstaerke="1">
 <Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Sound\120_LP.wav"/>
 </SoundLuftpresser>
 </Luftpresser>
