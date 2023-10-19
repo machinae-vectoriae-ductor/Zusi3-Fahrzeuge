@@ -7,7 +7,13 @@ Wer sich durch alle diese Warnhinweise nicht abschrecken lässt, klickt am beste
 
 Aktuell liegen in diesem Repository Dateien für folgende Fahrzeuge:
 
+    BR 103
+    BR 110
     BR 120
+    BR 139
+    BR 140
+    BR 141
+    BR 150
     BR 151
 
 Die gemachten Änderungen sind in beiliegenden Textdateien beschrieben. Die von mir indentifizierten notwendigen Änderungen, welche ich nicht durchgeführt habe, sind in jeweils einer ToDo-Datei beschrieben.
