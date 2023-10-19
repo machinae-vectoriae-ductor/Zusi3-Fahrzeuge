@@ -11,6 +11,7 @@ Baugruppen:
 - Kombischalter Luftpresser durch Schalter Luftpresser aus ersetzt.
 - Kombischalter Batterie-HS in Batteriehauptschalter umbenannt, In Schalter mit Stellungen Aus und Ein geändert wie beim Vorbild
 - ZDinfo ergänzt
+- Bedienungsanleitung ergänzt
 
 Grafik:
 - Schaltrad an Fahrschalter angepasst

@@ -1,0 +1,261 @@
+<html>
+	<head>
+		<title>Führerraum BR 151</title>
+		<style>
+			body {
+				background-color: ffffff;
+				font-family: Bahnschrift, Liberation Sans, Verdana, Arial;
+				}
+			h1   {
+				color: black;
+				text-align: center;
+				}
+			p    {
+			color: red;
+			}
+			table {
+				border: white;
+			}
+			td	{
+				padding: 10;
+				vertical-align: top;
+			}
+			img	{
+				width: 100%;
+			}
+			#dummy	{
+				color: red;
+			}
+			#nv	{
+				color: blue;
+			}
+			#anzeige	{
+				color: green;
+			}
+</style>
+	</head>
+	<body>
+		<h1>Baureihe 151</h1>
+		<table border="0">
+			<tr>
+				<td>Fahrzeuglänge über Puffer</td>
+				<td>19,49 m</td>
+				<td rowspan="5"><img src="BR151-Seitenansicht.png" alt="Seitenansicht"></td>
+			</tr>
+			<tr>
+				<td>Stromsystem</td>
+				<td>15 kV / 16,7 Hz</td>
+			</tr>
+			<tr>
+				<td>Höchstgeschwindigkeit</td>
+				<td>120 km/h</td>
+			</tr>
+			<tr>
+				<td>Gesamtgewicht</td>
+				<td>118 t</td>
+			</tr>
+			<tr>
+				<td>Bremsgewichte</td>
+				<td>130 t in P<sub>2</sub><br>105 t in P<br>90 t in G</td>
+			</tr>
+		</table>
+		<br><br>
+		Im Folgenden sind die Bedien- und Anzeigeelemente in der Hauptansicht des Führerraums aufgelistet.
+		Anzeigeinstrumente werden <span id="anzeige">grün dargestellt</span>.
+		<span id="dummy">Rot dargestellte</span> Bedienelemente können im Simulator zwar bedient werden, lösen aber (noch) keine Funktion aus.
+		<span id="nv">Blau dargestellte</span> Elemente haben in Zusi (noch) keine Funktion.
+		
+		<h2>Führerstandsansichten</h2>
+		<img src="BR151-Ansichten.png">
+	
+		
+		<h3>Hauptansicht</h3>
+		<img src="BR151-Hauptansicht.png" alt="Hauptansicht" width="1750">
+		<table>
+			<tr>
+				<td>1</td>
+				<td>Kippschalter "Luftpresser"</td>
+				<td><span id="nv">Raststellung vorne: Luftpresser wird durch Druckschalter gesteuert</span>
+				<br>Grundstellung: Luftpresser aus
+				<br>Raststellung hinten: Luftpresser wird durch Druckschalter gesteuert</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td id="dummy">Kippschalter "Lüfter"</td>
+				<td>Raststellung vorne: Lüfter schwach<br>Grundstellung: 0<br>Raststellung hinten: Lüfter stark</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>PZB/LZB-Kipptaster</td>
+				<td>Befehl, Frei, Wachsam</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Kipptaster "Sanden"</td>
+				<td ><span id="nv">Taststellung vorne: Eine Achse sanden</span><br>Grundstellung: 0<br>Taststellung hinten: Alle Achse sanden</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td id="dummy">Kipptaster "Schleuderschutz"</td>
+				
+				<td ><span id="nv">Taststellung vorne: Schleuderschutzbremse anlegen (1,25 bar)</span>
+				<br>Grundstellung: 0
+				<br>Taststellung hinten: Schleuderschutzbremse anlegen (1,25 bar)</td>
+			</tr>
+				<td>6</td>
+				<td>Kipptaster "Bremse lösen"</td>
+				<td ><span id="nv">Taststellung vorne: Lösen der Lokbremse</span><br>Grundstellung: 0<br>Taststellung hinten: Lösen der Lokbremse</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>Drucktaster "Sifa"</td>
+				<td>Betätigen der Sicherheitsfahrschaltung</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>Richtungsschalter</td>
+				
+				<td>Stellung V: Vorwärtsfahrt
+				<br>Stellung M: <span id="nv">Alles Arbeitet, nur die Motortrennschütze ziehen nicht an.</span>
+				<br>Stellung 0: Führerraum abgeschaltet.
+				<br>Stellung R: Rückwartsfahrt</td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>Fahrschalter</td>
+				<td>Fahrschalterrad nach rechts drehen: Fahrstufe 0 bis 28
+				<br>Knopf in der Mitte drücken: Schnell-Aus, Motortrennschütze fallen, Schaltwerk läuft nach 0 zurück
+			</tr>
+			<tr>
+				<td>10</td>
+				<td id="nv">Kippschalter "Signal- und Instrumentenleuchten"</td>
+				<td>Raststellung vorne: Signal- und Instrumentenleuchten an <br>Grundstellung: 0<br>Raststellung hinten: Signal- und Instrumentenleuchten an</td>
+			</tr>
+			<tr>
+				<td>11</td>
+				<td id="nv">Kipptaster "Abblenden"</td>
+				<td>Taststellung vorne: Signalleuchten abschalten<br>Grundstellung: 0<br>Raststellung hinten: Fernlicht an</td>
+			</tr>
+			<tr>
+				<td>12</td>
+				<td id="nv">Kippschalter "Fahrplanleuchte"</td>
+				<td>Raststellung vorne: Fahrplanleuchte an<br>Grundstellung: 0<br>Raststellung hinten: Fahrplanleuchte an</td>
+			</tr>
+			<tr>
+				<td>13</td>
+				<td id="nv"> Hilfsfahrschalter</td>
+				<td>Raststellung Nachlauf: Steuerung des Schaltwerks über den Fahrschalter
+				<br>Raststellung 0: Schnell-Aus, Motortrennschütze fallen, Schaltwerk läuft nach 0 zurück
+				<br>Raststellung Ab: Schaltwerk läuft ab
+				<br>Raststellung Fahrt: Schaltwerk bleibt stehen
+				<br>Taststellung Auf: Schaltwerk läuft auf
+			</tr>
+			<tr>
+				<td>14</td>
+				<td>Makrofon</td>
+				<td>Taststellung vorne: Makrofon<br>Grundstellung: 0<br><span id="nv">Taststellung hinten: Makrofon</span></td>
+			</tr>
+			<tr>
+				<td>15</td>
+				<td>Führerbremsventil</td>
+				<td>Vorgabe des Hauptluftleitungsdrucks
+				<br>Taststellung Füllstoß (Sperre von 0,3 s)
+				<br>Raststellung Fahren: HL-Regeldruck von 5 bar wird gehalten
+				<br>Raststellung 0: Das Führerbremsventil ist von der Hauptluftleitung getrennt.
+				<br>Raststellungen 1-10: Betriebsbremsstufen
+				<br>Raststellung Schnellbremse: volle Bremskraft in kürzester Zeit (Sperre von 0,5 s)</td>
+			</tr>
+			<tr>
+				<td>16</td>
+				<td>Bremssteller</td>
+				<td>Vorgabe des Kraft der elektrischen Bremse, läuft synchron mit Führerbremsventil, es sei denn, der Steller wird einzeln betätigt.
+				<br>Raststellung F: Elektrische Bremse abgeschaltet
+				<br>Raststellung 0: Elektrische Bremse abgeschaltet<span id="nv">, Schnell-Aus</span>
+				<br>Raststellungen 1-7: Bremskraftstufen
+			</tr>
+			<tr>
+				<td>17</td>
+				<td>Zusatzbremsventil</td>
+				<td>Steuerung des Bremszylinderdrucks der Lokomtive
+				<br>Taststellung Lösen: Der Bremsdruck der direkten Bremse wird verringert.
+				<br>Taststellung Halten: Der Bremsdruck der direkten Bremse wird gehalten.
+				<br>Taststellung Anlegen: Der Bremsdruck der direkten Bremse wird bis 3,78 bar erhöht.
+			</tr>
+
+
+			<tr>
+				<td>18</td>
+				<td id="anzeige">Hauptluftleitungsdruck</td>
+			</tr>
+			<tr>
+				<td>19</td>
+				<td id="anzeige">Bremszylinderleitungsdruck</td>
+				<td>Roter Zeiger: Drehgestell 1
+				<br>Gelber Zeiger: Drehgestell 2
+			</tr>
+			<tr>
+				<td>20</td>
+				<td id="anzeige">Hauptluftbehälterleitungsdruck</td>
+			</tr>
+			<tr>
+				<td>21</td>
+				<td id="anzeige">Zeitbehälterdruck</td>
+			</tr>
+			<tr>
+				<td>22</td>
+				<td id="anzeige">Oberstrom</td>
+			</tr>
+			<tr>
+				<td>23</td>
+				<td id="anzeige">EBuLa-Gerät</td>
+			</tr>
+			<tr>
+				<td>24</td>
+				<td id="anzeige">MFA (Modulares Führerraumanzeigegerät)</td>
+				<td>linkes Instrument, innerer Zeiger: links Bremskraft Drehgestell 1, rechts Zugkraft pro Motor, Größtwert 75 kN
+				<br>linkes Instrument, äußerer Zeiger: links Bremskraft Drehgestell 2, <span id="nv">rechts Schleudern</span>
+				<br>Rest siehe Zusi-Anleitung PZB/LZB
+			</tr>
+			<tr>
+				<td>25</td>
+				<td id="anzeige">Zug-/Bremskraftanzeige Lok 2</td>
+				<td>linker Zeiger: Bremskraft Lok
+				<br>rechter Zeiger: Zugkraft pro Achse, Größtwert 75 kN
+			</tr>
+			<tr>
+				<td>26</td>
+				<td id="anzeige">Motorspannungsanzeige</td>
+				<td>linker Zeiger: <span id="nv">Fahrdraht- /</span> Motorspannung Lok 2
+				<br>rechter Zeiger: Motorspannung Lok 1, Größtwert 520 V
+			</tr>
+			<tr>
+				<td>27</td>
+				<td id="nv">Leuchtmelder Lüfter/Ladegerät</td>
+			</tr>
+			<tr>
+				<td>28</td>
+				<td id="anzeige"><span id="nv">Leuchtmelder Steuerung,</span> in Zusi Leuchtmelder Hauptschalter</td>
+			</tr>
+			<tr>
+				<td>29</td>
+				<td id="nv">Leuchtmelder Elektrische Bremse Drehgestell 2</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td id="nv">Leuchtmelder Elektrische Bremse Drehgestell 1</td>
+			</tr>
+			<tr>
+				<td>31</td>
+				<td id="nv">unbekannter Leuchtmelder</td>
+			</tr>
+			<tr>
+				<td>32</td>
+				<td id="anzeige">Leuchtmelder Sifa</td>
+			</tr>
+			<tr>
+				<td>33</td>
+				<td id="anzeige">Leuchtmelder Hohe Abbremsung</td>
+			</tr>
+		</table>
+	</body>
+</html>

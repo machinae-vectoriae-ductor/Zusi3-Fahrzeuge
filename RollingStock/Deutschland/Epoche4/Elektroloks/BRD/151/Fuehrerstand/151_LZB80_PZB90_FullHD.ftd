@@ -3,6 +3,9 @@
 <Info DateiTyp="Fuehrerstand" Version="A.7" MinVersion="A.1" Beschreibung=";">
 <AutorEintrag AutorID="54" AutorName="Stefan" AutorEmail="dariaze1974@gmail.com" AutorBeschreibung="Bildlieferant - MBT Kuhl"/>
 <AutorEintrag AutorID="134" AutorName="Wolfgang Evers" AutorEmail="Wolfgang.Evers@TH-Koeln.de"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Anleitung\BR151-Hauptansicht.png"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Anleitung\BR151-Ansichten.png"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Anleitung\BR151-Seitenansicht.png"/>
 </Info>
 <Fuehrerstand>
 <Funktionalitaeten>
@@ -335,6 +338,9 @@
 </PZB>
 </LZB80_CE_PZB90_20>
 <ZDInfo BatterieHSTyp="2" SAWahlTyp="1" AbsperrungDirekteBremse="2" AbsperrungIndirekteBremse="2" PultAktivierung="2" Batteriespannung="110" Batterieanzeige="1" FktName="Informationen für TCP-Client"/>
+<FtdDokulink FktName="Bedienungsanleitung">
+<htmlDoku Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Anleitung\BR151-Anleitung.htm"/>
+</FtdDokulink>
 </Funktionalitaeten>
 <Grafik>
 <RenderFlags TexVoreinstellung="2"/>
