@@ -8,6 +8,23 @@
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorBeschreibung="PZB90-Variante"/>
 <AutorEintrag AutorID="90" AutorName="Dominik Hoffmann" AutorLizenz="1" AutorBeschreibung="FullHD-Fst"/>
 <AutorEintrag AutorID="134" AutorName="Wolfgang Evers" AutorEmail="Wolfgang.Evers@TH-Koeln.de"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image001.jpg"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image002.png"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image003.png"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image004.png"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image005.png"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image006.png"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image007.png"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image008.png"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image009.jpg"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image010.jpg"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image011.jpg"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image012.jpg"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image013.jpg"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image014.jpg"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image015.jpg"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image016.jpg"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout-Dateien\image017W.jpg"/>
 </Info>
 <Fuehrerstand>
 <Funktionalitaeten>
@@ -473,6 +490,9 @@
 <Belegung FunktionStr="BatterieHSEin"/>
 </Raste>
 </Kombischalter>
+<FtdDokulink FktName="Bedienungsanleitung">
+<htmlDoku Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\Anleitung\BR103_Weblayout.htm"/>
+</FtdDokulink>
 <ZDInfo BatterieHSTyp="2" SAWahlTyp="1" AbsperrungDirekteBremse="2" AbsperrungIndirekteBremse="2" PultAktivierung="2" Batteriespannung="110" Batterieanzeige="1" FktName="Informationen für TCP-Client"/>
 </Funktionalitaeten>
 <Grafik>

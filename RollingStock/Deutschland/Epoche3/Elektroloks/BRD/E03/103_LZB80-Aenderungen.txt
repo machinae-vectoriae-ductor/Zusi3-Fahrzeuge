@@ -4,6 +4,7 @@ Baugruppen:
 - Schalter Luefter durch Kombischalter Lüfter ersetzt.
 - Taste Lokbremsentlüften hinzugefügt. Wegen fehlender Grafik keine Mausbedienung.
 - Kombischalter Batteriehauptschalter hinzugefügt.
+- Anleitung von Davidorado hinzugefügt.
 - ZDinfo ergänzt
 
 Grafik:
