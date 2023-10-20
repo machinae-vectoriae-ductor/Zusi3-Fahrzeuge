@@ -337,10 +337,10 @@
 <PZB>
 </PZB>
 </LZB80_CE_PZB90_20>
-<ZDInfo BatterieHSTyp="2" SAWahlTyp="1" AbsperrungDirekteBremse="2" AbsperrungIndirekteBremse="2" PultAktivierung="2" Batteriespannung="110" Batterieanzeige="1" FktName="Informationen für TCP-Client"/>
 <FtdDokulink FktName="Bedienungsanleitung">
 <htmlDoku Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\Fuehrerstand\Anleitung\BR151-Anleitung.htm"/>
 </FtdDokulink>
+<ZDInfo BatterieHSTyp="2" SAWahlTyp="1" AbsperrungDirekteBremse="2" AbsperrungIndirekteBremse="2" PultAktivierung="2" Batteriespannung="110" Batterieanzeige="1" FktName="Informationen für TCP-Client"/>
 </Funktionalitaeten>
 <Grafik>
 <RenderFlags TexVoreinstellung="2"/>
