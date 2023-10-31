@@ -393,7 +393,7 @@
 <Belegung FunktionStr="Luefter" Parameter="1"/>
 </Raste>
 </Kombischalter>
-<LokbremseEntlueften Taster="1" FktName="Lokbremse entlüften" Tastaturzuordnung="21"/>
+<LokbremseEntlueften Taster="1" NameSchalter="Taster_Bremse_loesen" FktName="Lokbremse entlüften" Tastaturzuordnung="21"/>
 <SchleuderschutzElektr FktName="Elektronischer Schleuderschutz"/>
 <Pfeife Taster="1" FktName="Pfeife/Glocke" Tastaturzuordnung="12">
 <SoundTief Loop="1" PosAnlauf="74924" PosAuslauf="183504" Lautstaerke="1">
@@ -669,7 +669,7 @@
 <InstrPkt4 X="1" Y="0.4833"/>
 <Font/>
 </Melder>
-<Zeigerinstrument InstrName="Tachonadel" PhysikGroesse="139" Faktor="3.6" DunkelFarbe="FF888888">
+<Zeigerinstrument Traegheit="4.545" InstrName="Tachonadel" PhysikGroesse="139" Faktor="3.6" DunkelFarbe="FF888888">
 <InstrPkt1 X="0.5505" Y="0.5815"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.9502" Vol="0.2031" Uur="0.96" Vur="0.3203" TransparentFarbe="00FF00FF">
@@ -691,7 +691,7 @@
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0271" ZeigerBreite="0.0039" ZeigerWinkel="4.9742" ZeigerWert="200"/>
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0271" ZeigerBreite="0.0039" ZeigerWinkel="5.3233" ZeigerWert="220"/>
 </Zeigerinstrument>
-<Zeigerinstrument Traegheit="3" InstrName="Zugkraftanzeiger" PhysikGroesse="10" Faktor="0.001" DunkelFarbe="FF888888">
+<Zeigerinstrument Traegheit="7.647" InstrName="Zugkraftanzeiger" PhysikGroesse="10" Faktor="0.001" DunkelFarbe="FF888888">
 <InstrPkt1 X="0.4375" Y="0.5806"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.9688" Vol="0.2021" Uur="0.9785" Vur="0.3193" TransparentFarbe="00FF00FF">
@@ -730,7 +730,7 @@
 <InstrPkt4 X="0.4443" Y="0.5694"/>
 <Font/>
 </Melder>
-<Zeigerinstrument Traegheit="0.05" InstrName="Fahrdrahtspannungsanzeige" PhysikGroesse="14" Faktor="1" DunkelFarbe="FF888888">
+<Zeigerinstrument Traegheit="40.625" InstrName="Fahrdrahtspannungsanzeige" PhysikGroesse="14" Faktor="0.001" DunkelFarbe="FF888888">
 <InstrPkt1 X="0.0411" Y="0.6222"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.8516" Vol="0.5332" Uur="0.9346" Vur="0.5781" TransparentFarbe="00FF00FF">
@@ -738,10 +738,10 @@
 </EinzelTextur>
 </FstTextur>
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0089" ZeigerBreite="0.0377" ZeigerWinkel="2.7402"/>
-<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0089" ZeigerBreite="0.0354" ZeigerWinkel="3.1416" ZeigerWert="8000"/>
-<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0094" ZeigerBreite="0.0391" ZeigerWinkel="3.8397" ZeigerWert="11999.999"/>
-<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0076" ZeigerBreite="0.032" ZeigerWinkel="5.4978" ZeigerWert="14000.001"/>
-<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0075" ZeigerBreite="0.0301" ZeigerWinkel="5.8469" ZeigerWert="16000"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0089" ZeigerBreite="0.0354" ZeigerWinkel="3.1416" ZeigerWert="8"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0094" ZeigerBreite="0.0391" ZeigerWinkel="3.8397" ZeigerWert="12"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0076" ZeigerBreite="0.032" ZeigerWinkel="5.4978" ZeigerWert="14"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0075" ZeigerBreite="0.0301" ZeigerWinkel="5.8469" ZeigerWert="16"/>
 </Zeigerinstrument>
 <Zeigerinstrument Traegheit="0.5" InstrName="HL-Druck" PhysikGroesse="2" Faktor="1" DunkelFarbe="FF888888">
 <InstrPkt1 X="0.6875" Y="0.6074"/>
@@ -786,7 +786,7 @@
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0286" ZeigerBreite="0.0089" ZeigerWinkel="5.1225" ZeigerWert="11"/>
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0286" ZeigerBreite="0.0089" ZeigerWinkel="5.3582" ZeigerWert="12"/>
 </Zeigerinstrument>
-<Zeigerinstrument Traegheit="1" InstrName="Bremszylinder-Druck-DG1" PhysikGroesse="3" Faktor="1" DunkelFarbe="FF888888">
+<Zeigerinstrument Traegheit="0.75" InstrName="Bremszylinder-Druck-DG1" PhysikGroesse="3" Faktor="1" DunkelFarbe="FF888888">
 <InstrPkt1 X="0.7828" Y="0.5972"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.9707" Vol="0.4785" Uur="0.9951" Vur="0.5957" TransparentFarbe="00FF00FF">
@@ -803,7 +803,7 @@
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0161" ZeigerBreite="0.0078" ZeigerWinkel="3.6826" ZeigerWert="7"/>
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0172" ZeigerBreite="0.0078" ZeigerWinkel="4.1539" ZeigerWert="8"/>
 </Zeigerinstrument>
-<Zeigerinstrument Traegheit="2" InstrName="Bremszylinder-Druck-DG2" PhysikGroesse="179" Faktor="1" DunkelFarbe="FF888888">
+<Zeigerinstrument Traegheit="0.75" InstrName="Bremszylinder-Druck-DG2" PhysikGroesse="179" Faktor="1" DunkelFarbe="FF888888">
 <InstrPkt1 X="0.7828" Y="0.5972"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.9434" Vol="0.4785" Uur="0.9678" Vur="0.5957" TransparentFarbe="00FF00FF">
@@ -821,7 +821,7 @@
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0161" ZeigerBreite="0.0078" ZeigerWinkel="3.6477" ZeigerWert="7"/>
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0172" ZeigerBreite="0.0078" ZeigerWinkel="4.119" ZeigerWert="8"/>
 </Zeigerinstrument>
-<Zeigerinstrument Traegheit="1" InstrName="Zeitbehaelter-Druck" PhysikGroesse="94" Faktor="1" DunkelFarbe="FF888888">
+<Zeigerinstrument Traegheit="12" InstrName="Zeitbehaelter-Druck" PhysikGroesse="94" Faktor="1" DunkelFarbe="FF888888">
 <InstrPkt1 X="0.7813" Y="0.7"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.9707" Vol="0.5986" Uur="0.9951" Vur="0.7158" TransparentFarbe="00FF00FF">
@@ -1013,23 +1013,6 @@
 <InstrPkt2 X="0.7052" Y="0.95"/>
 <InstrPkt3 X="0.7958" Y="0.95"/>
 <InstrPkt4 X="0.7958" Y="0.6889"/>
-<Font/>
-</Melder>
-<Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Signalbeleuchtung" Faktor="1" DunkelFarbe="FF1F1F1F">
-<InstrPkt1 X="0.6042" Y="0.7343"/>
-<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
-<EinzelTextur Uol="0.2119" Vol="0.959" Uur="0.2295" Vur="0.9858" TransparentFarbe="00FF00FF">
-<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BitmapsFullHD\120_01.dds"/>
-</EinzelTextur>
-</FstTextur>
-<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
-<EinzelTextur Uol="0.1914" Vol="0.959" Uur="0.209" Vur="0.9858" TransparentFarbe="00FF00FF">
-<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BitmapsFullHD\120_01.dds"/>
-</EinzelTextur>
-</FstTextur>
-<InstrPkt2 X="0.6042" Y="0.7852"/>
-<InstrPkt3 X="0.6229" Y="0.7852"/>
-<InstrPkt4 X="0.6229" Y="0.7343"/>
 <Font/>
 </Melder>
 <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="TB0" Faktor="1" DunkelFarbe="FF1F1F1F">
@@ -1850,7 +1833,7 @@
 <ZeigerStuetzpunkt ZeigerY="-0.0315" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0021" ZeigerBreite="0.0013" ZeigerWinkel="-1.5708" ZeigerWert="1000"/>
 <ZeigerStuetzpunkt ZeigerY="-0.0509" ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0021" ZeigerBreite="0.0013" ZeigerWinkel="-1.5708" ZeigerWert="4000"/>
 </Zeigerinstrument>
-<Zeigerinstrument Traegheit="3" InstrName="LZB_Vsoll" Faktor="3.6" DunkelFarbe="FF888888">
+<Zeigerinstrument Traegheit="4.545" InstrName="LZB_Vsoll" Faktor="3.6" DunkelFarbe="FF888888">
 <InstrPkt1 X="0.5505" Y="0.5815"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.9824" Vol="0.7227" Uur="0.9951" Vur="0.873" TransparentFarbe="00FF00FF">
@@ -1886,6 +1869,40 @@
 <InstrPkt2 X="0.5073" Y="0.7935"/>
 <InstrPkt3 X="0.5318" Y="0.7935"/>
 <InstrPkt4 X="0.5318" Y="0.7157"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Taster_Bremse_loesen" Faktor="1" DunkelFarbe="FF1F1F1F">
+<InstrPkt1 X="0.5573" Y="0.7343"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.9119" Vol="0.959" Uur="0.9295" Vur="0.9858" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BitmapsFullHD\120_01.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.9119" Vol="0.959" Uur="0.9295" Vur="0.9858" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BitmapsFullHD\120_01.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.5573" Y="0.7852"/>
+<InstrPkt3 X="0.5818" Y="0.7852"/>
+<InstrPkt4 X="0.5818" Y="0.7343"/>
+<Font/>
+</Melder>
+<Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Signalbeleuchtung" Faktor="1" DunkelFarbe="FF1F1F1F">
+<InstrPkt1 X="0.6042" Y="0.7343"/>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.2119" Vol="0.959" Uur="0.2295" Vur="0.9858" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BitmapsFullHD\120_01.dds"/>
+</EinzelTextur>
+</FstTextur>
+<FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
+<EinzelTextur Uol="0.1914" Vol="0.959" Uur="0.209" Vur="0.9858" TransparentFarbe="00FF00FF">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\BitmapsFullHD\120_01.dds"/>
+</EinzelTextur>
+</FstTextur>
+<InstrPkt2 X="0.6042" Y="0.7852"/>
+<InstrPkt3 X="0.6229" Y="0.7852"/>
+<InstrPkt4 X="0.6229" Y="0.7343"/>
 <Font/>
 </Melder>
 <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Luefter" Faktor="1" DunkelFarbe="FF1F1F1F">
@@ -2001,7 +2018,7 @@
 <InstrPkt4 X="0.4349" Y="0.6602"/>
 <Font/>
 </Melder>
-<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="2" ZusiDisplayMaster="1" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
+<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="2" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
 <InstrPkt1 X="0.1693" Y="0.5343"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHABLENDENABLE="1" ALPHATESTENABLE="1">
 <EinzelTextur Uur="1" Vur="1">
@@ -2191,7 +2208,7 @@
 <InstrPkt4 X="1"/>
 <Font/>
 </Melder>
-<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="1" ZusiDisplayMaster="1" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
+<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="1" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
 <InstrPkt1 X="0.5005"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uur="1" Vur="1">
@@ -2256,7 +2273,7 @@
 <InstrPkt4 X="0.6365" Y="0.6667"/>
 <Font/>
 </Melder>
-<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="ZDE_LZB80_16" ZusiDisplayRahmen="1" InstrName="ZD_ZDE" Faktor="1" DunkelFarbe="FFFFFFFF">
+<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="ZDE_LZB80_16" ZusiDisplayRahmen="1" ZusiDisplayMaster="1" InstrName="ZD_ZDE" Faktor="1" DunkelFarbe="FFFFFFFF">
 <InstrPkt1 X="0.0521" Y="0.0926"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uur="1" Vur="1">
@@ -2296,7 +2313,7 @@
 <InstrPkt4 X="0.1042"/>
 <Font/>
 </Melder>
-<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="2" ZusiDisplayMaster="1" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
+<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="2" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
 <InstrPkt1 X="0.1896" Y="0.1343"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHABLENDENABLE="1" ALPHATESTENABLE="1">
 <EinzelTextur Uur="1" Vur="1">

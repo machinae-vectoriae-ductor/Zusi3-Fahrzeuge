@@ -8,14 +8,21 @@ Baugruppen:
 - Kombischalter AFB-Schalter gelöscht, da Funktion komplett im Schalter AFB vorhanden.
 - Kombischalter Angleicher in der Reihenfolge nun vor Schalter Angleicher, damit auch die Tastatur-/TCP-Steuerung funktioniert.
 - Kombischalter Luftpresser durch Taste Luftpresser aus ersetzt. Drei Schalterstellungen sind zwar hübsch, vertragen sich aber leider nicht mit der Tastatur-/TCP-Bedienung.
-- Taste Lokbremsentlüften hinzugefügt. Keine grafische Anbindung, da in Grafik nicht vorgesehen.
+- Taste Lokbremsentlüften hinzugefügt. Kann in Grafik bedient werden, ist aber nicht animiert, da in Grafik nicht vorgesehen.
 - Batteriehauptschalter mit Stellungen Aus und Ein hinzugefügt. Beim Vorbild gibt es noch die Stellung Schleppfahrt, das ist in Zusi aber nicht sinnvoll.
 - ZDinfo ergänzt
 
 Grafik:
-- Trägheit HBL-Druck auf 1 geändert
 - Trägheit Zugkraftanzeiger und LZB_Vsoll auf 3 geändert
 - Zuordnung Bremszylinder korrigiert: Roter Zeiger Bremszylinder DG 1, Gelber Zeiger Bremszylinder DG 2
 - BremszylinderDG2-Druck Funktion auf Druck Bremszylinder II geändert.
 - Kennlinie Zeitbehaelter angepasst, da beim Vorbild 0 bar im Zeitbehälter eine HL-Druck-Anhebung von 0,5 bar entsprechen
 - Grafik Luftpresser durch Umsortieren an zwei Stellungen angepasst.
+- Trägheit HL-Druck auf 0,5 geändert
+- Trägheit HBL-Druck auf 0,5 geändert
+- Trägheit Bremszylinder-Druck auf 0,75 geändert
+- Trägheit Zeitbehälter-Druck auf 12 geändert
+- Trägheit Zug-/Bremskraftanzeiger auf 7,647 geändert
+- Trägheit Tacho und LZB_Vsoll auf 4,545 geändert
+- Trägheit Fahrdrahtspannung auf 0,041 geändert, Skalierung von 1 auf 0,001 geändert
+- ZDE ist nun ZD-Master statt EBuLa
