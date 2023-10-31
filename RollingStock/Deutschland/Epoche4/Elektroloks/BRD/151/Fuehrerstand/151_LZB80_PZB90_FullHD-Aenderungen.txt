@@ -15,8 +15,6 @@ Baugruppen:
 
 Grafik:
 - Schaltrad an Fahrschalter angepasst
-- Trägheit HBL-Druck auf 1 geändert
-- Trägheit ZugkraftanzeigerDG1/2 und LZB_Vsoll auf 3 geändert
 - Das zweite Instrument von rechts zeigt im Vorbild nicht Fahrleitungsspannung und Motorstrom an, sondern links die Bremskraft und rechts die Zugkraft pro Motor der geführten Lokomotive. Das Instrument für die Fahrdrahtspannung befindet sich in der Lok links vom Instrument für den Obestrom und ist nicht im Bild. Angepasst.
 - Zuordnung Bremszylinder korrigiert: Roter Zeiger Bremszylinder DG 1, Gelber Zeiger Bremszylinder DG 2
 - BremszylinderDG2-Druck Funktion auf Druck Bremszylinder II geändert.
@@ -24,3 +22,16 @@ Grafik:
 - ZugkraftanzeigerDG1/2: Werte für Bremskraft durch 3 statt durch 2 geteilt, da sechsachsige Lok
 - ZugkraftanzeigerDG2 auf negativen Wert beschränkt, da der positive Bereich das Ansprechen des Schleuderschutz anzeigt.
 - Grafiken Bremse_loesen und Luftpresser durch Umsortieren an zwei Stellungen angepasst.
+- Trägheit HL-Druck auf 0,6 geändert
+- Trägheit HBL-Druck auf 0,375 geändert
+- Trägheit Bremszylinder-Druck auf 0,5 geändert
+- Trägheit Zeitbehälter-Druck auf 3,75 geändert
+- Trägheit Zug-/Bremskraftanzeiger DG1 auf 8,125 geändert
+- Trägheit Bremskraftanzeiger DG2 auf 26 geändert
+- Trägheit Tacho und LZB_Vsoll auf 6,667 geändert
+- Trägheit Motorspannung auf 1,083 geändert
+- Trägheit Zugkraftanzeiger Lok 2 auf 8,125 geändert
+- Trägheit Bremskraftanzeiger Lok 2 auf 3,25 geändert
+- Trägheit Oberstrom auf 0,65 geändert
+- Ansicht Displays ergänzt
+- ZDE ist nun ZD-Master statt EBuLa
