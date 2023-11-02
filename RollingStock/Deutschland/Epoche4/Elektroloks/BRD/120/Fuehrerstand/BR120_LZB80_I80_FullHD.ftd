@@ -3,6 +3,9 @@
 <Info DateiTyp="Fuehrerstand" Version="A.7" MinVersion="A.1">
 <AutorEintrag AutorID="54" AutorName="Stefan" AutorEmail="dariaze1974@gmail.com"/>
 <AutorEintrag AutorID="134" AutorName="Wolfgang Evers" AutorEmail="Wolfgang.Evers@TH-Koeln.de" AutorBeschreibung="Lokbremse entlüften, Batteriehauptschalter und ZDinfo ergänzt"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\Anleitung\BR120_Hauptansicht_Nummern.png"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\Anleitung\BR120_Ansichten_Netz.png"/>
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\Anleitung\BR120_Seitenansicht.png"/>
 </Info>
 <Fuehrerstand>
 <Funktionalitaeten>
@@ -170,7 +173,7 @@
 <Koppelung NameGekoppelterSchalter="E_Bremssteller" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste SperreRunter="1" SperrZeit="0.3">
-<Belegung FunktionStr="HllDruck" Parameter="3.5"/>
+<Belegung FunktionStr="HllDruck" Parameter="3.4"/>
 <Belegung FunktionStr="FtdIntern03" Parameter="0.9"/>
 <Koppelung NameGekoppelterSchalter="E_Bremssteller" RastenNummer="1" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
@@ -180,37 +183,37 @@
 <Koppelung NameGekoppelterSchalter="E_Bremssteller" RastenNummer="2" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="3.75"/>
+<Belegung FunktionStr="HllDruck" Parameter="3.8"/>
 <Belegung FunktionStr="FtdIntern03" Parameter="0.7"/>
 <Koppelung NameGekoppelterSchalter="E_Bremssteller" RastenNummer="3" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="3.9"/>
+<Belegung FunktionStr="HllDruck" Parameter="4"/>
 <Belegung FunktionStr="FtdIntern03" Parameter="0.6"/>
 <Koppelung NameGekoppelterSchalter="E_Bremssteller" RastenNummer="4" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="4.05"/>
+<Belegung FunktionStr="HllDruck" Parameter="4.2"/>
 <Belegung FunktionStr="FtdIntern03" Parameter="0.5"/>
 <Koppelung NameGekoppelterSchalter="E_Bremssteller" RastenNummer="5" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="4.2"/>
+<Belegung FunktionStr="HllDruck" Parameter="4.4"/>
 <Belegung FunktionStr="FtdIntern03" Parameter="0.4"/>
 <Koppelung NameGekoppelterSchalter="E_Bremssteller" RastenNummer="6" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="4.5"/>
+<Belegung FunktionStr="HllDruck" Parameter="4.6"/>
 <Belegung FunktionStr="FtdIntern03" Parameter="0.3"/>
 <Koppelung NameGekoppelterSchalter="E_Bremssteller" RastenNummer="7" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="4.7"/>
+<Belegung FunktionStr="HllDruck" Parameter="4.8"/>
 <Belegung FunktionStr="FtdIntern03" Parameter="0.2"/>
 <Koppelung NameGekoppelterSchalter="E_Bremssteller" RastenNummer="8" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste SperreRauf="1" SperrZeit="0.5">
-<Belegung FunktionStr="HllDruck" Parameter="5.02"/>
+<Belegung FunktionStr="HllDruck" Parameter="5"/>
 <Belegung FunktionStr="FtdIntern03" Parameter="0.1"/>
 <Koppelung NameGekoppelterSchalter="E_Bremssteller" RastenNummer="9" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
@@ -408,6 +411,9 @@
 <Belegung FunktionStr="BatterieHSEin"/>
 </Raste>
 </Kombischalter>
+<FtdDokulink FktName="Bedienungsanleitung">
+<htmlDoku Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Fuehrerstand\Anleitung\BR120-Anleitung.htm"/>
+</FtdDokulink>
 <ZDInfo BatterieHSTyp="2" SAWahlTyp="1" AbsperrungDirekteBremse="2" AbsperrungIndirekteBremse="2" AbsperrungFsp="2" PultAktivierung="2" Batteriespannung="110" Batterieanzeige="1" FktName="Informationen für TCP-Client"/>
 </Funktionalitaeten>
 <Grafik>
@@ -821,7 +827,7 @@
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0161" ZeigerBreite="0.0078" ZeigerWinkel="3.6477" ZeigerWert="7"/>
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0172" ZeigerBreite="0.0078" ZeigerWinkel="4.119" ZeigerWert="8"/>
 </Zeigerinstrument>
-<Zeigerinstrument Traegheit="12" InstrName="Zeitbehaelter-Druck" PhysikGroesse="94" Faktor="1" DunkelFarbe="FF888888">
+<Zeigerinstrument Traegheit="8.571" InstrName="Zeitbehaelter-Druck" PhysikGroesse="94" Faktor="1" DunkelFarbe="FF888888">
 <InstrPkt1 X="0.7813" Y="0.7"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uol="0.9707" Vol="0.5986" Uur="0.9951" Vur="0.7158" TransparentFarbe="00FF00FF">
@@ -829,11 +835,11 @@
 </EinzelTextur>
 </FstTextur>
 <Ueberdeckend InstrName="EBremssteller"/>
-<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0162" ZeigerBreite="0.0081" ZeigerWinkel="0.9599" ZeigerWert="0.5"/>
-<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0179" ZeigerBreite="0.0084" ZeigerWinkel="1.2915" ZeigerWert="0.4"/>
-<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0188" ZeigerBreite="0.0087" ZeigerWinkel="1.6581" ZeigerWert="0.3"/>
-<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0188" ZeigerBreite="0.0087" ZeigerWinkel="1.9897" ZeigerWert="0.2"/>
-<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0183" ZeigerBreite="0.0086" ZeigerWinkel="2.3038" ZeigerWert="0.1"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0162" ZeigerBreite="0.0081" ZeigerWinkel="0.9599" ZeigerWert="0.7"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0179" ZeigerBreite="0.0084" ZeigerWinkel="1.2915" ZeigerWert="0.56"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0188" ZeigerBreite="0.0087" ZeigerWinkel="1.6581" ZeigerWert="0.42"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0188" ZeigerBreite="0.0087" ZeigerWinkel="1.9897" ZeigerWert="0.28"/>
+<ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0183" ZeigerBreite="0.0086" ZeigerWinkel="2.3038" ZeigerWert="0.14"/>
 <ZeigerStuetzpunkt ZeigerFarbe="00FFFFFF" ZeigerLaenge="0.0173" ZeigerBreite="0.0081" ZeigerWinkel="2.7053"/>
 </Zeigerinstrument>
 <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Stromabnehmer" Faktor="1" DunkelFarbe="FF1F1F1F">
@@ -2018,7 +2024,7 @@
 <InstrPkt4 X="0.4349" Y="0.6602"/>
 <Font/>
 </Melder>
-<Melder Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="2" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
+<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="2" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
 <InstrPkt1 X="0.1693" Y="0.5343"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHABLENDENABLE="1" ALPHATESTENABLE="1">
 <EinzelTextur Uur="1" Vur="1">
@@ -2208,7 +2214,7 @@
 <InstrPkt4 X="1"/>
 <Font/>
 </Melder>
-<Melder Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="1" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
+<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="1" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
 <InstrPkt1 X="0.5005"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uur="1" Vur="1">
@@ -2273,7 +2279,7 @@
 <InstrPkt4 X="0.6365" Y="0.6667"/>
 <Font/>
 </Melder>
-<Melder Farbe="FFFFFFFF" ZusiDisplayAuswahl="ZDE_LZB80_16" ZusiDisplayRahmen="1" ZusiDisplayMaster="1" InstrName="ZD_ZDE" Faktor="1" DunkelFarbe="FFFFFFFF">
+<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="ZDE_LZB80_16" ZusiDisplayRahmen="1" ZusiDisplayMaster="1" InstrName="ZD_ZDE" Faktor="1" DunkelFarbe="FFFFFFFF">
 <InstrPkt1 X="0.0521" Y="0.0926"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHATESTENABLE="1">
 <EinzelTextur Uur="1" Vur="1">
@@ -2313,7 +2319,7 @@
 <InstrPkt4 X="0.1042"/>
 <Font/>
 </Melder>
-<Melder Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="2" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
+<Melder Vorkomma="2" Farbe="FFFFFFFF" ZusiDisplayAuswahl="EBULA" ZusiDisplayRahmen="2" InstrName="ZD_EBuLa" Faktor="1" DunkelFarbe="FFFFFFFF">
 <InstrPkt1 X="0.1896" Y="0.1343"/>
 <FstTextur DESTBLEND="6" SRCBLEND="5" ALPHABLENDENABLE="1" ALPHATESTENABLE="1">
 <EinzelTextur Uur="1" Vur="1">

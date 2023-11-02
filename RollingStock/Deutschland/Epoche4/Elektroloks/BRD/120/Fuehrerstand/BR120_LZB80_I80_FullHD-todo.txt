@@ -1,8 +1,7 @@
 Änderungsbedarf an BR120_LZB80_I80_FullHD.ftd:
 
 Baugruppen:
-- Führerbremsventil Zuordnung HL-Druck prüfen, da unterschiedlich zu 111
-- Maximale Druckerhöhung Angleichen und automatisches Angleichen in der Literatur prüfen
+- Automatisches Angleichen wie mit FHD-Anlage in Zusi nicht möglich
 
 Grafik:
 - Im Instrument Zugkraft äußeren Zeiger für Sollzugkraft ergänzen.

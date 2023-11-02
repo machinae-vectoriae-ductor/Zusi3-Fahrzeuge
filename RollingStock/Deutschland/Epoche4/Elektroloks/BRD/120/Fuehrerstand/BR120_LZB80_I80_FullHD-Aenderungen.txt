@@ -3,6 +3,7 @@
 Baugruppen:
 - Fahrschalter mit Richtungsschalter verriegelt
 - Fahrschalter Sperre von Stellung Auf zum Z-Bereich entfernt, da nicht vorbildgerecht und problematisch, dass man in Auf-Stellung stehen bleiben muss, um nach Z zu kommen
+- HL-Drücke FbV an DS129 07 0003 (Arbeitsmappe) angepasst.
 - Bremssteller Dyn Brems Stufe neu aufgeteilt zwischen Bremsstufe 1 und 7 (Raste 8 und 2), wie im Vorbild
 - Kombischalter Signalbeleuchtung mit der Tastaturzuordnung Licht verknüpft.
 - Kombischalter AFB-Schalter gelöscht, da Funktion komplett im Schalter AFB vorhanden.
@@ -11,12 +12,12 @@ Baugruppen:
 - Taste Lokbremsentlüften hinzugefügt. Kann in Grafik bedient werden, ist aber nicht animiert, da in Grafik nicht vorgesehen.
 - Batteriehauptschalter mit Stellungen Aus und Ein hinzugefügt. Beim Vorbild gibt es noch die Stellung Schleppfahrt, das ist in Zusi aber nicht sinnvoll.
 - ZDinfo ergänzt
+- Bedienungsanleitung ergänzt
 
 Grafik:
-- Trägheit Zugkraftanzeiger und LZB_Vsoll auf 3 geändert
 - Zuordnung Bremszylinder korrigiert: Roter Zeiger Bremszylinder DG 1, Gelber Zeiger Bremszylinder DG 2
 - BremszylinderDG2-Druck Funktion auf Druck Bremszylinder II geändert.
-- Kennlinie Zeitbehaelter angepasst, da beim Vorbild 0 bar im Zeitbehälter eine HL-Druck-Anhebung von 0,5 bar entsprechen
+- Kennlinie Zeitbehaelter angepasst, da beim Vorbild 0 bar im Zeitbehälter eine HL-Druck-Anhebung von 0,7 bar entsprechen
 - Grafik Luftpresser durch Umsortieren an zwei Stellungen angepasst.
 - Trägheit HL-Druck auf 0,5 geändert
 - Trägheit HBL-Druck auf 0,5 geändert
@@ -24,5 +25,5 @@ Grafik:
 - Trägheit Zeitbehälter-Druck auf 12 geändert
 - Trägheit Zug-/Bremskraftanzeiger auf 7,647 geändert
 - Trägheit Tacho und LZB_Vsoll auf 4,545 geändert
-- Trägheit Fahrdrahtspannung auf 0,041 geändert, Skalierung von 1 auf 0,001 geändert
+- Trägheit Fahrdrahtspannung auf 40,625 geändert, Skalierung von 1 auf 0,001 geändert
 - ZDE ist nun ZD-Master statt EBuLa
