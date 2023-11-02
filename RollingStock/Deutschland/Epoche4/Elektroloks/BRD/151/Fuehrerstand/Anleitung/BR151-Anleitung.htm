@@ -84,14 +84,14 @@
 				<td>Kippschalter<br>Luftpresser</td>
 				<td>W</td>
 				<td><span id="nv">Raststellung vorne: Luftpresser wird durch Druckschalter gesteuert</span>
-				<br>Grundstellung: Luftpresser aus
+				<br>Grundstellung: Luftpresser Aus
 				<br>Raststellung hinten: Luftpresser wird durch Druckschalter gesteuert</td>
 			</tr>
 			<tr>
 				<td>2</td>
 				<td id="dummy">Kippschalter<br>Lüfter</td>
 				<td> </td>
-				<td>Raststellung vorne: Lüfter schwach<br>Grundstellung: 0<br>Raststellung hinten: Lüfter stark</td>
+				<td>Raststellung vorne: Lüfter Schwach<br>Grundstellung: 0<br>Raststellung hinten: Lüfter Stark</td>
 			</tr>
 			<tr>
 				<td>3</td>
@@ -103,7 +103,7 @@
 				<td>4</td>
 				<td>Kipptaster<br>Sanden</td>
 				<td>S</td>
-				<td ><span id="nv">Taststellung vorne: Eine Achse sanden</span><br>Grundstellung: 0<br>Taststellung hinten: Alle Achse sanden</td>
+				<td ><span id="nv">Taststellung vorne: Eine Achse</span><br>Grundstellung: 0<br>Taststellung hinten: Alle Achsen</td>
 			</tr>
 			<tr>
 				<td>5</td>
@@ -131,7 +131,7 @@
 				<td>Stellung V: Vorwärtsfahrt
 				<br>Stellung M: <span id="nv">Alles Arbeitet, nur die Motortrennschütze ziehen nicht an.</span>
 				<br>Stellung 0: Führerraum abgeschaltet.
-				<br>Stellung R: Rückwartsfahrt</td>
+				<br>Stellung R: Rückwärtsfahrt</td>
 			</tr>
 			<tr>
 				<td>9</td>
@@ -144,19 +144,19 @@
 				<td>10</td>
 				<td id="nv">Kippschalter<br>Signal- und<br>Instrumentenleuchten</td>
 				<td>L</td>
-				<td>Raststellung vorne: Signal- und Instrumentenleuchten an <br>Grundstellung: 0<br>Raststellung hinten: Signal- und Instrumentenleuchten an</td>
+				<td>Raststellung vorne: Signal- und Instrumentenleuchten Ein <br>Grundstellung: 0<br>Raststellung hinten: Signal- und Instrumentenleuchten Ein</td>
 			</tr>
 			<tr>
 				<td>11</td>
 				<td id="nv">Kipptaster<br>Abblenden</td>
 				<td> </td>
-				<td>Taststellung vorne: Signalleuchten abschalten<br>Grundstellung: 0<br>Raststellung hinten: Fernlicht an</td>
+				<td>Taststellung vorne: Signalleuchten abschalten<br>Grundstellung: 0<br>Raststellung hinten: Fernlicht Ein</td>
 			</tr>
 			<tr>
 				<td>12</td>
 				<td id="nv">Kippschalter<br>Fahrplanleuchte</td>
 				<td> </td>
-				<td>Raststellung vorne: Fahrplanleuchte an<br>Grundstellung: 0<br>Raststellung hinten: Fahrplanleuchte an</td>
+				<td>Raststellung vorne: Fahrplanleuchte Ein<br>Grundstellung: 0<br>Raststellung hinten: Fahrplanleuchte Ein</td>
 			</tr>
 			<tr>
 				<td>13</td>
@@ -179,7 +179,7 @@
 				<td>Führerbremsventil</td>
 				<td>-<br>+<br>*</td>
 				<td>Vorgabe des Hauptluftleitungsdrucks
-				<br>Taststellung Füllstoß (Sperre von 0,3 s)
+				<br>Taststellung Füllstoß (Sperre von 0,5 s)
 				<br>Raststellung Fahren: HL-Regeldruck von 5 bar wird gehalten
 				<br>Raststellung 0: Das Führerbremsventil ist von der Hauptluftleitung getrennt.
 				<br>Raststellungen 1-10: Betriebsbremsstufen
@@ -199,9 +199,9 @@
 				<td>Zusatzbremsventil</td>
 				<td> <br>+<br> <br>#</td>
 				<td>Steuerung des Bremszylinderdrucks der Lokomotive
-				<br>Taststellung Lösen: Der Bremsdruck der direkten Bremse wird verringert.
-				<br>Taststellung Halten: Der Bremsdruck der direkten Bremse wird gehalten.
-				<br>Taststellung Anlegen: Der Bremsdruck der direkten Bremse wird bis 3,78 bar erhöht.
+				<br>Raststellung Lösen: Der Bremsdruck der direkten Bremse wird verringert.
+				<br>Raststellung Halten: Der Bremsdruck der direkten Bremse wird gehalten.
+				<br>Raststellung Anlegen: Der Bremsdruck der direkten Bremse wird bis 3,78 bar erhöht.
 			</tr>
 			<tr>
 				<td>18</td>
@@ -209,7 +209,7 @@
 			</tr>
 			<tr>
 				<td>19</td>
-				<td id="anzeige">Druck<br>Bremszylinderleitung</td>
+				<td id="anzeige">Druck<br>Bremszylinder</td>
 				<td> </td>
 				<td>Roter Zeiger: Drehgestell 1
 				<br>Gelber Zeiger: Drehgestell 2
@@ -271,10 +271,6 @@
 				<td id="nv">Leuchtmelder<br>Elektrische Bremse<br>Drehgestell 1</td>
 			</tr>
 			<tr>
-				<td>31</td>
-				<td id="nv">Leuchtmelder<br>???</td>
-			</tr>
-			<tr>
 				<td>32</td>
 				<td id="anzeige">Leuchtmelder<br>Sifa</td>
 			</tr>
@@ -286,18 +282,18 @@
 				<td>-</td>
 				<td> Kipptaster<br>Stromabnehmer</td>
 				<td>E<br><br>C</td>
-				<td>Taststellung vorne: Stromabnehmer heben
+				<td>Taststellung vorne: Hoch
 				<br>Grundstellung: 0
-				<br>Taststellung hinten: Stromabnehmer senken
-				<br><span id="nv">Raststellung hinten: Stromabnehmer senken + Sanden</span></td>
+				<br>Taststellung hinten: Nieder
+				<br><span id="nv">Raststellung hinten: Sanden und Nieder</span></td>
 			</tr>
 			<tr>
 				<td>-</td>
 				<td> Kipptaster<br>Hauptschalter</td>
 				<td>H<br><br>N</td>
-				<td>Taststellung vorne: Hauptschalter ein
+				<td>Taststellung vorne: Ein
 				<br>Grundstellung: 0
-				<br>Taststellung hinten: Hauptschalter aus</td>
+				<br>Taststellung hinten: Aus</td>
 			</tr>
 		</table>
 	</body>
