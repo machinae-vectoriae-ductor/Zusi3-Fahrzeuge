@@ -1,4 +1,6 @@
 Änderungen an 120.rv.fzg:
 
-- Direkte Druckluftbremse: Max. Zylinderdruck 4,4 bar
+- Direkte Druckluftbremse: Max. Zylinderdruck 4,6 bar
 - Luftpresser Betrieb nur, wenn Hauptschalter ein
+- Oberer Grenzdruck 10 bar (vgl. DS129 07 0003 (Arbeitsmappe))
+- Angleicherdruck 5,7 bar
