@@ -1,0 +1,328 @@
+<html>
+	<head>
+		<title>Führerraum BR 120</title>
+		<style>
+			body {
+				background-color: ffffff;
+				font-family: Bahnschrift, Liberation Sans, Verdana, Arial;
+				}
+			h1   {
+				color: black;
+				text-align: center;
+				}
+			p    {
+			color: red;
+			}
+			table {
+				border: white;
+			}
+			td	{
+				padding: 10;
+				vertical-align: top;
+			}
+			img	{
+				width: 100%;
+			}
+			#dummy	{
+				color: red;
+			}
+			#nv	{
+				color: blue;
+			}
+			#anzeige	{
+				color: green;
+			}
+</style>
+	</head>
+	<body>
+		<h1>Baureihe 120</h1>
+		<table border="0">
+			<tr>
+				<td>Fahrzeuglänge über Puffer</td>
+				<td>19,2 m</td>
+				<td rowspan="5"><img src="BR120_Seitenansicht.png" alt="Seitenansicht"></td>
+			</tr>
+			<tr>
+				<td>Stromsystem</td>
+				<td>15 kV / 16,7 Hz</td>
+			</tr>
+			<tr>
+				<td>Höchstgeschwindigkeit</td>
+				<td>200 km/h</td>
+			</tr>
+			<tr>
+				<td>Gesamtgewicht</td>
+				<td>84 t</td>
+			</tr>
+			<tr>
+				<td>Bremsgewichte</td>
+				<td>175 t in R+E<sub>160</sub><br>165 t in R+E<br>150 t in P+E<br>
+				    115 t in R<br>80 t in P<br>58 t in G</td>
+			</tr>
+		</table>
+		<br><br>
+		Im Folgenden sind die Bedien- und Anzeigeelemente in der Hauptansicht des Führerraums aufgelistet.
+		In der ersten Spalte die Nummer aus dem Bild,
+		in der zweiten Spalte die Bezeichnung,
+		in der dritten Spalte die Tatstaturbedienung des Tastaturschemas "Zusi PC"
+		und in der vierten Spalte Erläuterungen.
+		<br>
+		Anzeigeinstrumente werden <span id="anzeige">grün dargestellt</span>.
+		<br>
+		<span id="dummy">Rot dargestellte</span> Bedienelemente können im Simulator zwar bedient werden, lösen aber (noch) keine Funktion aus.
+		<br>
+		<span id="nv">Blau dargestellte</span> Elemente haben in Zusi (noch) keine Funktion.
+		
+		<h2>Führerstandsansichten</h2>
+		<img src="BR120_Ansichten_Netz.png">
+	
+		
+		<h3>Hauptansicht</h3>
+		<img src="BR120_Hauptansicht_Nummern.png" alt="Hauptansicht" width="1750">
+		<table>
+			<tr>
+				<td>1</td>
+				<td>Kipptaster<br>PZB/LZB Befehl</td>
+				<td>0</td>
+				<td>PZB/LZB Befehl</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Kipptaster<br>PZB/LZB Frei</td>
+				<td>,</td>
+				<td>PZB/LZB Frei</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Kipptaster<br>PZB/LZB Wachsam</td>
+				<td>Eingabe</td>
+				<td>PZB/LZB Wachsam</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td> Kipptaster<br>Stromabnehmer</td>
+				<td>E<br><br>C</td>
+				<td>Taststellung vorne: Hoch
+				<br>Grundstellung: 0
+				<br>Taststellung hinten: Nieder
+				<br><span id="nv">Raststellung hinten: Sanden und Nieder</span></td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td> Kipptaster<br>Hauptschalter</td>
+				<td>H<br><br>N</td>
+				<td>Taststellung vorne: Ein
+				<br>Grundstellung: 0
+				<br>Taststellung hinten: Aus</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>Kippschalter<br>Luftpresser</td>
+				<td>W</td>
+				<td>Raststellung vorne: Luftpresser wird durch Druckschalter gesteuert
+				<br>Grundstellung: Luftpresser Aus
+				<br><span id="nv">Raststellung hinten: Luftpresser wird durch Druckschalter gesteuert</span></td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td id="dummy">Kippschalter<br>Lüfter</td>
+				<td> </td>
+				<td>Raststellung vorne: Lüfter Ein<br>
+				    Grundstellung: 0<br>
+				    Taststellung hinten: Lüfter Aus</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>v<sub>soll</sub>-Steller</td>
+				<td>7<br>1<br>4</td>
+				<td>Einstellung von 0 - 200 km/h<br>
+				    in 10 km/h-Schritten</td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>Richtungsschalter</td>
+				<td>Bild hoch<br>Bild runter</td>
+				<td>Stellung V: Vorwärtsfahrt
+				<br>Stellung M: <span id="nv">Alles Arbeitet, nur die Traktionsumrichter werden nicht freigegeben.</span>
+				<br>Stellung 0: Führerraum abgeschaltet.
+				<br>Stellung R: Rückwärtsfahrt</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>Fahrschalter</td>
+				<td>8<br>2<br>5</td>
+				<td>1. Raststellung: 0, Antrieb Schnell-Aus<br>
+				    2. Raststellung: Ab, Zugkraft reduzieren<br>
+				    3. Raststellung: Fahrt, Zugkraft halten<br>
+				    4. Taststellung: Auf, Zugkraft erhöhen<br>
+				    5. - 12. Raststellung: Zugkraftvorgabe<br>
+				   <span id="nv">Knopf drücken: Sifa, Aufheben der Sperre von Fahrt nach Auf</span>
+			</tr>
+			<tr>
+				<td>11</td>
+				<td><span id="nv">Zugheizung</span></td>
+				<td> </td>
+				<td>1. Raststellung: Aus<br>
+				    2. Raststellung: An<br>
+				    3. Taststellung: Ein
+			</tr>
+			<tr>
+				<td>12</td>
+				<td><span id="nv">Zugbeleuchtung</span></td>
+				<td> </td>
+				<td>Taststellung vorne: Ein<br>
+				    Grundstellung: 0<br>
+				    Taststellung hinten: Aus</td>
+			</tr>
+			<tr>
+				<td>13</td>
+				<td><span id="nv">Stirnfensterheizung</span></td>
+				<td> </td>
+				<td>Taststellung vorne: Ein<br>
+				    Grundstellung: Aus<br>
+				    Taststellung hinten: Ein</td>
+			</tr>
+			<tr>
+				<td>14</td>
+				<td>Kipptaster<br>Sanden</td>
+				<td>S</td>
+				<td ><span id="nv">Taststellung vorne: Eine Achse</span><br>Grundstellung: 0<br>Taststellung hinten: Alle Achsen</td>
+			</tr>
+			<tr>
+				<td>15</td>
+				<td>Kipptaster<br>Bremse lösen</td>
+				<td> </td>
+				<td ><span id="nv">Taststellung vorne: Lösen der Lokbremse</span><br>Grundstellung: 0<br>Taststellung hinten: Lösen der Lokbremse</td>
+			</tr>
+			<tr>
+				<td>16</td>
+				<td id="nv">Kipptaster<br>Abblenden</td>
+				<td> </td>
+				<td>Taststellung vorne: Signalleuchten abschalten<br>Grundstellung: 0<br>Raststellung hinten: Signalleuchten abschalten</td>
+			</tr>
+			<tr>
+				<td>17</td>
+				<td id="dummy">Kippschalter<br>Signal- und<br>Instrumentenleuchten</td>
+				<td>L</td>
+				<td>Raststellung vorne: Ein<br>Grundstellung: 0<br>Raststellung hinten: Ein</td>
+			</tr>
+			<tr>
+				<td>18</td>
+				<td id="nv">Kippschalter<br>Fahrplan-/Führerraumleuchte</td>
+				<td> </td>
+				<td>Raststellung vorne: Fahrplanleuchte<br>Grundstellung: 0<br>Raststellung hinten: Führerraumleuchte</td>
+			</tr>
+			<tr>
+				<td>19</td>
+				<td>Führerbremsventil</td>
+				<td>-<br>+<br>*</td>
+				<td>Vorgabe des Hauptluftleitungsdrucks
+				<br>Taststellung Füllstoß (Sperre von 0,5 s)
+				<br>Raststellung Fahren: HL-Regeldruck von 5 bar wird gehalten
+				<br>Raststellungen 1-10: Betriebsbremsstufen
+				<br>Raststellung Schnellbremse: volle Bremskraft in kürzester Zeit (Sperre von 0,3 s)</td>
+			</tr>
+			<tr>
+				<td>20</td>
+				<td>Bremssteller</td>
+				<td>9<br>3<br>6</td>
+				<td>Vorgabe des Kraft der elektrischen Bremse, läuft synchron mit Führerbremsventil, es sei denn, der Steller wird einzeln betätigt.
+				<br>Raststellung F: Elektrische Bremse abgeschaltet
+				<br>Raststellung 0: Elektrische Bremse abgeschaltet<span id="nv">, Schnell-Aus</span>
+				<br>Raststellungen 1-7: Bremskraftstufen
+			</tr>
+			<tr>
+				<td>21</td>
+				<td>Drucktaster<br>Angleicher</td>
+			</tr>
+			<tr>
+				<td>22</td>
+				<td id="nv">Schlüssel<br>Mittelstellung Führerbremsventil</td>
+			</tr>
+			<tr>
+				<td>23</td>
+				<td>Kippschalter<br>Türsystem TB0</td>
+				<td>T</td>
+				<td><span id="nv">Taststellung vorne: T<sub>Z</sub> - Türen schließen</span><br>
+				    Grundstellung: 0<br>
+				    Taststellung hinten: T<sub>0</sub> - Türen freigeben</td>
+			</tr>
+			<tr>
+				<td>24</td>
+				<td>Zusatzbremsventil</td>
+				<td> <br>+<br> <br>#</td>
+				<td>Steuerung des Bremszylinderdrucks der Lokomotive
+				<br>Raststellung Lösen: Der Bremsdruck der direkten Bremse wird verringert.
+				<br>Raststellung Halten: Der Bremsdruck der direkten Bremse wird gehalten.
+				<br>Taststellung Anlegen: Der Bremsdruck der direkten Bremse wird bis 4,6 bar erhöht.
+			</tr>
+			<tr>
+				<td>25</td>
+				<td id="nv">Hilfsfahrschalter</td>
+			</tr>
+			<tr>
+				<td>26</td>
+				<td id="nv">PZB Befehl und Frei</td>
+			</tr>
+			<tr>
+				<td>27</td>
+				<td id="anzeige">Druck<br>Bremszylinder</td>
+				<td> </td>
+				<td>Roter Zeiger: Drehgestell 1
+				<br>Gelber Zeiger: Drehgestell 2
+			</tr>
+			<tr>
+				<td>28</td>
+				<td id="anzeige">Druck<br>Zeitbehälter</td>
+			</tr>
+			<tr>
+				<td>29</td>
+				<td id="anzeige">Druck</td>
+				<td> </td>
+				<td>Roter Zeiger: Druck Hauptluftbehälterleitung
+				<br>Gelber Zeiger: Druck Hauptluftleitung
+			</tr>
+			<tr>
+				<td>30</td>
+				<td id="anzeige">MFA (Modulares<br>Führerraumanzeigegerät)</td>
+				<td> </td>
+				<td>linkes Instrument, innerer Zeiger:<br>links Bremskraft Lok, rechts Zugkraft pro Motor
+				<br><span id="nv">linkes Instrument, äußerer Zeiger:<br>links Sollbremskraft / Bremskraft Lok 2, rechts Sollzugkraft / Zugkraft Lok 2 pro Motor </span>
+				<br>Rest siehe Zusi-Anleitung PZB/LZB
+			</tr>
+			<tr>
+				<td>31</td>
+				<td>EBuLa-Gerät</td>
+			</tr>
+			<tr>
+				<td>32</td>
+				<td id="nv">Leuchtmelder<br>Störung</td>
+			</tr>
+			<tr>
+				<td>33</td>
+				<td id="anzeige">Fahrdrahtspannung</td>
+			</tr>
+			<tr>
+				<td>34</td>
+				<td>Zugfunk</td>
+			</tr>
+			<tr>
+				<td>-</td>
+				<td>Drucktaster<br>Sifa</td>
+				<td>Leer</td>
+				<td>Betätigen der Sicherheitsfahrschaltung</td>
+			</tr>
+			<tr>
+				<td>-</td>
+				<td>Kipptaster<br>Makrofon</td>
+				<td>P</td>
+				<td>Taststellung vorne: Makrofon<br>Grundstellung: 0<br><span id="nv">Taststellung hinten: Makrofon</span></td>
+			</tr>
+			<tr>
+				<td>-</td>
+				<td>Schalter<br>AFB Ein</td>
+				<td>A</td>
+			</tr>
+		</table>
+	</body>
+</html>
