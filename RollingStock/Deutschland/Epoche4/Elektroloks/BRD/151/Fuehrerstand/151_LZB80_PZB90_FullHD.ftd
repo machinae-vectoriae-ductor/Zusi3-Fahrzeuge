@@ -201,41 +201,41 @@
 <Belegung FunktionStr="HllBremsen"/>
 </Raste>
 <Raste SperreRunter="1" SperrZeit="0.5">
-<Belegung FunktionStr="HllDruck" Parameter="3.5"/>
+<Belegung FunktionStr="HllDruck" Parameter="3.4"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="3.65"/>
+<Belegung FunktionStr="HllDruck" Parameter="3.55"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="3.8"/>
+<Belegung FunktionStr="HllDruck" Parameter="3.7"/>
 <Koppelung NameGekoppelterSchalter="Bremssteller ELH 154 F5b" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="3.95"/>
+<Belegung FunktionStr="HllDruck" Parameter="3.85"/>
 <Koppelung NameGekoppelterSchalter="Bremssteller ELH 154 F5b" RastenNummer="1" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="4.1"/>
+<Belegung FunktionStr="HllDruck" Parameter="4"/>
 <Koppelung NameGekoppelterSchalter="Bremssteller ELH 154 F5b" RastenNummer="2" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="4.25"/>
+<Belegung FunktionStr="HllDruck" Parameter="4.15"/>
 <Koppelung NameGekoppelterSchalter="Bremssteller ELH 154 F5b" RastenNummer="3" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="4.4"/>
+<Belegung FunktionStr="HllDruck" Parameter="4.3"/>
 <Koppelung NameGekoppelterSchalter="Bremssteller ELH 154 F5b" RastenNummer="4" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="4.55"/>
+<Belegung FunktionStr="HllDruck" Parameter="4.45"/>
 <Koppelung NameGekoppelterSchalter="Bremssteller ELH 154 F5b" RastenNummer="5" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="4.7"/>
+<Belegung FunktionStr="HllDruck" Parameter="4.6"/>
 <Koppelung NameGekoppelterSchalter="Bremssteller ELH 154 F5b" RastenNummer="6" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
-<Belegung FunktionStr="HllDruck" Parameter="4.9"/>
+<Belegung FunktionStr="HllDruck" Parameter="4.75"/>
 <Koppelung NameGekoppelterSchalter="Bremssteller ELH 154 F5b" RastenNummer="7" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>
@@ -243,7 +243,7 @@
 <Koppelung NameGekoppelterSchalter="Bremssteller ELH 154 F5b" RastenNummer="8" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste SperreRauf="1" SperrZeit="0.5">
-<Belegung FunktionStr="HllDruck" Parameter="5.02"/>
+<Belegung FunktionStr="HllDruck" Parameter="5"/>
 <Koppelung NameGekoppelterSchalter="Bremssteller ELH 154 F5b" RastenNummer="9" Koppelart="Koppelart_Mitnehmen"/>
 </Raste>
 <Raste>

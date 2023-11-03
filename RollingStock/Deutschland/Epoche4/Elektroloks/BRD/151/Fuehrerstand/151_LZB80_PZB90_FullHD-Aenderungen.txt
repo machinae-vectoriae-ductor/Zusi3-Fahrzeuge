@@ -5,7 +5,7 @@ Baugruppen:
 - Neuer Kombischalter Schnellaustaster, per Maus bedienbar, aber nicht animiert
 - Richtungsschalter mit Fahrschalter verriegelt
 - el-Bremse in Bremssteller ELH 154 F5b umbenannt, Dyn Brems Stufe neu aufgeteilt zwischen Bremsstufe 1 und 7 (Raste 7 und 1), näher am Vorbild
-- pn-Bremse in Führerbremsventil Knorr D5P umbenannt
+- pn-Bremse in Führerbremsventil Knorr D5P umbenannt, Stufendrücke an Vorbild angepasst.
 - Zusatzbremse in Zusatzbremsventil Knorr Zb3 umbenannt, Anlegestellung nicht mehr zurückfedernd wie bei Vorbild
 - Kombischalter BremseLoesen durch Taste Lokbremseentlüften ersetzt. Drei Schalterstellungen sind zwar hübsch, vertragen sich aber leider nicht mit der Tastatur-/TCP-Bedienung.
 - Kombischalter Luftpresser durch Schalter Luftpresser aus ersetzt.
