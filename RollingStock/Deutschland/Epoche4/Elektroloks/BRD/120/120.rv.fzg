@@ -165,7 +165,7 @@
 <Stufe StufenWert="1"/>
 </BremsenKennungV>
 </BremseLuftDirekt>
-<Luftpresser LeistungPresser="2500" VolumenHB="800" DruckHBMin="8.5" DruckHBMax="10" DruckAngleicher="5.7" NurWennHSEinDieselLaeuft="1">
+<Luftpresser LeistungPresser="2500" VolumenHB="800" DruckHBMin="8.5" DruckHBMax="9.7" DruckAngleicher="5.7" NurWennHSEinDieselLaeuft="1">
 <SoundLuftpresser PosAnlauf="1458760" PosAuslauf="1844056" Lautstaerke="1">
 <Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\Sound\120_LP.wav"/>
 </SoundLuftpresser>
