@@ -2,4 +2,5 @@
 
 - Elektrische Reihenschlussbremse: Anzahl Stufen auf 100, Auf-/Abschaltgeschwindigkeit auf 30 Stufen pro Sekunde. Im Vorbild stufenlose Bremskraft, lediglich im Bremssteller gerastet.
 - Direkte Druckluftbremse: Max. Zylinderdruck 3,78 bar
-- Luftpresser Betrieb nur, wenn Hauptschalter ein, Sound Luftpresse aus BR110 übernommen, stimmt zwar nicht ganz, da anderer Typ, aber besser als nichts
+- Luftpresser Betrieb nur, wenn Hauptschalter ein, Sound Luftpresser aus BR110 übernommen, stimmt zwar nicht ganz, da anderer Typ, aber besser als nichts
+- Maximaler Angleicherdruck 6,6 bar

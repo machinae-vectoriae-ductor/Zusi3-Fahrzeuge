@@ -58,8 +58,8 @@
 <Stufe StufenWert="1"/>
 </BremsenKennungV>
 </BremseLuftDirekt>
-<Luftpresser LeistungPresser="2400" VolumenHB="800" DruckHBMin="8.5" DruckHBMax="9.7" DruckAngleicher="5.5" NurWennHSEinDieselLaeuft="1">
-<SoundLuftpresser Loop="1" PosAnlauf="240024" PosAuslauf="349404" Lautstaerke="1">
+<Luftpresser LeistungPresser="2400" VolumenHB="800" DruckHBMin="8.5" DruckHBMax="9.7" DruckAngleicher="6.6" NurWennHSEinDieselLaeuft="1">
+<SoundLuftpresser PosAnlauf="240024" PosAuslauf="349404" Lautstaerke="1">
 <Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\Sounds\DB_110\110_Luftpresser.wav"/>
 </SoundLuftpresser>
 </Luftpresser>
